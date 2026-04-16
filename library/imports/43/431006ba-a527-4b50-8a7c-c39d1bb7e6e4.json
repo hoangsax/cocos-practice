@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Icon_Arrow_Continue",
+    "texture": "da14cfe2-6982-40d1-b08a-96380171b825",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      53,
+      63
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
