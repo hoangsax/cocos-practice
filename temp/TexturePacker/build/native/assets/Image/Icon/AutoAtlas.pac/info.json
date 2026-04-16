@@ -1,0 +1,117 @@
+{
+  "projectPath": "/Users/user/Desktop/cocos",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "a919fd63-752c-40e3-9c73-75f827a3809b": {
+      "assetMtime": 1776140165028,
+      "metaMtime": 1776332522440
+    },
+    "3f77429f-9b3f-4482-8c4e-1446b9bfb8b4": {
+      "assetMtime": 1776330227849,
+      "metaMtime": 1776330312177
+    },
+    "8a5f6e43-f7be-4795-ac9b-5e4cc8f18a16": {
+      "assetMtime": 1776330227849,
+      "metaMtime": 1776330312177
+    },
+    "431006ba-a527-4b50-8a7c-c39d1bb7e6e4": {
+      "assetMtime": 1776330227850,
+      "metaMtime": 1776330312177
+    },
+    "da14cfe2-6982-40d1-b08a-96380171b825": {
+      "assetMtime": 1776330227850,
+      "metaMtime": 1776330312177
+    }
+  },
+  "result": {
+    "name": "AutoAtlas",
+    "width": 2048,
+    "height": 2048,
+    "ver": "1.2.5",
+    "uuid": "a919fd63-752c-40e3-9c73-75f827a3809b",
+    "importer": "auto-atlas",
+    "maxWidth": 2048,
+    "maxHeight": 2048,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "Icon_Arrow_Continue",
+            "uuid": "431006ba-a527-4b50-8a7c-c39d1bb7e6e4",
+            "textureUuid": "da14cfe2-6982-40d1-b08a-96380171b825",
+            "path": "/Users/user/Desktop/cocos/temp/trimImages/spritesheet_js_1776332739230_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 53,
+              "height": 63,
+              "rotatedWidth": 53,
+              "rotatedHeight": 63
+            },
+            "rawWidth": 53,
+            "rawHeight": 63,
+            "width": 59,
+            "height": 69,
+            "originalPath": "/Users/user/Desktop/cocos/library/imports/da/da14cfe2-6982-40d1-b08a-96380171b825.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 59,
+            "rotatedHeight": 69
+          },
+          {
+            "name": "Icon_Arrow_Back",
+            "uuid": "3f77429f-9b3f-4482-8c4e-1446b9bfb8b4",
+            "textureUuid": "8a5f6e43-f7be-4795-ac9b-5e4cc8f18a16",
+            "path": "/Users/user/Desktop/cocos/temp/trimImages/spritesheet_js_1776332739230_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 72,
+              "width": 39,
+              "height": 46,
+              "rotatedWidth": 46,
+              "rotatedHeight": 39
+            },
+            "rawWidth": 39,
+            "rawHeight": 46,
+            "width": 45,
+            "height": 52,
+            "originalPath": "/Users/user/Desktop/cocos/library/imports/8a/8a5f6e43-f7be-4795-ac9b-5e4cc8f18a16.png",
+            "x": 0,
+            "y": 69,
+            "rotated": true,
+            "rotatedWidth": 52,
+            "rotatedHeight": 45
+          }
+        ],
+        "width": 64,
+        "height": 128,
+        "name": "AutoAtlas-1",
+        "imagePath": "/Users/user/Desktop/cocos/temp/TexturePacker/build/native/assets/Image/Icon/AutoAtlas.pac/AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "/Users/user/Desktop/cocos/temp/TexturePacker/build/native/assets/Image/Icon/AutoAtlas.pac/compressed/AutoAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

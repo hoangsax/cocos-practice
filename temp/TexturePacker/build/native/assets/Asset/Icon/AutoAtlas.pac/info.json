@@ -1,0 +1,180 @@
+{
+  "projectPath": "/Users/user/Day_1-2",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "a919fd63-752c-40e3-9c73-75f827a3809b": {
+      "assetMtime": 1776140165028,
+      "metaMtime": 1776140277753
+    },
+    "8915e349-c8fa-41d2-845f-67395535d92c": {
+      "assetMtime": 1776071397086,
+      "metaMtime": 1776071397123
+    },
+    "fc845b0c-ee7e-4b47-ab14-764e56106f59": {
+      "assetMtime": 1776071397086,
+      "metaMtime": 1776071397123
+    },
+    "98f7a11e-7bb6-46b6-8988-b6f798b6bfc5": {
+      "assetMtime": 1776071397088,
+      "metaMtime": 1776071397150
+    },
+    "fd55cc2c-57cc-4dee-a5ed-8e6744d4948f": {
+      "assetMtime": 1776071397088,
+      "metaMtime": 1776071397150
+    },
+    "a9747ebb-c47c-499c-ac31-e7b382067039": {
+      "assetMtime": 1776156080642,
+      "metaMtime": 1776156080651
+    },
+    "888599f0-e7ec-4eb0-9d17-ac7c09a2d8c8": {
+      "assetMtime": 1776156080642,
+      "metaMtime": 1776156080651
+    },
+    "ae8d5366-39d1-47fe-b72d-8c9fc06980c1": {
+      "assetMtime": 1776071397086,
+      "metaMtime": 1776071397126
+    },
+    "06839a7b-852d-4833-8ea5-2e7d0bec2654": {
+      "assetMtime": 1776071397086,
+      "metaMtime": 1776071397126
+    }
+  },
+  "result": {
+    "name": "AutoAtlas",
+    "width": 2048,
+    "height": 2048,
+    "ver": "1.2.5",
+    "uuid": "a919fd63-752c-40e3-9c73-75f827a3809b",
+    "importer": "auto-atlas",
+    "maxWidth": 2048,
+    "maxHeight": 2048,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "Chest_Close_l_05",
+            "uuid": "98f7a11e-7bb6-46b6-8988-b6f798b6bfc5",
+            "textureUuid": "fd55cc2c-57cc-4dee-a5ed-8e6744d4948f",
+            "path": "/Users/user/Day_1-2/temp/trimImages/spritesheet_js_1776156804041_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 1030,
+              "height": 960,
+              "rotatedWidth": 1030,
+              "rotatedHeight": 960
+            },
+            "rawWidth": 1030,
+            "rawHeight": 960,
+            "width": 1036,
+            "height": 966,
+            "originalPath": "/Users/user/Day_1-2/library/imports/fd/fd55cc2c-57cc-4dee-a5ed-8e6744d4948f.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 1036,
+            "rotatedHeight": 966
+          },
+          {
+            "name": "Chest_Close_l_02",
+            "uuid": "ae8d5366-39d1-47fe-b72d-8c9fc06980c1",
+            "textureUuid": "06839a7b-852d-4833-8ea5-2e7d0bec2654",
+            "path": "/Users/user/Day_1-2/temp/trimImages/spritesheet_js_1776156804041_image_3.png",
+            "trim": {
+              "x": 3,
+              "y": 969,
+              "width": 887,
+              "height": 797,
+              "rotatedWidth": 797,
+              "rotatedHeight": 887
+            },
+            "rawWidth": 887,
+            "rawHeight": 797,
+            "width": 893,
+            "height": 803,
+            "originalPath": "/Users/user/Day_1-2/library/imports/06/06839a7b-852d-4833-8ea5-2e7d0bec2654.png",
+            "x": 0,
+            "y": 966,
+            "rotated": true,
+            "rotatedWidth": 803,
+            "rotatedHeight": 893
+          },
+          {
+            "name": "Chest_Close_l_01",
+            "uuid": "8915e349-c8fa-41d2-845f-67395535d92c",
+            "textureUuid": "fc845b0c-ee7e-4b47-ab14-764e56106f59",
+            "path": "/Users/user/Day_1-2/temp/trimImages/spritesheet_js_1776156804041_image_0.png",
+            "trim": {
+              "x": 806,
+              "y": 969,
+              "width": 803,
+              "height": 739,
+              "rotatedWidth": 739,
+              "rotatedHeight": 803
+            },
+            "rawWidth": 803,
+            "rawHeight": 739,
+            "width": 809,
+            "height": 745,
+            "originalPath": "/Users/user/Day_1-2/library/imports/fc/fc845b0c-ee7e-4b47-ab14-764e56106f59.png",
+            "x": 803,
+            "y": 966,
+            "rotated": true,
+            "rotatedWidth": 745,
+            "rotatedHeight": 809
+          },
+          {
+            "name": "Icon_Timer_01",
+            "uuid": "a9747ebb-c47c-499c-ac31-e7b382067039",
+            "textureUuid": "888599f0-e7ec-4eb0-9d17-ac7c09a2d8c8",
+            "path": "/Users/user/Day_1-2/temp/trimImages/spritesheet_js_1776156804041_image_2.png",
+            "trim": {
+              "x": 806,
+              "y": 1778,
+              "width": 44,
+              "height": 52,
+              "rotatedWidth": 44,
+              "rotatedHeight": 52
+            },
+            "rawWidth": 44,
+            "rawHeight": 52,
+            "width": 50,
+            "height": 58,
+            "originalPath": "/Users/user/Day_1-2/library/imports/88/888599f0-e7ec-4eb0-9d17-ac7c09a2d8c8.png",
+            "x": 803,
+            "y": 1775,
+            "rotatedWidth": 50,
+            "rotatedHeight": 58
+          }
+        ],
+        "width": 2048,
+        "height": 2048,
+        "name": "AutoAtlas-1",
+        "imagePath": "/Users/user/Day_1-2/temp/TexturePacker/build/native/assets/Asset/Icon/AutoAtlas.pac/AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "/Users/user/Day_1-2/temp/TexturePacker/build/native/assets/Asset/Icon/AutoAtlas.pac/compressed/AutoAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

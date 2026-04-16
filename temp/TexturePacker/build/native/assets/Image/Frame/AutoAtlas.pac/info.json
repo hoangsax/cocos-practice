@@ -1,0 +1,175 @@
+{
+  "projectPath": "/Users/user/Desktop/cocos",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "ce812bf2-ee62-40dd-81ef-42f14896dfa3": {
+      "assetMtime": 1776139920033,
+      "metaMtime": 1776332522439
+    },
+    "427e9aa8-5af7-4528-90d5-62f8aac25819": {
+      "assetMtime": 1776157146609,
+      "metaMtime": 1776332522529
+    },
+    "148b77a7-91a1-46d1-bf07-e6ad868cb800": {
+      "assetMtime": 1776157146609,
+      "metaMtime": 1776332522529
+    },
+    "577640a9-20e2-46de-9068-84bbf3f636e0": {
+      "assetMtime": 1776070706073,
+      "metaMtime": 1776332522450
+    },
+    "6bbc484f-fa9b-4846-8c82-04cdf2f61cef": {
+      "assetMtime": 1776070706073,
+      "metaMtime": 1776332522450
+    },
+    "7d4a5d41-cb03-4e74-9013-1a26cbf67cf1": {
+      "assetMtime": 1776155382016,
+      "metaMtime": 1776332522451
+    },
+    "ad6da541-5da2-416d-b932-7ed8b6bbb8cd": {
+      "assetMtime": 1776155382016,
+      "metaMtime": 1776332522451
+    },
+    "f1f930bc-5d53-4b2c-bc6b-7f6e1f94fc55": {
+      "assetMtime": 1776156976489,
+      "metaMtime": 1776332522452
+    },
+    "e29d114b-8f08-418e-88d2-ea651e7f84a0": {
+      "assetMtime": 1776156976489,
+      "metaMtime": 1776332522452
+    }
+  },
+  "result": {
+    "name": "AutoAtlas",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.5",
+    "uuid": "ce812bf2-ee62-40dd-81ef-42f14896dfa3",
+    "importer": "auto-atlas",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "ItemFrame_01_Focus_Demo_Border",
+            "uuid": "7d4a5d41-cb03-4e74-9013-1a26cbf67cf1",
+            "textureUuid": "ad6da541-5da2-416d-b932-7ed8b6bbb8cd",
+            "path": "/Users/user/Desktop/cocos/temp/trimImages/spritesheet_js_1776332705718_image_2.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 146,
+              "height": 146,
+              "rotatedWidth": 146,
+              "rotatedHeight": 146
+            },
+            "rawWidth": 146,
+            "rawHeight": 146,
+            "width": 152,
+            "height": 152,
+            "originalPath": "/Users/user/Desktop/cocos/library/imports/ad/ad6da541-5da2-416d-b932-7ed8b6bbb8cd.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 152,
+            "rotatedHeight": 152
+          },
+          {
+            "name": "CardFrame_02_Border",
+            "uuid": "f1f930bc-5d53-4b2c-bc6b-7f6e1f94fc55",
+            "textureUuid": "e29d114b-8f08-418e-88d2-ea651e7f84a0",
+            "path": "/Users/user/Desktop/cocos/temp/trimImages/spritesheet_js_1776332705718_image_3.png",
+            "trim": {
+              "x": 3,
+              "y": 155,
+              "width": 139,
+              "height": 147,
+              "rotatedWidth": 139,
+              "rotatedHeight": 147
+            },
+            "rawWidth": 139,
+            "rawHeight": 147,
+            "width": 145,
+            "height": 153,
+            "originalPath": "/Users/user/Desktop/cocos/library/imports/e2/e29d114b-8f08-418e-88d2-ea651e7f84a0.png",
+            "x": 0,
+            "y": 152,
+            "rotatedWidth": 145,
+            "rotatedHeight": 153
+          },
+          {
+            "name": "StageFrame_02_Demo_Defalut",
+            "uuid": "577640a9-20e2-46de-9068-84bbf3f636e0",
+            "textureUuid": "6bbc484f-fa9b-4846-8c82-04cdf2f61cef",
+            "path": "/Users/user/Desktop/cocos/temp/trimImages/spritesheet_js_1776332705718_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 308,
+              "width": 74,
+              "height": 84,
+              "rotatedWidth": 74,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 74,
+            "rawHeight": 84,
+            "width": 80,
+            "height": 90,
+            "originalPath": "/Users/user/Desktop/cocos/library/imports/6b/6bbc484f-fa9b-4846-8c82-04cdf2f61cef.png",
+            "x": 0,
+            "y": 305,
+            "rotatedWidth": 80,
+            "rotatedHeight": 90
+          }
+        ],
+        "width": 152,
+        "height": 395,
+        "name": "AutoAtlas-1",
+        "imagePath": "/Users/user/Desktop/cocos/temp/TexturePacker/build/native/assets/Image/Frame/AutoAtlas.pac/AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "/Users/user/Desktop/cocos/temp/TexturePacker/build/native/assets/Image/Frame/AutoAtlas.pac/compressed/AutoAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": [
+      {
+        "name": "BackGround_Sample_04_Character_2560",
+        "uuid": "427e9aa8-5af7-4528-90d5-62f8aac25819",
+        "textureUuid": "148b77a7-91a1-46d1-bf07-e6ad868cb800",
+        "path": "/Users/user/Desktop/cocos/temp/trimImages/spritesheet_js_1776332705717_image_0.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 2560,
+          "height": 1440,
+          "rotatedWidth": 2560,
+          "rotatedHeight": 1440
+        },
+        "rawWidth": 2560,
+        "rawHeight": 1440,
+        "width": 2566,
+        "height": 1446,
+        "originalPath": "/Users/user/Desktop/cocos/library/imports/14/148b77a7-91a1-46d1-bf07-e6ad868cb800.png"
+      }
+    ]
+  }
+}

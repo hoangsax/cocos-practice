@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Alata-Regular-Outline 54 SDF Atlas",
+    "texture": "2b6db06f-1088-4ea0-a9c2-e1e263b6e9f1",
+    "atlas": "",
+    "rect": [
+      13,
+      29,
+      998,
+      989
+    ],
+    "offset": [
+      0,
+      -11.5
+    ],
+    "originalSize": [
+      1024,
+      1024
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

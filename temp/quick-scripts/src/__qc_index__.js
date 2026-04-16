@@ -1,2 +1,3 @@
 
-require('./assets/scripts/move');
+require('./assets/Script/HelloWorld');
+require('./assets/Script/move');

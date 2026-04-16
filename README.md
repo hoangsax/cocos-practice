@@ -1,1 +1,2 @@
-# cocos-practice
+# hello-world
+Hello world new project template.
