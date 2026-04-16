@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Chest_Close_l_05",
+    "texture": "fd55cc2c-57cc-4dee-a5ed-8e6744d4948f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1030,
+      960
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1030,
+      960
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

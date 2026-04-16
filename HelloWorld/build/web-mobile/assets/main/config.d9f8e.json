@@ -1,0 +1,102 @@
+{
+    "paths": {},
+    "uuids": [
+        "11321aa05",
+        "14i3enkaFG0b8H5q2GjLgA",
+        "17ZShaeIRObKMjxNBGpopZ",
+        "1cf515d2b",
+        "29FYIk+N1GYaeWH/q1NxQO",
+        "2dL3kvpAxJu6GJ7RdqJG5J",
+        "33XVuF1F9Dq6B+O9iv7/2B",
+        "42fpqoWvdFKJDVYviqwlgZ",
+        "47SA2nAG5LZZwnUDKtvjmH",
+        "57dkCpIOJG3pBohLvz9jbg",
+        "5cO7kybDxGj4ipyMYdRYZB",
+        "5f5dyqtRNNxaFmVzYns6FZ",
+        "61cyPdEfRN047sDK9rO0W5",
+        "65/jTOceVI/7/3j1Z0eEfQ",
+        "71VhFCTINJM6/Ky3oX9nBT",
+        "7dSl1BywNOdJATGibL9nzx",
+        "89FeNJyPpB0oRfZzlVNdks",
+        "9896Eee7ZGtomItveYtr/F",
+        "a9dH67xHxJnKwx57OCBnA5",
+        "aejVNmOdFH/rctjJ/AaYDB",
+        "beEkiDHlZACJK2UP9DoZRV",
+        "d608qFRoFHwbXd0Dap056i",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "f1+TC8XVNLLLxrf24flPxV"
+    ],
+    "scenes": {
+        "db://assets/Scene/helloworld.fire": "2dL3kvpAxJu6GJ7RdqJG5J"
+    },
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "01903f8c4": [
+            "11321aa05",
+            "14i3enkaFG0b8H5q2GjLgA",
+            "1cf515d2b",
+            "33XVuF1F9Dq6B+O9iv7/2B",
+            "61cyPdEfRN047sDK9rO0W5",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "d608qFRoFHwbXd0Dap056i"
+        ],
+        "06b5be800": [
+            "17ZShaeIRObKMjxNBGpopZ",
+            "29FYIk+N1GYaeWH/q1NxQO",
+            "2dL3kvpAxJu6GJ7RdqJG5J",
+            "42fpqoWvdFKJDVYviqwlgZ",
+            "47SA2nAG5LZZwnUDKtvjmH",
+            "57dkCpIOJG3pBohLvz9jbg",
+            "5cO7kybDxGj4ipyMYdRYZB",
+            "5f5dyqtRNNxaFmVzYns6FZ",
+            "65/jTOceVI/7/3j1Z0eEfQ",
+            "7dSl1BywNOdJATGibL9nzx",
+            "89FeNJyPpB0oRfZzlVNdks",
+            "9896Eee7ZGtomItveYtr/F",
+            "a9dH67xHxJnKwx57OCBnA5",
+            "aejVNmOdFH/rctjJ/AaYDB",
+            "beEkiDHlZACJK2UP9DoZRV",
+            "f1+TC8XVNLLLxrf24flPxV"
+        ]
+    },
+    "name": "main",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "01903f8c4",
+            "78ded",
+            "06b5be800",
+            "6b7bc"
+        ],
+        "native": [
+            "11321aa05",
+            "9bbd8",
+            "14i3enkaFG0b8H5q2GjLgA",
+            "745fa",
+            "1cf515d2b",
+            "df15c",
+            "33XVuF1F9Dq6B+O9iv7/2B",
+            "8cedb",
+            "47SA2nAG5LZZwnUDKtvjmH",
+            "33545",
+            "61cyPdEfRN047sDK9rO0W5",
+            "6d707",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "c06a9",
+            "beEkiDHlZACJK2UP9DoZRV",
+            "03a7f",
+            "d608qFRoFHwbXd0Dap056i",
+            "d55c2"
+        ]
+    }
+}
