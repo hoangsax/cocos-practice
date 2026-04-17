@@ -13,13 +13,13 @@
         "type": "dock-h",
         "children": [
           {
-            "width": 275.734375,
+            "width": 276,
             "height": 997,
             "type": "dock-v",
             "children": [
               {
-                "width": 275.734375,
-                "height": 473.328125,
+                "width": 276,
+                "height": 472.6875,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -27,8 +27,8 @@
                 ]
               },
               {
-                "width": 275.734375,
-                "height": 520.671875,
+                "width": 276,
+                "height": 521.3125,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -38,38 +38,22 @@
             ]
           },
           {
-            "width": 1035.359375,
+            "width": 1064,
             "height": 997,
             "type": "dock-v",
             "children": [
               {
-                "width": 1035.359375,
-                "height": 520.671875,
-                "type": "dock-h",
+                "width": 1064,
+                "height": 735.28125,
+                "type": "panel",
+                "active": 0,
                 "children": [
-                  {
-                    "width": 675.15625,
-                    "height": 520.671875,
-                    "type": "panel",
-                    "active": 0,
-                    "children": [
-                      "scene"
-                    ]
-                  },
-                  {
-                    "width": 357.1875,
-                    "height": 520.671875,
-                    "type": "panel",
-                    "active": 0,
-                    "children": [
-                      "node-library"
-                    ]
-                  }
+                  "scene"
                 ]
               },
               {
-                "width": 1035.359375,
-                "height": 473.328125,
+                "width": 1064,
+                "height": 258.71875,
                 "type": "panel",
                 "active": 0,
                 "children": [
@@ -81,7 +65,7 @@
             ]
           },
           {
-            "width": 410.90625,
+            "width": 382,
             "height": 997,
             "type": "panel",
             "active": 0,
@@ -96,7 +80,6 @@
         "hierarchy",
         "assets",
         "scene",
-        "node-library",
         "console",
         "timeline",
         "game-window",
@@ -107,6 +90,18 @@
   },
   "panels": {
     "builder": {
+      "x": 0,
+      "y": 33,
+      "width": 1728,
+      "height": 1084
+    },
+    "project-settings": {
+      "x": 584,
+      "y": 278,
+      "width": 584,
+      "height": 554
+    },
+    "sprite-editor": {
       "x": 0,
       "y": 33,
       "width": 1728,

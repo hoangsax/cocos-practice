@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.SceneAsset",
-    "_name": "main",
+    "_name": "Movement",
     "_objFlags": 0,
     "_native": "",
     "scene": {
@@ -481,9 +481,7 @@
       "__id__": 8
     },
     "_enabled": true,
-    "char": {
-      "__id__": 7
-    },
+    "char": null,
     "baseSpeed": 100,
     "_id": "0851bZ9e1Px4EVZIpij5oX"
   },

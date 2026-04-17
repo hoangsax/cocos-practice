@@ -484,9 +484,6 @@
       "__id__": 7
     },
     "baseSpeed": 100,
-    "mana": {
-      "__id__": 10
-    },
     "_id": "0851bZ9e1Px4EVZIpij5oX"
   },
   {
@@ -1143,9 +1140,6 @@
       "__id__": 21
     },
     "baseSpeed": 100,
-    "mana": {
-      "__id__": 24
-    },
     "_id": "1aDUKwZshCSq4nmj2SamUG"
   },
   {
@@ -1437,8 +1431,8 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "CharA",
-    "_N$string": "CharA",
+    "_string": "CharB",
+    "_N$string": "CharB",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,

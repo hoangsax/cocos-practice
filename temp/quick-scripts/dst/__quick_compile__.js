@@ -1,6 +1,6 @@
 
 (function () {
-var scripts = [{"deps":{"./assets/Script/move":1,"./assets/Script/HelloWorld":2},"path":"preview-scripts/__qc_index__.js"},{"deps":{},"path":"preview-scripts/assets/Script/move.js"},{"deps":{},"path":"preview-scripts/assets/Script/HelloWorld.js"}];
+var scripts = [{"deps":{"./assets/Script/mEmitter":3,"./assets/Script/CharacterMovement":1,"./assets/Script/SpineAnimation/EventSender":5,"./assets/Script/SpineAnimation/ItemScript":8,"./assets/Script/SpineAnimation/SpineInspector":7,"./assets/Script/SpineAnimation/AnimationList":6,"./assets/Script/HelloWorld":2},"path":"preview-scripts/__qc_index__.js"},{"deps":{},"path":"preview-scripts/assets/Script/CharacterMovement.js"},{"deps":{},"path":"preview-scripts/assets/Script/HelloWorld.js"},{"deps":{"events":4},"path":"preview-scripts/assets/Script/mEmitter.js"},{"deps":{},"path":"preview-scripts/__node_modules/events/events.js"},{"deps":{"mEmitter":3},"path":"preview-scripts/assets/Script/SpineAnimation/EventSender.js"},{"deps":{"mEmitter":3},"path":"preview-scripts/assets/Script/SpineAnimation/AnimationList.js"},{"deps":{"mEmitter":3},"path":"preview-scripts/assets/Script/SpineAnimation/SpineInspector.js"},{"deps":{},"path":"preview-scripts/assets/Script/SpineAnimation/ItemScript.js"}];
 var entries = ["preview-scripts/__qc_index__.js"];
 var bundleScript = 'preview-scripts/__qc_bundle__.js';
 
