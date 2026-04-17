@@ -1,0 +1,8 @@
+# 1. Ignore everything in the repository
+*
+
+# 2. Un-ignore the specific folders you want to keep
+!*.md
+
+# 3. Always remember to un-ignore your .gitignore file itself!
+!.gitignore
