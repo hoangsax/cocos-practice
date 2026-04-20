@@ -26,7 +26,7 @@ cc.Class({
     }
   },
   setAnimation: function setAnimation(data) {
-    this.buttonScript.getComponent("AnimationHandler").stopEverything();
+    this.buttonScript.stopEverything();
     this.activeSpine.getComponent(sp.Skeleton).setAnimation(0, data, true);
   },
   removeAllEvent: function removeAllEvent() {

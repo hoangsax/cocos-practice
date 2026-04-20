@@ -705,8 +705,8 @@
     "relativePath": "Script/CharacterMovement.js"
   },
   "009ccfa6-f5cd-4e58-befe-018e881141fe": {
-    "asset": 1776663472050,
-    "meta": 1776663472054,
+    "asset": 1776663490809,
+    "meta": 1776663490812,
     "relativePath": "Scene/SpineAnimation.fire"
   },
   "fc8eae7e-5192-47d3-a796-1cee10c19c86": {
@@ -759,14 +759,14 @@
     "meta": 1776663169289,
     "relativePath": "Script/mEmitter.js"
   },
-  "c1de63ec-29d2-46d7-a369-7f330d853c4f": {
-    "asset": 1776663226926,
-    "meta": 1776663451259,
-    "relativePath": "Script/SpineAnimation/AnimationButton.js"
-  },
   "67a0cfe1-89b9-47f0-beef-460b3fb58c78": {
-    "asset": 1776663405189,
-    "meta": 1776663432921,
+    "asset": 1776663593861,
+    "meta": 1776663594189,
     "relativePath": "Script/SpineAnimation/SpineManager.js"
+  },
+  "c1de63ec-29d2-46d7-a369-7f330d853c4f": {
+    "asset": 1776663670743,
+    "meta": 1776663672155,
+    "relativePath": "Script/SpineAnimation/AnimationButton.js"
   }
 }

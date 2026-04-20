@@ -20,6 +20,7 @@ cc.Class({
     this.initialPosition = this.spineNode.position.clone();
     this.initialScale = this.spineNode.scale;
     this.initialAngle = this.spineNode.rotation;
+    this.node.stopEverything = this.stopEverything.bind(this);
   },
   stopEverything: function stopEverything() {
     this.spineNode.stopAllActions();
