@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, 'c1de6PsKdJG16NpfzMNhTxP', 'AnimationHandler');
-// Script/SpineAnimation/AnimationHandler.js
+cc._RF.push(module, 'c1de6PsKdJG16NpfzMNhTxP', 'AnimationButton');
+// Script/SpineAnimation/AnimationButton.js
 
 "use strict";
 

@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '67a0c/hiblH8L7vRgs/tYx4', 'SpineInspector');
-// Script/SpineAnimation/SpineInspector.js
+cc._RF.push(module, '67a0c/hiblH8L7vRgs/tYx4', 'SpineManager');
+// Script/SpineAnimation/SpineManager.js
 
 "use strict";
 
@@ -10,13 +10,24 @@ cc.Class({
   properties: {
     buttonScript: cc.Node
   },
+  ctor: function ctor() {
+    this.activeSpine = null;
+  },
   onLoad: function onLoad() {
     Emitter.instance = new Emitter();
     Emitter.instance.registerEvent('SET_ANIMATION', this.setAnimation.bind(this));
+    var spines = this.node.children;
+
+    for (var i = 0; i < spines.length; i++) {
+      if (spines[i].active) {
+        this.activeSpine = spines[i];
+        break;
+      }
+    }
   },
   setAnimation: function setAnimation(data) {
     this.buttonScript.getComponent("AnimationHandler").stopEverything();
-    this.node.children[0].getComponent(sp.Skeleton).setAnimation(0, data, true);
+    this.activeSpine.getComponent(sp.Skeleton).setAnimation(0, data, true);
   },
   removeAllEvent: function removeAllEvent() {
     Emitter.instance.removeAllEvent();

@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, 'e712emfzKlLOrZGoMKYTXFw', 'ItemScript');
-// Script/SpineAnimation/ItemScript.js
+cc._RF.push(module, 'e712emfzKlLOrZGoMKYTXFw', 'Item');
+// Script/SpineAnimation/Item.js
 
 "use strict";
 

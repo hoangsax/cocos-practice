@@ -705,8 +705,8 @@
     "relativePath": "Script/CharacterMovement.js"
   },
   "009ccfa6-f5cd-4e58-befe-018e881141fe": {
-    "asset": 1776661238446,
-    "meta": 1776661238449,
+    "asset": 1776663472050,
+    "meta": 1776663472054,
     "relativePath": "Scene/SpineAnimation.fire"
   },
   "fc8eae7e-5192-47d3-a796-1cee10c19c86": {
@@ -723,11 +723,6 @@
     "asset": 1776421141383,
     "meta": 1776421141387,
     "relativePath": "Prefab/SpineAnimation/Item.prefab"
-  },
-  "92887c02-c9a4-4b91-a1de-46c7b0676f66": {
-    "asset": 1776419414604,
-    "meta": 1776419416086,
-    "relativePath": "Script/SpineAnimation/EventSender.js"
   },
   "fce691c6-7de0-4e19-aa1f-4c33017d553b": {
     "asset": 1776420356532,
@@ -751,8 +746,8 @@
   },
   "e712e99f-cca9-4b3a-b646-a0c2984d7170": {
     "asset": 1776651084890,
-    "meta": 1776651135447,
-    "relativePath": "Script/SpineAnimation/ItemScript.js"
+    "meta": 1776663469258,
+    "relativePath": "Script/SpineAnimation/Item.js"
   },
   "d5d1ef61-94e6-468c-b27a-daf54589bfba": {
     "asset": 1776660738632,
@@ -760,18 +755,18 @@
     "relativePath": "Script/SpineAnimation/AnimationList.js"
   },
   "ca6d2cab-cdc6-495d-9548-a52c3b3f635c": {
-    "asset": 1776660979918,
-    "meta": 1776660986293,
+    "asset": 1776663153850,
+    "meta": 1776663169289,
     "relativePath": "Script/mEmitter.js"
   },
   "c1de63ec-29d2-46d7-a369-7f330d853c4f": {
-    "asset": 1776660998685,
-    "meta": 1776661019560,
-    "relativePath": "Script/SpineAnimation/AnimationHandler.js"
+    "asset": 1776663226926,
+    "meta": 1776663451259,
+    "relativePath": "Script/SpineAnimation/AnimationButton.js"
   },
   "67a0cfe1-89b9-47f0-beef-460b3fb58c78": {
-    "asset": 1776661195718,
-    "meta": 1776661199636,
-    "relativePath": "Script/SpineAnimation/SpineInspector.js"
+    "asset": 1776663405189,
+    "meta": 1776663432921,
+    "relativePath": "Script/SpineAnimation/SpineManager.js"
   }
 }

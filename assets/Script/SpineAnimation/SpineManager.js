@@ -6,14 +6,25 @@ cc.Class({
         buttonScript: cc.Node,
     },
 
+    ctor() {
+        this.activeSpine = null;
+    },
+
     onLoad () {
         Emitter.instance = new Emitter();
         Emitter.instance.registerEvent('SET_ANIMATION', this.setAnimation.bind(this));
+        let spines = this.node.children;
+        for (let i = 0; i < spines.length; i++) {
+            if (spines[i].active) {
+                this.activeSpine = spines[i];
+                break;
+            }
+        }
     },
 
     setAnimation(data) {
         this.buttonScript.getComponent("AnimationHandler").stopEverything();
-        this.node.children[0].getComponent(sp.Skeleton).setAnimation(0, data, true);
+        this.activeSpine.getComponent(sp.Skeleton).setAnimation(0, data, true);
     },
 
     removeAllEvent() {

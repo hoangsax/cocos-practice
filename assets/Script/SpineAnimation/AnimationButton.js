@@ -39,7 +39,10 @@ cc.Class({
 
     runTween() {
         this.stopEverything();
-        cc.tween(this.spineNode).to(1, { scale: 2 }, { easing: 'sineOutIn' }).to(1, { scale: 1 }, { easing: 'sineOutIn' }).start();
+        cc.tween(this.spineNode)
+            .to(1, { scale: 2 }, { easing: 'sineOutIn' })
+            .to(1, { scale: 1 }, { easing: 'sineOutIn' })
+            .start();
 
     },
 
