@@ -51,8 +51,7 @@ cc.Class({
   runAction: function runAction() {
     this.stopEverything();
     this.spineNode.runAction(cc.sequence(cc.moveTo(1, 300, 0), cc.moveTo(1, -300, 0), cc.moveTo(1, 0, 0)));
-  } // update (dt) {},
-
+  }
 });
 
 cc._RF.pop();

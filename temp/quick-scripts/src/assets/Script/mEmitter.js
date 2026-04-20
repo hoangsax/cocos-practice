@@ -12,7 +12,7 @@ var mEmitter = /*#__PURE__*/function () {
       return mEmitter.instance;
     }
 
-    this.events = [];
+    this.events = new Map();
     this._emiter = new EventEmitter();
 
     this._emiter.setMaxListeners(100);
@@ -23,11 +23,11 @@ var mEmitter = /*#__PURE__*/function () {
   _proto.emit = function emit() {
     var _this$_emiter;
 
-    console.log((_this$_emiter = this._emiter).emit.apply(_this$_emiter, arguments));
+    (_this$_emiter = this._emiter).emit.apply(_this$_emiter, arguments);
   };
 
   _proto.registerEvent = function registerEvent(event, listener) {
-    this.events.push(event);
+    this.events.set(event, listener);
 
     this._emiter.on(event, listener);
   };
@@ -39,11 +39,16 @@ var mEmitter = /*#__PURE__*/function () {
   _proto.removeEvent = function removeEvent(event, listener) {
     this._emiter.removeListener(event, listener);
 
-    this.events.splice(this.events.indexOf(event), 1);
+    this.events["delete"](event);
   };
 
   _proto.removeAllEvent = function removeAllEvent() {
-    this._emiter.removeAllListeners();
+    var _this = this;
+
+    this.events.forEach(function (listener, event) {
+      _this._emiter.removeListener(event, listener);
+    });
+    this.events.clear();
   };
 
   _proto.destroy = function destroy() {

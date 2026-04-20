@@ -51,5 +51,4 @@ cc.Class({
             cc.moveTo(1, 0, 0))
         )
     }
-    // update (dt) {},
 });

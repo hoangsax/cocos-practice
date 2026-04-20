@@ -1,39 +1,40 @@
 const EventEmitter = require('events');
 class mEmitter {
-    
+
     constructor() {
         if (mEmitter.instance) {
             return mEmitter.instance;
         }
-        this.events = [];
+        this.events = new Map();
         this._emiter = new EventEmitter();
         this._emiter.setMaxListeners(100);
     }
 
-    emit(...args)
-    {
-        console.log(this._emiter.emit(...args));
+    emit(...args) {
+        this._emiter.emit(...args);
     }
 
     registerEvent(event, listener) {
-        this.events.push(event);
+        this.events.set(event, listener);
         this._emiter.on(event, listener);
     }
-    registerOnce(event, listener){
+    registerOnce(event, listener) {
         this._emiter.once(event, listener);
     }
 
     removeEvent(event, listener) {
         this._emiter.removeListener(event, listener);
-        this.events.splice(this.events.indexOf(event), 1);
+        this.events.delete(event);
     }
 
     removeAllEvent() {
-        this._emiter.removeAllListeners();
+        this.events.forEach((listener, event) => {
+            this._emiter.removeListener(event, listener);
+        });
+        this.events.clear();
     }
 
-    destroy()
-    {
+    destroy() {
         this._emiter.removeAllListeners();
         this._emiter = null;
         mEmitter.instance = null;

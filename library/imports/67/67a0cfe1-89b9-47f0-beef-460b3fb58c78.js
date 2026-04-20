@@ -17,6 +17,12 @@ cc.Class({
   setAnimation: function setAnimation(data) {
     this.buttonScript.getComponent("AnimationHandler").stopEverything();
     this.node.children[0].getComponent(sp.Skeleton).setAnimation(0, data, true);
+  },
+  removeAllEvent: function removeAllEvent() {
+    Emitter.instance.removeAllEvent();
+  },
+  onDestroy: function onDestroy() {
+    Emitter.instance.removeAllEvent();
   }
 });
 

@@ -9,20 +9,18 @@ cc.Class({
     ctor() {
         this.animations = [];
     },
+
     onLoad() {
         let spines = this.spineManger.children;
-        console.log(spines);
         this.node.removeAllChildren();
         for (let i = 0; i < spines.length; i++) {
             {
-                if (!!spines[i].active) {
+                if (spines[i].active) {
                     this.animations = spines[i].getComponent("sp.Skeleton")._skeleton.data.animations;
-                    console.log('a');
                     break;
                 }
             }
         }
-        // this.animations = spines[0].active ? spines[0].getComponent("sp.Skeleton")._skeleton.data.animations : [];
         let animationsLength = this.animations.length ? this.animations.length : 0;
         for (let i = 0; i < animationsLength; i++) {
             const button = cc.instantiate(this.animationItem);
