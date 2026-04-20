@@ -4,8 +4,6 @@ cc._RF.push(module, 'd5d1e9hlOZGjLJ62vVFib+6', 'AnimationList');
 
 "use strict";
 
-var Emitter = require('mEmitter');
-
 cc.Class({
   "extends": cc.Component,
   properties: {
@@ -17,17 +15,27 @@ cc.Class({
   },
   onLoad: function onLoad() {
     var spines = this.spineManger.children;
-    this.node.removeAllChildren();
     console.log(spines);
-    this.animations = spines[0].active ? spines[0].getComponent("sp.Skeleton")._skeleton.data.animations : [];
+    this.node.removeAllChildren();
+
+    for (var i = 0; i < spines.length; i++) {
+      {
+        if (!!spines[i].active) {
+          this.animations = spines[i].getComponent("sp.Skeleton")._skeleton.data.animations;
+          console.log('a');
+          break;
+        }
+      }
+    } // this.animations = spines[0].active ? spines[0].getComponent("sp.Skeleton")._skeleton.data.animations : [];
+
+
     var animationsLength = this.animations.length ? this.animations.length : 0;
 
-    for (var i = 0; i < animationsLength; i++) {
-      var item = cc.instantiate(this.animationItem);
-      item.parent = this.node;
-      item.children[0].children[0].getComponent("cc.Label").string = this.animations[i].name;
-      item.name = this.animations[i].name;
-      console.log(item);
+    for (var _i = 0; _i < animationsLength; _i++) {
+      var button = cc.instantiate(this.animationItem);
+      button.parent = this.node;
+      button.children[0].children[0].getComponent("cc.Label").string = this.animations[_i].name;
+      button.name = this.animations[_i].name;
     }
   }
 });

@@ -560,8 +560,8 @@
     "relativePath": "Image/Spine/spineboy-pro_3.7_output.json"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1776409438365,
-    "meta": 1776409663627,
+    "asset": 1776420341241,
+    "meta": 1776649852923,
     "relativePath": "Script"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
@@ -705,8 +705,8 @@
     "relativePath": "Script/CharacterMovement.js"
   },
   "009ccfa6-f5cd-4e58-befe-018e881141fe": {
-    "asset": 1776420300958,
-    "meta": 1776420300960,
+    "asset": 1776655866253,
+    "meta": 1776655866256,
     "relativePath": "Scene/SpineAnimation.fire"
   },
   "fc8eae7e-5192-47d3-a796-1cee10c19c86": {
@@ -715,14 +715,9 @@
     "relativePath": "Image/Background/BackGround_Sample_01_Title_1920.png"
   },
   "9755d2ac-1c4b-4393-ad37-11985dc2da54": {
-    "asset": 1776408931642,
-    "meta": 1776409663627,
+    "asset": 1776421759189,
+    "meta": 1776649852923,
     "relativePath": "Prefab/SpineAnimation"
-  },
-  "b70b9858-066e-46d8-868a-8a1eed2f8d94": {
-    "asset": 1776408997407,
-    "meta": 1776408997410,
-    "relativePath": "Prefab/SpineAnimation/row.prefab"
   },
   "b258cd4e-663a-4e1f-a59e-fdcdfe1ee772": {
     "asset": 1776421141383,
@@ -735,28 +730,48 @@
     "relativePath": "Script/SpineAnimation/EventSender.js"
   },
   "fce691c6-7de0-4e19-aa1f-4c33017d553b": {
-    "asset": 1776420333057,
-    "meta": 1776420333058,
+    "asset": 1776420356532,
+    "meta": 1776649852923,
     "relativePath": "Script/SpineAnimation"
   },
-  "ca6d2cab-cdc6-495d-9548-a52c3b3f635c": {
-    "asset": 1776420950947,
-    "meta": 1776420993526,
-    "relativePath": "Script/mEmitter.js"
+  "9a86c161-4047-47dd-a7d5-39a59733f4d9": {
+    "asset": 1776650300724,
+    "meta": 1776650300725,
+    "relativePath": "AnimationClip"
   },
-  "d5d1ef61-94e6-468c-b27a-daf54589bfba": {
-    "asset": 1776421466756,
-    "meta": 1776421491907,
-    "relativePath": "Script/SpineAnimation/AnimationList.js"
+  "f6a19e80-c7fc-4461-9e67-35385f458a65": {
+    "asset": 1776650314471,
+    "meta": 1776650322696,
+    "relativePath": "AnimationClip/ani1.anim"
+  },
+  "f16771fd-2292-4761-b7b8-7cf6bdbac79b": {
+    "asset": 1776650518875,
+    "meta": 1776650518879,
+    "relativePath": "AnimationClip/ani2.anim"
   },
   "e712e99f-cca9-4b3a-b646-a0c2984d7170": {
-    "asset": 1776421480641,
-    "meta": 1776421491914,
+    "asset": 1776651084890,
+    "meta": 1776651135447,
     "relativePath": "Script/SpineAnimation/ItemScript.js"
   },
+  "d5d1ef61-94e6-468c-b27a-daf54589bfba": {
+    "asset": 1776658171858,
+    "meta": 1776658172800,
+    "relativePath": "Script/SpineAnimation/AnimationList.js"
+  },
   "67a0cfe1-89b9-47f0-beef-460b3fb58c78": {
-    "asset": 1776421510041,
-    "meta": 1776421510377,
+    "asset": 1776658543109,
+    "meta": 1776658545534,
     "relativePath": "Script/SpineAnimation/SpineInspector.js"
+  },
+  "c1de63ec-29d2-46d7-a369-7f330d853c4f": {
+    "asset": 1776659191704,
+    "meta": 1776659192686,
+    "relativePath": "Script/SpineAnimation/AnimationHandler.js"
+  },
+  "ca6d2cab-cdc6-495d-9548-a52c3b3f635c": {
+    "asset": 1776659334716,
+    "meta": 1776659378037,
+    "relativePath": "Script/mEmitter.js"
   }
 }

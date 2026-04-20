@@ -5,6 +5,7 @@ class mEmitter {
         if (mEmitter.instance) {
             return mEmitter.instance;
         }
+        this.events = [];
         this._emiter = new EventEmitter();
         this._emiter.setMaxListeners(100);
     }
@@ -15,6 +16,7 @@ class mEmitter {
     }
 
     registerEvent(event, listener) {
+        this.events.push(event);
         this._emiter.on(event, listener);
     }
     registerOnce(event, listener){
@@ -23,6 +25,7 @@ class mEmitter {
 
     removeEvent(event, listener) {
         this._emiter.removeListener(event, listener);
+        this.events.splice(this.events.indexOf(event), 1);
     }
 
     removeAllEvent() {
