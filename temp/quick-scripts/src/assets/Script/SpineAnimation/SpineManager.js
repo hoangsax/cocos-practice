@@ -16,6 +16,10 @@ cc.Class({
   onLoad: function onLoad() {
     Emitter.instance = new Emitter();
     Emitter.instance.registerEvent('SET_ANIMATION', this.setAnimation.bind(this));
+    Emitter.instance.registerEvent('SET_ANIMATION2', this.setAnimation.bind(this));
+    var temp = Emitter.instance._emiter._events;
+    console.log(temp);
+    console.log(temp[Object.keys(temp)[0]]);
     var spines = this.node.children;
 
     for (var i = 0; i < spines.length; i++) {
@@ -26,7 +30,7 @@ cc.Class({
     }
   },
   setAnimation: function setAnimation(data) {
-    this.buttonScript.stopEverything();
+    this.buttonScript.stopAll();
     this.activeSpine.getComponent(sp.Skeleton).setAnimation(0, data, true);
   },
   removeAllEvent: function removeAllEvent() {

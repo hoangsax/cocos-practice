@@ -14,11 +14,9 @@ cc.Class({
         let spines = this.spineManger.children;
         this.node.removeAllChildren();
         for (let i = 0; i < spines.length; i++) {
-            {
-                if (spines[i].active) {
-                    this.animations = spines[i].getComponent("sp.Skeleton")._skeleton.data.animations;
-                    break;
-                }
+            if (spines[i].active) {
+                this.animations = spines[i].getComponent("sp.Skeleton")._skeleton.data.animations;
+                break;
             }
         }
         let animationsLength = this.animations.length ? this.animations.length : 0;

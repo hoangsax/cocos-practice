@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_potion_purple",
+    "texture": "b8e2c6d7-9d78-484b-9b41-b7c40af821d5",
+    "atlas": "",
+    "rect": [
+      17,
+      17,
+      94,
+      94
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

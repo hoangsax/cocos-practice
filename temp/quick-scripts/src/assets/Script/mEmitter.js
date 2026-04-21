@@ -16,6 +16,8 @@ var mEmitter = /*#__PURE__*/function () {
     this._emiter = new EventEmitter();
 
     this._emiter.setMaxListeners(100);
+
+    mEmitter.instance = this;
   }
 
   var _proto = mEmitter.prototype;
@@ -26,8 +28,13 @@ var mEmitter = /*#__PURE__*/function () {
     (_this$_emiter = this._emiter).emit.apply(_this$_emiter, arguments);
   };
 
-  _proto.registerEvent = function registerEvent(event, listener) {
-    this.events.set(event, listener);
+  _proto.registerEvent = function registerEvent(event, listener, node) {
+    if (node) {
+      this.events.set(node, {
+        'event': event,
+        'listener': listener
+      });
+    }
 
     this._emiter.on(event, listener);
   };
@@ -42,10 +49,10 @@ var mEmitter = /*#__PURE__*/function () {
     this.events["delete"](event);
   };
 
-  _proto.removeAllEvent = function removeAllEvent() {
+  _proto.removeAllEvent = function removeAllEvent(node) {
     var _this = this;
 
-    this.events.forEach(function (listener, event) {
+    this.events[node].forEach(function (listener, event) {
       _this._emiter.removeListener(event, listener);
     });
     this.events.clear();

@@ -1,5 +1,3 @@
-const Emitter = require("../mEmitter");
-
 cc.Class({
     extends: cc.Component,
 
@@ -17,11 +15,11 @@ cc.Class({
         this.initialPosition = this.spineNode.position.clone();
         this.initialScale = this.spineNode.scale;
         this.initialAngle = this.spineNode.rotation;
-        this.node.stopEverything = this.stopEverything.bind(this);
+        this.node.stopAll = this.stopAll.bind(this);
 
     },
 
-    stopEverything() {
+    stopAll() {
         this.spineNode.stopAllActions();
         let spine = this.spineNode.getComponent("sp.Skeleton");
         spine.setAnimation(0, "idle", true)
@@ -35,12 +33,12 @@ cc.Class({
     },
 
     runAnimationClip() {
-        this.stopEverything();
+        this.stopAll();
         this.spineNode.getComponent("cc.Animation").play("ani2", 0);
     },
 
     runTween() {
-        this.stopEverything();
+        this.stopAll();
         cc.tween(this.spineNode)
             .to(1, { scale: 2 }, { easing: 'sineOutIn' })
             .to(1, { scale: 1 }, { easing: 'sineOutIn' })
@@ -49,7 +47,7 @@ cc.Class({
     },
 
     runAction() {
-        this.stopEverything();
+        this.stopAll();
         this.spineNode.runAction(cc.sequence(
             cc.moveTo(1, 300, 0),
             cc.moveTo(1, -300, 0),

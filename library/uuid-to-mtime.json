@@ -500,18 +500,18 @@
     "relativePath": "model/primitives.fbx"
   },
   "b2353aeb-80fb-40d1-8de7-db391ee209fc": {
-    "asset": 1776398331785,
-    "meta": 1776409663626,
+    "asset": 1776675403590,
+    "meta": 1776736600763,
     "relativePath": "Image"
   },
   "e62d67fc-0243-40aa-a054-ca7eb990881a": {
-    "asset": 1776407598147,
-    "meta": 1776409663627,
+    "asset": 1776675400529,
+    "meta": 1776736600764,
     "relativePath": "Image/Background"
   },
   "4099ef25-518d-42ec-8fe8-b9aeb1b9ed25": {
-    "asset": 1776394712725,
-    "meta": 1776398226571,
+    "asset": 1776676365102,
+    "meta": 1776736600764,
     "relativePath": "Image/Icon"
   },
   "b036f3bb-f016-436b-9c87-0e71dafe3160": {
@@ -520,8 +520,8 @@
     "relativePath": "Image/Spine"
   },
   "96a7d98c-66dc-4b8f-a374-2a51fff7210b": {
-    "asset": 1776407547225,
-    "meta": 1776409663627,
+    "asset": 1776674892211,
+    "meta": 1776736600763,
     "relativePath": "Scene"
   },
   "28a0c371-8ddb-40b4-8cef-8f22b217f97c": {
@@ -560,8 +560,8 @@
     "relativePath": "Image/Spine/spineboy-pro_3.7_output.json"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1776420341241,
-    "meta": 1776649852923,
+    "asset": 1776676751146,
+    "meta": 1776736600763,
     "relativePath": "Script"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
@@ -580,8 +580,8 @@
     "relativePath": "Image/Frame"
   },
   "15f4a9e2-2cb1-4ac1-97ee-540289808439": {
-    "asset": 1776408828282,
-    "meta": 1776409663626,
+    "asset": 1776676604259,
+    "meta": 1776736600763,
     "relativePath": "Prefab"
   },
   "afb6c951-9418-4d1d-b714-5cf899c0377d": {
@@ -626,13 +626,13 @@
   },
   "1765285a-7884-4e6c-a323-c4d046a68a59": {
     "asset": 1776394712703,
-    "meta": 1776398226574,
-    "relativePath": "Prefab/cell.prefab"
+    "meta": 1776676604264,
+    "relativePath": "Prefab/Cell.prefab"
   },
   "e7aa74d2-99e6-4ee1-a60f-44ad5ea869f0": {
     "asset": 1776394712704,
-    "meta": 1776398226575,
-    "relativePath": "Prefab/detail.prefab"
+    "meta": 1776676599896,
+    "relativePath": "Prefab/Detail.prefab"
   },
   "6bbc484f-fa9b-4846-8c82-04cdf2f61cef": {
     "asset": 1776394712713,
@@ -705,8 +705,8 @@
     "relativePath": "Script/CharacterMovement.js"
   },
   "009ccfa6-f5cd-4e58-befe-018e881141fe": {
-    "asset": 1776663490809,
-    "meta": 1776663490812,
+    "asset": 1776673665003,
+    "meta": 1776673665007,
     "relativePath": "Scene/SpineAnimation.fire"
   },
   "fc8eae7e-5192-47d3-a796-1cee10c19c86": {
@@ -725,13 +725,13 @@
     "relativePath": "Prefab/SpineAnimation/Item.prefab"
   },
   "fce691c6-7de0-4e19-aa1f-4c33017d553b": {
-    "asset": 1776420356532,
-    "meta": 1776649852923,
+    "asset": 1776663469246,
+    "meta": 1776736600764,
     "relativePath": "Script/SpineAnimation"
   },
   "9a86c161-4047-47dd-a7d5-39a59733f4d9": {
-    "asset": 1776650300724,
-    "meta": 1776650300725,
+    "asset": 1776650396623,
+    "meta": 1776736600763,
     "relativePath": "AnimationClip"
   },
   "f6a19e80-c7fc-4461-9e67-35385f458a65": {
@@ -744,29 +744,154 @@
     "meta": 1776650518879,
     "relativePath": "AnimationClip/ani2.anim"
   },
-  "e712e99f-cca9-4b3a-b646-a0c2984d7170": {
-    "asset": 1776651084890,
-    "meta": 1776663469258,
-    "relativePath": "Script/SpineAnimation/Item.js"
-  },
   "d5d1ef61-94e6-468c-b27a-daf54589bfba": {
-    "asset": 1776660738632,
-    "meta": 1776660771124,
+    "asset": 1776670788536,
+    "meta": 1776671259210,
     "relativePath": "Script/SpineAnimation/AnimationList.js"
   },
-  "ca6d2cab-cdc6-495d-9548-a52c3b3f635c": {
-    "asset": 1776663153850,
-    "meta": 1776663169289,
-    "relativePath": "Script/mEmitter.js"
-  },
-  "67a0cfe1-89b9-47f0-beef-460b3fb58c78": {
-    "asset": 1776663593861,
-    "meta": 1776663594189,
-    "relativePath": "Script/SpineAnimation/SpineManager.js"
+  "e712e99f-cca9-4b3a-b646-a0c2984d7170": {
+    "asset": 1776671159575,
+    "meta": 1776671259215,
+    "relativePath": "Script/SpineAnimation/Item.js"
   },
   "c1de63ec-29d2-46d7-a369-7f330d853c4f": {
-    "asset": 1776663670743,
-    "meta": 1776663672155,
+    "asset": 1776671376919,
+    "meta": 1776671381767,
     "relativePath": "Script/SpineAnimation/AnimationButton.js"
+  },
+  "67a0cfe1-89b9-47f0-beef-460b3fb58c78": {
+    "asset": 1776671789917,
+    "meta": 1776671791621,
+    "relativePath": "Script/SpineAnimation/SpineManager.js"
+  },
+  "b8d66052-acdc-45ac-b260-d7fbf3b3f343": {
+    "asset": 1776766075636,
+    "meta": 1776766075640,
+    "relativePath": "Scene/MonsterFight.fire"
+  },
+  "ef80605b-a5b6-4a8d-9c4c-5354bb4ecbc8": {
+    "asset": 1776675392405,
+    "meta": 1776675392438,
+    "relativePath": "Image/Entity/Character_Sample_08.png"
+  },
+  "61a959e8-1dbc-43a8-bd00-f6fbfd0d2aa2": {
+    "asset": 1776675403590,
+    "meta": 1776736600764,
+    "relativePath": "Image/Entity"
+  },
+  "fdf6da1b-73d2-4967-b10d-38bc34a83ca2": {
+    "asset": 1776676365100,
+    "meta": 1776676365118,
+    "relativePath": "Image/Icon/icon_bomb.png"
+  },
+  "d13ea40b-6886-477b-87ce-48f082cc188a": {
+    "asset": 1776676365100,
+    "meta": 1776676365119,
+    "relativePath": "Image/Icon/icon_equip_sword.png"
+  },
+  "9edef043-ed2b-4ae4-bd99-81c4816c12b5": {
+    "asset": 1776676365100,
+    "meta": 1776676365120,
+    "relativePath": "Image/Icon/icon_equip_ax.png"
+  },
+  "b8e2c6d7-9d78-484b-9b41-b7c40af821d5": {
+    "asset": 1776676365100,
+    "meta": 1776676365121,
+    "relativePath": "Image/Icon/icon_potion_purple.png"
+  },
+  "cc2eea69-046c-404d-91bb-f23587b602b3": {
+    "asset": 1776676365100,
+    "meta": 1776676365123,
+    "relativePath": "Image/Icon/icon_equip_hand.png"
+  },
+  "f6639ae8-4cfe-470c-a868-e7d8a905b7d2": {
+    "asset": 1776758017409,
+    "meta": 1776758017413,
+    "relativePath": "Prefab/Bullet/000.prefab"
+  },
+  "b2ba5e8e-eff7-46c9-bb7f-9166e46ace78": {
+    "asset": 1776680549337,
+    "meta": 1776736600764,
+    "relativePath": "Script/MonsterFight"
+  },
+  "0da81077-a3da-4619-9167-cb497d6b2781": {
+    "asset": 1776763022660,
+    "meta": 1776763022663,
+    "relativePath": "Prefab/Bullet/002.prefab"
+  },
+  "7815d399-fec5-4fc2-bc80-a8c8ccadde6e": {
+    "asset": 1776763025905,
+    "meta": 1776763025907,
+    "relativePath": "Prefab/Bullet/001.prefab"
+  },
+  "1f0ea5e1-c56a-4d81-a1ba-53b7573c8317": {
+    "asset": 1776763029868,
+    "meta": 1776763029870,
+    "relativePath": "Prefab/Bullet/003.prefab"
+  },
+  "3abd3146-8096-43d9-b00d-e5cc717398f6": {
+    "asset": 1776763282415,
+    "meta": 1776763282418,
+    "relativePath": "Prefab/Bullet/004.prefab"
+  },
+  "2e1fbe6a-699c-475f-a5ec-651ed5602a7e": {
+    "asset": 1776740686490,
+    "meta": 1776740686491,
+    "relativePath": "Prefab/Bullet"
+  },
+  "ca6d2cab-cdc6-495d-9548-a52c3b3f635c": {
+    "asset": 1776756192416,
+    "meta": 1776756195046,
+    "relativePath": "Script/mEmitter.js"
+  },
+  "95cfd1e3-499f-4398-a11e-d3fd71fea847": {
+    "asset": 1776756724095,
+    "meta": 1776756724096,
+    "relativePath": "Prefab/Monster"
+  },
+  "29408b6e-ccad-4d8f-8fda-0bd1a227c891": {
+    "asset": 1776756728664,
+    "meta": 1776756728668,
+    "relativePath": "Prefab/Monster/MonsterItem.prefab"
+  },
+  "a41c595b-cfd7-4509-a8ec-ac33d21f8dce": {
+    "asset": 1776760889018,
+    "meta": 1776761058854,
+    "relativePath": "Script/MonsterFight/Constants.js"
+  },
+  "25245f7d-bb8a-4809-86f9-08c8e00c0b6e": {
+    "asset": 1776761566594,
+    "meta": 1776761575140,
+    "relativePath": "Script/MonsterFight/WorldLayer.js"
+  },
+  "fa3b680d-fff3-4efd-a621-28beb35eefb7": {
+    "asset": 1776761973835,
+    "meta": 1776762088623,
+    "relativePath": "Script/MonsterFight/CharLayer.js"
+  },
+  "23bd6ffe-c0cd-42b8-91d6-80db96969c51": {
+    "asset": 1776762267537,
+    "meta": 1776762377943,
+    "relativePath": "Script/MonsterFight/MonsterItem.js"
+  },
+  "caf1fa94-6ed7-4a55-8d55-1a30b67231a0": {
+    "asset": 1776762358940,
+    "meta": 1776762377950,
+    "relativePath": "Script/MonsterFight/MonsterLayer.js"
+  },
+  "1a1b2a26-ae91-4d5c-86ba-e4c2e92d56bb": {
+    "asset": 1776763156368,
+    "meta": 1776763157235,
+    "relativePath": "Script/MonsterFight/BulletLayer.js"
+  },
+  "c214be42-0d3a-44ac-bc44-215ee180bb87": {
+    "asset": 1776763249291,
+    "meta": 1776763250067,
+    "relativePath": "Script/MonsterFight/BulletItem.js"
+  },
+  "23defffd-15a0-4221-9f6c-e9bb970ad826": {
+    "asset": 1776768067709,
+    "meta": 1776768068839,
+    "relativePath": "Script/MonsterFight/CharItem.js"
   }
 }

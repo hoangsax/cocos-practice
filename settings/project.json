@@ -1,10 +1,22 @@
 {
   "group-list": [
-    "default"
+    "default",
+    "bullet",
+    "monster"
   ],
   "collision-matrix": [
     [
       true
+    ],
+    [
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false
     ]
   ],
   "excluded-modules": [
@@ -34,5 +46,5 @@
     }
   },
   "last-module-event-record-time": 1776332689158,
-  "start-scene": "009ccfa6-f5cd-4e58-befe-018e881141fe"
+  "start-scene": "b8d66052-acdc-45ac-b260-d7fbf3b3f343"
 }
