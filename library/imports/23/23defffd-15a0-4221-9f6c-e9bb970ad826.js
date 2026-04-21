@@ -98,7 +98,7 @@ cc.Class({
     }
   },
   onMove: function onMove(dt) {
-    if (this.isReload) {
+    if (this.isReload && !this.preReload) {
       return;
     }
 
@@ -136,7 +136,13 @@ cc.Class({
     this.isReload = false;
   },
   handleAnimation: function handleAnimation(currState) {
-    if (this.isMoving && !currState) {
+    if (this.preReload && !this.isReload) {
+      if (this.isMoving) {
+        this.addAnimation(animations.run);
+      } else {
+        this.addAnimation(animations.idle);
+      }
+    } else if (this.isMoving && !currState) {
       this.addAnimation(animations.run);
     } else if (!this.isMoving && currState) {
       this.addAnimation(animations.idle);
