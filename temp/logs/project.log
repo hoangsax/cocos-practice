@@ -1,0 +1,484 @@
+4-22-2026 11:00:36 - verbose: Arguments:
+4-22-2026 11:00:36 - verbose:   /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/MacOS/CocosCreator: true
+4-22-2026 11:00:36 - verbose:   project: /Users/user/NewProject_1
+4-22-2026 11:00:36 - verbose:   can-show-upgrade-dialog: false
+4-22-2026 11:00:36 - verbose:   dev: false
+4-22-2026 11:00:36 - verbose:   home: /Users/user/.CocosCreator
+4-22-2026 11:00:36 - verbose:  
+4-22-2026 11:00:40 - verbose: [Package] menu@1.0.0 enable
+4-22-2026 11:00:40 - verbose: [Package] profile@1.0.0 enable
+4-22-2026 11:00:40 - verbose: [Package] project@1.0.4 enable
+4-22-2026 11:00:40 - verbose: [Package] messages@1.0.0 enable
+4-22-2026 11:00:40 - verbose: [Package] program@1.0.3 enable
+4-22-2026 11:00:40 - verbose: [Package] tester@1.0.0 enable
+4-22-2026 11:00:40 - verbose: [Package] information@1.0.0 enable
+4-22-2026 11:00:40 - verbose: [Package] preferences@1.0.0 enable
+4-22-2026 11:00:42 - log: Load engine in /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine
+4-22-2026 11:00:42 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+4-22-2026 11:00:42 - log: Register native engine in /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+4-22-2026 11:00:42 - verbose: [Package] engine@1.0.7 enable
+4-22-2026 11:00:43 - verbose: [Package] programming@1.0.0 enable
+4-22-2026 11:00:43 - verbose: [Package] device@1.0.1 enable
+4-22-2026 11:00:43 - verbose: [Package] ui-kit@1.0.1 enable
+4-22-2026 11:00:43 - verbose: [Package] asset-db@1.0.0 enable
+4-22-2026 11:00:43 - verbose: [Package] scene@1.0.0 enable
+4-22-2026 11:00:43 - verbose: [Package] server@1.0.0 enable
+4-22-2026 11:00:43 - verbose: [Package] utils@1.0.0 enable
+4-22-2026 11:00:56 - verbose: [Package] preview@1.0.1 enable
+4-22-2026 11:00:56 - verbose: [Package] animator@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Build-plugin] register pkg scene: 1ms
+4-22-2026 11:00:57 - verbose: Builder PluginManager init: 1ms
+4-22-2026 11:00:57 - log: Profile changed: builder (log.level: 4)
+4-22-2026 11:00:57 - verbose: [Package] builder@1.3.5 enable
+4-22-2026 11:00:57 - verbose: [Package] shortcuts@1.0.1 enable
+4-22-2026 11:00:57 - verbose: [Package] animation-graph@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] about@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] assets@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] console@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] crash-reporter@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] extension@3.1.1 enable
+4-22-2026 11:00:57 - verbose: [Package] hierarchy@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] inspector@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] light-probe@1.0.4 enable
+4-22-2026 11:00:57 - verbose: [Package] lightmap@1.0.4 enable
+4-22-2026 11:00:57 - verbose: [Package] node-library@1.0.1 enable
+4-22-2026 11:00:57 - verbose: [Package] package-asset@1.0.1 enable
+4-22-2026 11:00:57 - verbose: [Package] process@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] reference-image@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] reflection-probe@1.0.4 enable
+4-22-2026 11:00:57 - verbose: [Package] engine-extends@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] alipay-mini-game@1.0.1 enable
+4-22-2026 11:00:57 - verbose: [Package] android@1.0.1 enable
+4-22-2026 11:00:57 - verbose: [Package] bytedance-mini-game@1.0.2 enable
+4-22-2026 11:00:57 - verbose: [Package] certificate@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] channel-upload-tools@1.0.0 enable
+4-22-2026 11:00:57 - verbose: [Package] fb-instant-games@1.0.0 enable
+4-22-2026 11:00:58 - verbose: [Package] huawei-agc@1.0.0 enable
+4-22-2026 11:00:58 - verbose: [Package] huawei-quick-game@1.0.1 enable
+4-22-2026 11:00:58 - verbose: [Package] ios@1.0.0 enable
+4-22-2026 11:00:58 - verbose: [Package] linux@1.0.0 enable
+4-22-2026 11:00:58 - verbose: [Package] mac@1.0.0 enable
+4-22-2026 11:00:58 - verbose: [Package] native@1.0.2 enable
+4-22-2026 11:00:58 - verbose: [Build-plugin] register pkg native: 35ms
+4-22-2026 11:00:58 - verbose: [Package] ohos@1.0.0 enable
+4-22-2026 11:00:58 - verbose: [Package] open-harmonyos@1.0.0 enable
+4-22-2026 11:00:58 - verbose: [Package] oppo-mini-game@1.0.1 enable
+4-22-2026 11:00:58 - verbose: [Package] runtime-dev-tools@1.0.0 enable
+4-22-2026 11:00:58 - verbose: [Package] taobao-creative-app@1.0.0 enable
+4-22-2026 11:00:58 - verbose: [Package] taobao-mini-game@1.0.0 enable
+4-22-2026 11:00:58 - verbose: [Package] vivo-mini-game@1.0.1 enable
+4-22-2026 11:00:58 - verbose: [Package] web-desktop@1.0.1 enable
+4-22-2026 11:00:58 - verbose: [Package] web-mobile@1.0.1 enable
+4-22-2026 11:00:58 - verbose: [Package] wechatgame@1.0.2 enable
+4-22-2026 11:00:58 - verbose: [Package] wechatprogram@1.0.2 enable
+4-22-2026 11:00:58 - verbose: [Build-plugin] register pkg huawei-agc: 591ms
+4-22-2026 11:00:58 - verbose: [Package] windows@1.0.1 enable
+4-22-2026 11:00:58 - verbose: [Build-plugin] register pkg huawei-quick-game: 584ms
+4-22-2026 11:00:58 - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+4-22-2026 11:00:58 - verbose: [Build-plugin] register pkg fb-instant-games: 660ms
+4-22-2026 11:00:58 - verbose: [Package] cocos-service@3.0.5 enable
+4-22-2026 11:00:58 - verbose: [Build-plugin] register pkg cocos-service: 26ms
+4-22-2026 11:00:58 - verbose: [Build-plugin] register pkg ios: 633ms
+4-22-2026 11:00:58 - verbose: [Build-plugin] register pkg bytedance-mini-game: 902ms
+4-22-2026 11:00:58 - verbose: [Package] im-plugin@3.0.10 enable
+4-22-2026 11:00:58 - verbose: [Package] placeholder@1.0.0 enable
+4-22-2026 11:00:58 - verbose: [Build-plugin] register pkg android: 1101ms
+4-22-2026 11:00:58 - verbose: [Build-plugin] register pkg web-desktop: 472ms
+4-22-2026 11:00:59 - verbose: [Build-plugin] register pkg vivo-mini-game: 584ms
+4-22-2026 11:00:59 - verbose: [Build-plugin] register pkg mac: 842ms
+4-22-2026 11:00:59 - verbose: [Build-plugin] register pkg wechatgame: 637ms
+4-22-2026 11:00:59 - verbose: [Build-plugin] register pkg oppo-mini-game: 1147ms
+4-22-2026 11:00:59 - verbose: [Build-plugin] register pkg ohos: 1426ms
+4-22-2026 11:01:00 - verbose: [Build-plugin] register pkg windows: 1662ms
+4-22-2026 11:01:00 - verbose: [Build-plugin] register pkg xiaomi-quick-game: 1691ms
+4-22-2026 11:01:00 - verbose: asset-db is ready!
+4-22-2026 11:01:01 - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+4-22-2026 11:01:01 - info: [Scene] [PHYSICS]: using builtin.
+4-22-2026 11:01:01 - verbose: [Build-plugin] register pkg taobao-mini-game: 3249ms
+4-22-2026 11:01:02 - log: [Scene] Cocos Creator v3.7.3
+4-22-2026 11:01:02 - info: [Scene] Forward render pipeline initialized.
+4-22-2026 11:01:02 - verbose: [Build-plugin] register pkg alipay-mini-game: 4442ms
+4-22-2026 11:01:02 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+4-22-2026 11:01:03 - verbose: [Build-plugin] register pkg web-mobile: 4560ms
+4-22-2026 11:01:05 - verbose: [Package] cocos-service@3.0.5 disable
+4-22-2026 11:01:05 - verbose: [Package] cocos-service@3.0.7 enable
+4-22-2026 11:01:05 - verbose: [Build-plugin] register pkg cocos-service: 32ms
+4-22-2026 11:01:15 - verbose: [Package] about@1.0.0 disable
+4-22-2026 11:01:15 - verbose: [Package] about@1.0.2 enable
+4-22-2026 11:01:19 - verbose: [Package] im-plugin@3.0.10 disable
+4-22-2026 11:01:20 - verbose: [Package] im-plugin@3.0.12 enable
+4-22-2026 11:26:44 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:26:44 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:26:44 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:26:44 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:04 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:04 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:04 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:04 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:06 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:30 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:30 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:30 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:30 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:30 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:30 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:30 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:30 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:27:45 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:27:45 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:27:45 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:27:45 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:28:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:28:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:28:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:28:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:28:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:28:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:28:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:28:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:28:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:28:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:28:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:28:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:28:45 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:28:45 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:28:45 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:28:45 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:28:45 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:28:45 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:28:45 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:28:45 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:28:46 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:28:46 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:28:46 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:28:46 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:28:46 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:28:46 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:28:46 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:28:46 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:30:47 - error: [Assets] ENOENT: no such file or directory, stat '/Users/user/NewProject_1/assets/images/spine/spineboy-pro_3.7_output.atlas.meta'Error: ENOENT: no such file or directory, stat '/Users/user/NewProject_1/assets/images/spine/spineboy-pro_3.7_output.atlas.meta'
+4-22-2026 11:30:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:30:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:30:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:30:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:30:57 - error: [Assets] ENOENT: no such file or directory, stat '/Users/user/NewProject_1/assets/images/spine/spineboy-pro_3.7_output.atlas.meta'Error: ENOENT: no such file or directory, stat '/Users/user/NewProject_1/assets/images/spine/spineboy-pro_3.7_output.atlas.meta'
+4-22-2026 11:31:07 - error: [Assets] ENOENT: no such file or directory, open '/Users/user/NewProject_1/assets/images/spine/spineboy-pro_3.7_output.json'Error: ENOENT: no such file or directory, open '/Users/user/NewProject_1/assets/images/spine/spineboy-pro_3.7_output.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)
+    at Object.readFileSync (fs.js:377:35)
+    at Object.e.readFileSync (electron/js2c/asar_bundle.js:5:8872)
+    at SpineImporter.validate (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/importer/importers/spine.ccc:1:2385)
+    at ImporterManager.find (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/importer.ccc:89:39)
+    at ParallelQueue._generate (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:79:57)
+    at ParallelQueue._step (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/workflow-extra/dist/index.js:113:18)
+    at Immediate.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/workflow-extra/dist/index.js:117:26)
+    at processImmediate (internal/timers.js:461:21)
+4-22-2026 11:31:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:31:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:31:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:31:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:31:14 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:31:14 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:31:14 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:31:14 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:31:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:31:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:31:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:31:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:31:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:31:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:31:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:31:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:31:41 - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+4-22-2026 11:31:41 - info: [Scene] [PHYSICS]: using builtin.
+4-22-2026 11:31:41 - log: [Scene] Cocos Creator v3.7.3
+4-22-2026 11:31:41 - info: [Scene] Forward render pipeline initialized.
+4-22-2026 11:31:41 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+4-22-2026 11:32:01 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:32:01 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:32:01 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:32:01 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:33:23 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:33:23 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:33:23 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:33:23 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:33:55 - error: [Assets] ENOENT: no such file or directory, stat '/Users/user/NewProject_1/assets/images/spine/export_37/spineboy-pro_3.7_output.json.meta'Error: ENOENT: no such file or directory, stat '/Users/user/NewProject_1/assets/images/spine/export_37/spineboy-pro_3.7_output.json.meta'
+4-22-2026 11:34:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:34:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:34:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:34:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:34:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:34:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:34:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:34:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:34:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:34:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:34:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:34:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:34:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:34:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:34:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:34:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:34:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:34:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:34:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:34:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:34:27 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:34:27 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:34:27 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:34:27 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:34:28 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:34:28 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:34:28 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:34:28 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:34:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:34:33 - error: [Browser Preview]undefined
+4-22-2026 11:34:33 - error: [Browser Preview]undefined
+4-22-2026 11:35:45 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:45 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:45 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:45 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:48 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:48 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:48 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:48 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:49 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:35:53 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:36:11 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:36:11 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:36:11 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:36:11 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:36:11 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:36:11 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:36:11 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:36:11 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:36:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:36:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:36:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:36:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:36:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:36:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:36:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:36:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:36:13 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:36:13 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:36:13 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:36:13 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:36:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:36:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:36:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:36:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:36:20 - error: [Scene] Can't add component 'sp.Skeleton' because spineboy-pro_3.7_output already contains the same component.Error: Can't add component 'sp.Skeleton' because spineboy-pro_3.7_output already contains the same component.
+    at Node.eval [as _checkMultipleComp] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:49143:19)
+    at Node.addComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:51248:18)
+    at NodeManager.createComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:11703)
+    at GeneralSceneFacade.createComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:11169)
+    at SceneFacadeManager.createComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:14705)
+    at step (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:748)
+    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:1617
+    at new Promise (<anonymous>)
+    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:1554
+    at EventEmitter.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1013)
+4-22-2026 11:36:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:36:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:36:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:36:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:36:28 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:36:28 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:36:28 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:36:28 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:37:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-22-2026 11:37:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-22-2026 11:37:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-22-2026 11:37:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-22-2026 11:40:59 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+4-22-2026 11:40:59 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
