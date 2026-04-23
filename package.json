@@ -3,5 +3,8 @@
   "uuid": "dfa572d6-65c7-472d-b8e8-ced0e1413a18",
   "creator": {
     "version": "3.7.3"
+  },
+  "dependencies": {
+    "events": "^3.3.0"
   }
 }

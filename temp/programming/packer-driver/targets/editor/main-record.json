@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 14246.085874999873,
+      "mTimestamp": 4155.771542000119,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 2479877.258708,
-      "chunkId": "b04882f6528f528d23c15a1a07354592145c07ab",
+      "mTimestamp": 30208499.5925,
+      "chunkId": "d2a469b18dd3806af6b4b4f47a791d61efe03601",
       "imports": [
         {
           "value": "file:///Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
@@ -637,7 +637,7 @@
           }
         },
         {
-          "value": "file:///Users/user/NewProject_1/assets/scripts/CharacterManager.ts",
+          "value": "file:///Users/user/NewProject_1/assets/script/bullet/controller.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -651,7 +651,7 @@
           }
         },
         {
-          "value": "file:///Users/user/NewProject_1/assets/scripts/LobbyMananger.ts",
+          "value": "file:///Users/user/NewProject_1/assets/script/bullet/manager.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -661,6 +661,160 @@
             "end": {
               "line": 5,
               "column": 348
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/character/controller.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 364
+            },
+            "end": {
+              "line": 5,
+              "column": 435
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/character/manager.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 451
+            },
+            "end": {
+              "line": 5,
+              "column": 519
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/constants.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 535
+            },
+            "end": {
+              "line": 5,
+              "column": 595
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/control.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 611
+            },
+            "end": {
+              "line": 5,
+              "column": 669
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/gameManager.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 685
+            },
+            "end": {
+              "line": 5,
+              "column": 747
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/lobbyMananger.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 763
+            },
+            "end": {
+              "line": 5,
+              "column": 827
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 843
+            },
+            "end": {
+              "line": 5,
+              "column": 902
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/monster/controller.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 918
+            },
+            "end": {
+              "line": 5,
+              "column": 987
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/monster/manager.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1003
+            },
+            "end": {
+              "line": 5,
+              "column": 1069
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/pooling.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1085
+            },
+            "end": {
+              "line": 5,
+              "column": 1143
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/stageManager.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1159
+            },
+            "end": {
+              "line": 5,
+              "column": 1222
             }
           }
         }
@@ -677,14 +831,91 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/user/NewProject_1/assets/scripts/CharacterManager.ts"
+            "url": "file:///Users/user/NewProject_1/assets/script/bullet/controller.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/user/NewProject_1/assets/scripts/LobbyMananger.ts"
+            "url": "file:///Users/user/NewProject_1/assets/script/bullet/manager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/character/controller.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/character/manager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/gameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/lobbyMananger.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/monster/controller.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/monster/manager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/pooling.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/stageManager.ts"
           },
           "messages": []
         }
@@ -796,10 +1027,167 @@
     },
     "file:///Users/user/NewProject_1/assets/scripts/CharacterManager.ts": {
       "mTimestamp": {
-        "mtime": 1776832922516.6453,
+        "mtime": 1776833818978.7896,
         "uuid": "9757c39a-e09b-48b0-9485-1323d0e41bac"
       },
-      "chunkId": "4afd4672fcd444dbc655359c475cfc6107bcf825",
+      "chunkId": "b91f1800708f88af05248504c7e1f7bcdca09539",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/CharacterManager.ts": {
+      "mTimestamp": {
+        "mtime": 1776845769845.4448,
+        "uuid": "9757c39a-e09b-48b0-9485-1323d0e41bac"
+      },
+      "chunkId": "7e2a92b9b7ffa3c3c0527461c2cb08518afce25e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 69
+            },
+            "end": {
+              "line": 1,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./Constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/Constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/LobbyMananger.ts": {
+      "mTimestamp": {
+        "mtime": 1776832859834.5193,
+        "uuid": "679f9353-ecc0-4cad-8bd5-09e54e38a840"
+      },
+      "chunkId": "5fe7c28438d5dc7fdd1f0d44ea77aef309b994bb",
       "imports": [
         {
           "value": "cc"
@@ -817,6 +1205,1856 @@
             "end": {
               "line": 1,
               "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1776851054612.6702,
+        "uuid": "e8a435ef-1d7e-4dfa-8126-429619ad86d2"
+      },
+      "chunkId": "57f4290968e8e26a36e32b2b0623d35ef0778616",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./Constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 51
+            },
+            "end": {
+              "line": 3,
+              "column": 64
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/Constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/mEmitter.ts": {
+      "mTimestamp": {
+        "mtime": 1776846159418.2502,
+        "uuid": "4a6cd692-028f-4f97-a9ef-92b564ad6a81"
+      },
+      "chunkId": "d5b88b8306ace2acf04f5675667f8d2f5ecf4c20",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "events",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/node_modules/events/events.mjs?cjs=&original=.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1776911037679,
+      "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///Users/user/NewProject_1/node_modules/events/events.mjs?cjs=&original=.js": {
+      "mTimestamp": 1776841741529.3594,
+      "chunkId": "45b4b9398ba2155fbbed71a1d0c17e205e253966",
+      "imports": [
+        {
+          "value": "./events.js",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./events.js",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 27
+            }
+          }
+        },
+        {
+          "value": "./events.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/node_modules/events/events.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/node_modules/events/events.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/node_modules/events/events.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/node_modules/events/events.js": {
+      "mTimestamp": 1776841741529.3594,
+      "chunkId": "18dac3969d90608e68a2df5d63dc6ea79307e67b",
+      "imports": [
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "commonjs",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/ml/cjs-loader.mjs": {
+      "mTimestamp": 1776911037679,
+      "chunkId": "e22b6f02adf5d686a7ebd142d6b23614b189f373",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///Users/user/NewProject_1/assets/script/CharItem.ts": {
+      "mTimestamp": {
+        "mtime": 1776844048417.4097,
+        "uuid": "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
+      },
+      "chunkId": "04440e7617bfcb1f883857c51173b9f5fe7cd3b1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/Constants.ts": {
+      "mTimestamp": 1776851165757.791,
+      "chunkId": "a5d8d2e1f39b1d9f02b1bcef10b4e3bf0713edd6",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///Users/user/NewProject_1/assets/script/Control.ts": {
+      "mTimestamp": {
+        "mtime": 1776846820284.0513,
+        "uuid": "4a66158b-74a5-45b7-bd31-26a31e5822b4"
+      },
+      "chunkId": "96df168f2fe4540dca48bcc426e5f5001432d769",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 64
+            },
+            "end": {
+              "line": 1,
+              "column": 68
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/characterManager.ts": {
+      "mTimestamp": {
+        "mtime": 1776845769845.4448,
+        "uuid": "9757c39a-e09b-48b0-9485-1323d0e41bac"
+      },
+      "chunkId": "47641df2bad2aedcba981a8b59a9d56b2ac9d9bb",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 69
+            },
+            "end": {
+              "line": 1,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./Constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/Constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/charItem.ts": {
+      "mTimestamp": {
+        "mtime": 1776844048417.4097,
+        "uuid": "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
+      },
+      "chunkId": "5393365f3c3763a1acfaf13a224da3760af796b0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/constants.ts": {
+      "mTimestamp": {
+        "mtime": 1776940808599.12,
+        "uuid": "4b8576f4-b23b-4047-a40b-591de6f1a6ac"
+      },
+      "chunkId": "f2d4df6357bf35da575d65b28edd616a6589c2f5",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/control.ts": {
+      "mTimestamp": {
+        "mtime": 1776940778609.1257,
+        "uuid": "4a66158b-74a5-45b7-bd31-26a31e5822b4"
+      },
+      "chunkId": "7055f64dc49f8ebcc81f848cead668aa481dc813",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 64
+            },
+            "end": {
+              "line": 1,
+              "column": 68
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 73
+            },
+            "end": {
+              "line": 3,
+              "column": 86
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/gameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1776940778609.126,
+        "uuid": "e8a435ef-1d7e-4dfa-8126-429619ad86d2"
+      },
+      "chunkId": "8bcf62f1177245ff39114d81ec9eeaa566d53e93",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 82
+            },
+            "end": {
+              "line": 1,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 51
+            },
+            "end": {
+              "line": 3,
+              "column": 64
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/lobbyMananger.ts": {
+      "mTimestamp": {
+        "mtime": 1776832859834.5193,
+        "uuid": "679f9353-ecc0-4cad-8bd5-09e54e38a840"
+      },
+      "chunkId": "fecb52272ee53789cdda1c4271779248c1d63e3e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/character/charItem.ts": {
+      "mTimestamp": {
+        "mtime": 1776915757624.7896,
+        "uuid": "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
+      },
+      "chunkId": "624d1f427a44ee31adf5162dd71055470edf2a1a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/character/characterManager.ts": {
+      "mTimestamp": {
+        "mtime": 1776915749821.752,
+        "uuid": "9757c39a-e09b-48b0-9485-1323d0e41bac"
+      },
+      "chunkId": "c90194b3aa1afdbfb0918371f0fd22b7ec1d5a50",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 69
+            },
+            "end": {
+              "line": 1,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "../mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 26
+            },
+            "end": {
+              "line": 3,
+              "column": 40
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/character/charItemController.ts": {
+      "mTimestamp": {
+        "mtime": 1776915757624.7896,
+        "uuid": "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
+      },
+      "chunkId": "cd8333162ec6048d050f7b7215cc58c60e632521",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/character/Controller.ts": {
+      "mTimestamp": {
+        "mtime": 1776915757624.7896,
+        "uuid": "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
+      },
+      "chunkId": "a5b386e53317e81daf8e180c54b20974e626d4d4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 51
+            },
+            "end": {
+              "line": 1,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/character/manager.ts": {
+      "mTimestamp": {
+        "mtime": 1776941036701.9426,
+        "uuid": "9757c39a-e09b-48b0-9485-1323d0e41bac"
+      },
+      "chunkId": "ed39672f9fcf278440498eb3a8666a1cd669cf62",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 76
+            },
+            "end": {
+              "line": 3,
+              "column": 90
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/character/controller.ts": {
+      "mTimestamp": {
+        "mtime": 1776941197122.3665,
+        "uuid": "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
+      },
+      "chunkId": "a11d33b69238fa88d765474cc6782c7a22a19d5a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 67
+            },
+            "end": {
+              "line": 1,
+              "column": 71
+            }
+          }
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 42
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/stageManager.ts": {
+      "mTimestamp": {
+        "mtime": 1776916784623.1191,
+        "uuid": "0b1f5a82-932a-4b4a-89a8-c6f4652bea7b"
+      },
+      "chunkId": "c7652e3629910ed1291030f0395eca6bc59a2b13",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/stageManager.ts": {
+      "mTimestamp": {
+        "mtime": 1776917442318.4092,
+        "uuid": "0b1f5a82-932a-4b4a-89a8-c6f4652bea7b"
+      },
+      "chunkId": "68faa0f8c32c4c556ee06af330e64cbb0fb61157",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 82
+            },
+            "end": {
+              "line": 1,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 50
+            },
+            "end": {
+              "line": 3,
+              "column": 63
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/bullet/manager.ts": {
+      "mTimestamp": {
+        "mtime": 1776940130126.2676,
+        "uuid": "9cb668da-28d7-4a12-aa77-69cd618dfa96"
+      },
+      "chunkId": "b02b644a16329b123773eccf91ad0de40979e1b8",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 58
+            },
+            "end": {
+              "line": 1,
+              "column": 62
+            }
+          }
+        },
+        {
+          "value": "../pooling",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "../mEmitter",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 35
+            },
+            "end": {
+              "line": 4,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/pooling.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/bullet/controller.ts": {
+      "mTimestamp": {
+        "mtime": 1776941240106.8672,
+        "uuid": "70eea9f2-055c-4839-b391-71822e03ad07"
+      },
+      "chunkId": "4604167b3d1c0bd4dbb4880c7e2e991981345ca9",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 122
+            },
+            "end": {
+              "line": 1,
+              "column": 126
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/pooling.ts": {
+      "mTimestamp": {
+        "mtime": 1776935993499.1611,
+        "uuid": "9795bd08-54bd-4090-bbce-6513c6519cfe"
+      },
+      "chunkId": "070f5bdd46a7d3a27839f2bea281af49e3f44e15",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/monster/manager.ts": {
+      "mTimestamp": {
+        "mtime": 1776927799936.579,
+        "uuid": "b81eae5f-8252-4dc1-a814-f21be933f7f6"
+      },
+      "chunkId": "924b71efdf5db7c5ec51df2e24cb7e97f83ab03f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/monster/controller.ts": {
+      "mTimestamp": {
+        "mtime": 1776928410897.0593,
+        "uuid": "bd4c8cd3-623e-4e0c-a446-f65f1c21815e"
+      },
+      "chunkId": "e7683c67cfe549e61ef32db7ed202b19bb030ce2",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 57
+            },
+            "end": {
+              "line": 1,
+              "column": 61
             }
           }
         }
