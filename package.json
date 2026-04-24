@@ -6,5 +6,8 @@
   },
   "dependencies": {
     "events": "^3.3.0"
+  },
+  "devDependencies": {
+    "javascript-state-machine": "^3.1.0"
   }
 }

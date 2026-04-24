@@ -1,0 +1,203 @@
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3"], function (_export, _context) {
+  "use strict";
+
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, PhysicsSystem2D, EPhysics2DDrawFlags, mEmitter, EventListenerType, GameScreenState, GameStateType, GameState, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, GameManager;
+
+  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
+
+  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
+
+  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
+
+  function _reportPossibleCrUseOfmEmitter(extras) {
+    _reporterNs.report("mEmitter", "./mEmitter", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfEventListenerType(extras) {
+    _reporterNs.report("EventListenerType", "./constants", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfGameScreenState(extras) {
+    _reporterNs.report("GameScreenState", "./constants", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfGameStateType(extras) {
+    _reporterNs.report("GameStateType", "./constants", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfGameState(extras) {
+    _reporterNs.report("GameState", "./gameState", _context.meta, extras);
+  }
+
+  return {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      _decorator = _cc._decorator;
+      Component = _cc.Component;
+      Node = _cc.Node;
+      PhysicsSystem2D = _cc.PhysicsSystem2D;
+      EPhysics2DDrawFlags = _cc.EPhysics2DDrawFlags;
+    }, function (_unresolved_2) {
+      mEmitter = _unresolved_2.mEmitter;
+    }, function (_unresolved_3) {
+      EventListenerType = _unresolved_3.EventListenerType;
+      GameScreenState = _unresolved_3.GameScreenState;
+      GameStateType = _unresolved_3.GameStateType;
+    }, function (_unresolved_4) {
+      GameState = _unresolved_4.GameState;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "e8a43XvHX5N+oEmQpYZrYbS", "gameManager", undefined);
+
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'PhysicsSystem2D', 'EPhysics2DDrawFlags', 'Game']);
+
+      ({
+        ccclass,
+        property
+      } = _decorator);
+
+      _export("GameManager", GameManager = (_dec = ccclass('GameManager'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Node), _dec(_class = (_class2 = class GameManager extends Component {
+        constructor() {
+          super(...arguments);
+          this._currentState = void 0;
+          this._layerMap = new Map();
+
+          _initializerDefineProperty(this, "lobbyLayer", _descriptor, this);
+
+          _initializerDefineProperty(this, "stageLayer", _descriptor2, this);
+
+          _initializerDefineProperty(this, "popupLayer", _descriptor3, this);
+
+          _initializerDefineProperty(this, "GlobalButton", _descriptor4, this);
+        }
+
+        onLoad() {
+          new (_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
+            error: Error()
+          }), GameState) : GameState)();
+          new (_crd && mEmitter === void 0 ? (_reportPossibleCrUseOfmEmitter({
+            error: Error()
+          }), mEmitter) : mEmitter)();
+          (_crd && mEmitter === void 0 ? (_reportPossibleCrUseOfmEmitter({
+            error: Error()
+          }), mEmitter) : mEmitter).instance.registerEvent((_crd && EventListenerType === void 0 ? (_reportPossibleCrUseOfEventListenerType({
+            error: Error()
+          }), EventListenerType) : EventListenerType).SET_LAYER_STATE, this.setLayerState.bind(this), this.node);
+          (_crd && mEmitter === void 0 ? (_reportPossibleCrUseOfmEmitter({
+            error: Error()
+          }), mEmitter) : mEmitter).instance.registerEvent((_crd && GameStateType === void 0 ? (_reportPossibleCrUseOfGameStateType({
+            error: Error()
+          }), GameStateType) : GameStateType).TOGGLEPAUSE, this.setGameState.bind(this), this.node);
+          this.initState();
+        }
+
+        start() {
+          this.showHitBox();
+        }
+
+        update(deltaTime) {
+          if ((_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
+            error: Error()
+          }), GameState) : GameState).instance.isPause) {
+            this._layerMap.get((_crd && GameScreenState === void 0 ? (_reportPossibleCrUseOfGameScreenState({
+              error: Error()
+            }), GameScreenState) : GameScreenState).POPUP).active = true;
+          } else {
+            this._layerMap.get((_crd && GameScreenState === void 0 ? (_reportPossibleCrUseOfGameScreenState({
+              error: Error()
+            }), GameScreenState) : GameScreenState).POPUP).active = false;
+          }
+        }
+
+        initState() {
+          this._currentState = (_crd && GameScreenState === void 0 ? (_reportPossibleCrUseOfGameScreenState({
+            error: Error()
+          }), GameScreenState) : GameScreenState).LOBBY;
+
+          this._layerMap.set((_crd && GameScreenState === void 0 ? (_reportPossibleCrUseOfGameScreenState({
+            error: Error()
+          }), GameScreenState) : GameScreenState).LOBBY, this.lobbyLayer);
+
+          this._layerMap.set((_crd && GameScreenState === void 0 ? (_reportPossibleCrUseOfGameScreenState({
+            error: Error()
+          }), GameScreenState) : GameScreenState).PLAYING, this.stageLayer);
+
+          this._layerMap.set((_crd && GameScreenState === void 0 ? (_reportPossibleCrUseOfGameScreenState({
+            error: Error()
+          }), GameScreenState) : GameScreenState).POPUP, this.popupLayer);
+
+          this._layerMap.set((_crd && GameScreenState === void 0 ? (_reportPossibleCrUseOfGameScreenState({
+            error: Error()
+          }), GameScreenState) : GameScreenState).GLOBALBUTTON, this.popupLayer);
+
+          Array.from(this._layerMap.values()).forEach(layer => {
+            layer.active = false;
+          });
+          this.showCurrentLayer();
+        }
+
+        showCurrentLayer(state) {
+          if (state === void 0) {
+            state = true;
+          }
+
+          this._layerMap.get(this._currentState).active = state;
+        }
+
+        setGameState() {
+          (_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
+            error: Error()
+          }), GameState) : GameState).instance.togglePause();
+        }
+
+        setLayerState(data) {
+          this.showCurrentLayer(false);
+          this._currentState = data;
+          this.showCurrentLayer();
+        }
+
+        showHitBox() {
+          PhysicsSystem2D.instance.debugDrawFlags = EPhysics2DDrawFlags.Aabb | EPhysics2DDrawFlags.Pair | EPhysics2DDrawFlags.CenterOfMass | EPhysics2DDrawFlags.Joint | EPhysics2DDrawFlags.Shape;
+        }
+
+        onDestroy() {
+          (_crd && mEmitter === void 0 ? (_reportPossibleCrUseOfmEmitter({
+            error: Error()
+          }), mEmitter) : mEmitter).instance.removeAllEvent(this.node);
+        }
+
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "lobbyLayer", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "stageLayer", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "popupLayer", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "GlobalButton", [_dec5], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      })), _class2)) || _class));
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=aee18b6d5446ad3e1be3e4703ede64446354a3dd.js.map

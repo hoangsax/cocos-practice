@@ -1,3 +1,9 @@
+export const GameScene = {
+    LOADING: 'LOADING',
+    LOBBY: 'LOBBY',
+    STAGE: 'STAGE'
+}
+
 export const EventType = {
     DISABLE: 'DISABLE',
     ENABLE: 'ENABLE',
@@ -7,6 +13,7 @@ export const GameScreenState = {
     LOBBY: 'LOBBY',
     PLAYING: 'PLAYING',
     POPUP: 'POPUP',
+    GLOBALBUTTON: 'GLOBALBUTTON'
 }
 
 export const EventListenerType = {
@@ -36,7 +43,7 @@ export const animations = {
     shoot: "shoot"
 }
 
-export const GameState = {
-    PAUSE: "PAUSE",
+export const GameStateType = {
+    TOGGLEPAUSE: "TOGGLEPAUSE",
     UNPAUSE: "UNPAUSE"
 }

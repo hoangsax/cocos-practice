@@ -1,1045 +1,116 @@
-4-23-2026 09:23:50 - verbose: Arguments:
-4-23-2026 09:23:50 - verbose:   /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/MacOS/CocosCreator: true
-4-23-2026 09:23:50 - verbose:   project: /Users/user/NewProject_1
-4-23-2026 09:23:50 - verbose:   can-show-upgrade-dialog: true
-4-23-2026 09:23:50 - verbose:   dev: false
-4-23-2026 09:23:50 - verbose:   home: /Users/user/.CocosCreator
-4-23-2026 09:23:50 - verbose:  
-4-23-2026 09:23:55 - verbose: [Package] menu@1.0.0 enable
-4-23-2026 09:23:55 - verbose: [Package] profile@1.0.0 enable
-4-23-2026 09:23:55 - verbose: [Package] project@1.0.4 enable
-4-23-2026 09:23:55 - verbose: [Package] messages@1.0.0 enable
-4-23-2026 09:23:55 - verbose: [Package] program@1.0.3 enable
-4-23-2026 09:23:55 - verbose: [Package] tester@1.0.0 enable
-4-23-2026 09:23:55 - verbose: [Package] information@1.0.0 enable
-4-23-2026 09:23:55 - verbose: [Package] preferences@1.0.0 enable
-4-23-2026 09:23:57 - log: Load engine in /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine
-4-23-2026 09:23:57 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-4-23-2026 09:23:57 - log: Register native engine in /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-4-23-2026 09:23:57 - verbose: [Package] engine@1.0.7 enable
-4-23-2026 09:23:58 - verbose: [Package] programming@1.0.0 enable
-4-23-2026 09:23:58 - verbose: [Package] device@1.0.1 enable
-4-23-2026 09:23:58 - verbose: [Package] ui-kit@1.0.1 enable
-4-23-2026 09:23:58 - verbose: [Package] asset-db@1.0.0 enable
-4-23-2026 09:23:58 - verbose: [Package] scene@1.0.0 enable
-4-23-2026 09:23:58 - verbose: [Package] server@1.0.0 enable
-4-23-2026 09:23:58 - verbose: [Package] utils@1.0.0 enable
-4-23-2026 09:24:01 - verbose: [Package] preview@1.0.1 enable
-4-23-2026 09:24:01 - verbose: [Package] animator@1.0.0 enable
-4-23-2026 09:24:01 - verbose: [Build-plugin] register pkg scene: 0ms
-4-23-2026 09:24:01 - verbose: Builder PluginManager init: 2ms
-4-23-2026 09:24:01 - verbose: [Package] builder@1.3.5 enable
-4-23-2026 09:24:02 - verbose: [Package] shortcuts@1.0.1 enable
-4-23-2026 09:24:02 - verbose: [Package] animation-graph@1.0.0 enable
-4-23-2026 09:24:02 - verbose: [Package] about@1.0.2 enable
-4-23-2026 09:24:02 - verbose: [Package] assets@1.0.0 enable
-4-23-2026 09:24:02 - verbose: [Package] console@1.0.0 enable
-4-23-2026 09:24:02 - verbose: [Package] crash-reporter@1.0.0 enable
-4-23-2026 09:24:02 - verbose: [Package] extension@3.1.1 enable
-4-23-2026 09:24:02 - verbose: [Package] hierarchy@1.0.0 enable
-4-23-2026 09:24:02 - verbose: [Package] inspector@1.0.0 enable
-4-23-2026 09:24:02 - verbose: [Package] light-probe@1.0.4 enable
-4-23-2026 09:24:02 - verbose: [Package] lightmap@1.0.4 enable
-4-23-2026 09:24:02 - verbose: [Package] node-library@1.0.1 enable
-4-23-2026 09:24:02 - verbose: [Package] package-asset@1.0.1 enable
-4-23-2026 09:24:02 - verbose: [Package] process@1.0.0 enable
-4-23-2026 09:24:02 - verbose: [Package] reference-image@1.0.0 enable
-4-23-2026 09:24:02 - verbose: [Package] reflection-probe@1.0.4 enable
-4-23-2026 09:24:02 - verbose: [Package] engine-extends@1.0.0 enable
-4-23-2026 09:24:02 - verbose: [Package] alipay-mini-game@1.0.1 enable
-4-23-2026 09:24:02 - verbose: [Package] android@1.0.1 enable
-4-23-2026 09:24:02 - verbose: [Package] bytedance-mini-game@1.0.2 enable
-4-23-2026 09:24:02 - verbose: [Package] certificate@1.0.0 enable
-4-23-2026 09:24:02 - verbose: [Package] channel-upload-tools@1.0.0 enable
-4-23-2026 09:24:02 - verbose: [Package] fb-instant-games@1.0.0 enable
-4-23-2026 09:24:03 - verbose: [Package] im-plugin@3.0.12 enable
-4-23-2026 09:24:03 - verbose: [Package] cocos-service@3.0.7 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg cocos-service: 30ms
-4-23-2026 09:24:03 - verbose: [Package] huawei-agc@1.0.0 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg android: 383ms
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg alipay-mini-game: 407ms
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg bytedance-mini-game: 340ms
-4-23-2026 09:24:03 - verbose: [Package] huawei-quick-game@1.0.1 enable
-4-23-2026 09:24:03 - verbose: [Package] ios@1.0.0 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg fb-instant-games: 460ms
-4-23-2026 09:24:03 - verbose: [Package] linux@1.0.0 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg huawei-quick-game: 192ms
-4-23-2026 09:24:03 - verbose: [Package] mac@1.0.0 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg huawei-agc: 249ms
-4-23-2026 09:24:03 - verbose: [Package] native@1.0.2 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg native: 33ms
-4-23-2026 09:24:03 - verbose: [Package] ohos@1.0.0 enable
-4-23-2026 09:24:03 - verbose: [Package] open-harmonyos@1.0.0 enable
-4-23-2026 09:24:03 - verbose: [Package] oppo-mini-game@1.0.1 enable
-4-23-2026 09:24:03 - verbose: [Package] runtime-dev-tools@1.0.0 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg ios: 234ms
-4-23-2026 09:24:03 - verbose: [Package] taobao-creative-app@1.0.0 enable
-4-23-2026 09:24:03 - verbose: [Package] taobao-mini-game@1.0.0 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg mac: 222ms
-4-23-2026 09:24:03 - verbose: [Package] vivo-mini-game@1.0.1 enable
-4-23-2026 09:24:03 - verbose: [Package] web-desktop@1.0.1 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg oppo-mini-game: 143ms
-4-23-2026 09:24:03 - verbose: [Package] web-mobile@1.0.1 enable
-4-23-2026 09:24:03 - verbose: [Package] wechatgame@1.0.2 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg ohos: 241ms
-4-23-2026 09:24:03 - verbose: [Package] wechatprogram@1.0.2 enable
-4-23-2026 09:24:03 - verbose: [Package] windows@1.0.1 enable
-4-23-2026 09:24:03 - verbose: [Package] xiaomi-quick-game@1.0.1 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg vivo-mini-game: 170ms
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg web-desktop: 150ms
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg taobao-mini-game: 238ms
-4-23-2026 09:24:03 - verbose: [Package] placeholder@1.0.0 enable
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg web-mobile: 172ms
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg wechatgame: 157ms
-4-23-2026 09:24:03 - verbose: [Build-plugin] register pkg windows: 154ms
-4-23-2026 09:24:03 - verbose: asset-db is ready!
-4-23-2026 09:24:04 - verbose: [Build-plugin] register pkg xiaomi-quick-game: 227ms
-4-23-2026 09:24:06 - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-4-23-2026 09:24:06 - info: [Scene] [PHYSICS]: using builtin.
-4-23-2026 09:24:06 - log: [Scene] Cocos Creator v3.7.3
-4-23-2026 09:24:06 - info: [Scene] Forward render pipeline initialized.
-4-23-2026 09:24:06 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
-4-23-2026 09:58:12 - error: [Window] panel.throttleUpdate is not a functionTypeError: panel.throttleUpdate is not a function
-    at Object.set [as readyToUpdate] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:506:35)
-    at Object.change-dump (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:101:33)
-4-23-2026 09:58:13 - error: [Window] panel.throttleUpdate is not a functionTypeError: panel.throttleUpdate is not a function
-    at Object.set [as readyToUpdate] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:506:35)
-    at Object.change-dump (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:101:33)
-4-23-2026 09:58:13 - error: [Window] panel.throttleUpdate is not a functionTypeError: panel.throttleUpdate is not a function
-    at Object.set [as readyToUpdate] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:506:35)
-    at Object.change-dump (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:101:33)
-4-23-2026 09:59:23 - error: [Browser Preview]undefined
-4-23-2026 10:02:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:20 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:20 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:22 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:22 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:22 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:22 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:22 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:22 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:22 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:22 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:34 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:34 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:34 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:34 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:34 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:34 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:34 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:34 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:35 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:36 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:36 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:36 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:36 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:36 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:36 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:36 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:36 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:02:44 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:02:44 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:02:44 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:02:44 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:10:59 - error: [Scene] Can't add component 'cc.Graphics' to Value because it conflicts with the existing 'cc.Sprite' derived component.Error: Can't add component 'cc.Graphics' to Value because it conflicts with the existing 'cc.Sprite' derived component.
-    at Node.eval [as _checkMultipleComp] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:49145:19)
-    at Node.addComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:51248:18)
-    at Mask._createGraphics (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:109468:48)
-    at Mask._changeRenderType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:109438:18)
-    at Mask.onLoad (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:109355:16)
-    at eval (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:48746:13)
-    at NodeActivator.eval (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:49066:19)
-    at Node.addComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:51294:46)
-    at NodeManager.createComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:11703)
-    at GeneralSceneFacade.createComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:11169)
-4-23-2026 10:10:59 - error: [Scene] Can't add component 'cc.Graphics' to Value because it conflicts with the existing 'cc.Sprite' derived component.Error: Can't add component 'cc.Graphics' to Value because it conflicts with the existing 'cc.Sprite' derived component.
-    at Node.eval [as _checkMultipleComp] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:49145:19)
-    at Node.addComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:51248:18)
-    at Mask._createGraphics (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:109468:48)
-    at Mask._changeRenderType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:109438:18)
-    at Mask.onEnable (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:109365:16)
-    at eval (eval at tryCatchFunctor_EDITOR (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js), <anonymous>:4:10)
-    at ComponentScheduler.eval (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:47852:19)
-    at NodeActivator.eval (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:49087:46)
-    at Node.addComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:51294:46)
-    at NodeManager.createComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:11703)
-4-23-2026 10:12:14 - error: [Scene] Can't add component 'cc.Sprite' to Value because it conflicts with the existing 'cc.Graphics' derived component.Error: Can't add component 'cc.Sprite' to Value because it conflicts with the existing 'cc.Graphics' derived component.
-    at Node.eval [as _checkMultipleComp] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:49145:19)
-    at Node.addComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:51248:18)
-    at NodeManager.createComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:11703)
-    at GeneralSceneFacade.createComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:11169)
-    at SceneFacadeManager.createComponent (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:14705)
-    at step (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:748)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:1617
-    at new Promise (<anonymous>)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/ipc.ccc:1:1554
-    at EventEmitter.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1013)
-4-23-2026 10:19:24 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:19:24 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:19:24 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:19:24 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:19:26 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:19:26 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:19:26 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:19:26 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:38:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:38:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:38:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:38:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:40:16 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
-4-23-2026 10:40:16 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+4-24-2026 08:50:53 - verbose: Arguments:
+4-24-2026 08:50:53 - verbose:   /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/MacOS/CocosCreator: true
+4-24-2026 08:50:53 - verbose:   project: /Users/user/NewProject_1
+4-24-2026 08:50:53 - verbose:   can-show-upgrade-dialog: true
+4-24-2026 08:50:53 - verbose:   dev: false
+4-24-2026 08:50:53 - verbose:   home: /Users/user/.CocosCreator
+4-24-2026 08:50:53 - verbose:  
+4-24-2026 08:50:57 - verbose: [Package] menu@1.0.0 enable
+4-24-2026 08:50:57 - verbose: [Package] profile@1.0.0 enable
+4-24-2026 08:50:57 - verbose: [Package] project@1.0.4 enable
+4-24-2026 08:50:57 - verbose: [Package] messages@1.0.0 enable
+4-24-2026 08:50:57 - verbose: [Package] program@1.0.3 enable
+4-24-2026 08:50:57 - verbose: [Package] tester@1.0.0 enable
+4-24-2026 08:50:57 - verbose: [Package] information@1.0.0 enable
+4-24-2026 08:50:57 - verbose: [Package] preferences@1.0.0 enable
+4-24-2026 08:50:59 - log: Load engine in /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine
+4-24-2026 08:50:59 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+4-24-2026 08:50:59 - log: Register native engine in /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+4-24-2026 08:50:59 - verbose: [Package] engine@1.0.7 enable
+4-24-2026 08:51:00 - verbose: [Package] programming@1.0.0 enable
+4-24-2026 08:51:00 - verbose: [Package] device@1.0.1 enable
+4-24-2026 08:51:00 - verbose: [Package] ui-kit@1.0.1 enable
+4-24-2026 08:51:00 - verbose: [Package] asset-db@1.0.0 enable
+4-24-2026 08:51:00 - verbose: [Package] scene@1.0.0 enable
+4-24-2026 08:51:00 - verbose: [Package] server@1.0.0 enable
+4-24-2026 08:51:00 - verbose: [Package] utils@1.0.0 enable
+4-24-2026 08:51:04 - verbose: [Package] preview@1.0.1 enable
+4-24-2026 08:51:04 - verbose: [Package] animator@1.0.0 enable
+4-24-2026 08:51:04 - verbose: [Build-plugin] register pkg scene: 1ms
+4-24-2026 08:51:04 - verbose: Builder PluginManager init: 1ms
+4-24-2026 08:51:04 - verbose: [Package] builder@1.3.5 enable
+4-24-2026 08:51:04 - verbose: [Package] shortcuts@1.0.1 enable
+4-24-2026 08:51:04 - verbose: [Package] animation-graph@1.0.0 enable
+4-24-2026 08:51:04 - verbose: [Package] about@1.0.2 enable
+4-24-2026 08:51:04 - verbose: [Package] assets@1.0.0 enable
+4-24-2026 08:51:04 - verbose: [Package] console@1.0.0 enable
+4-24-2026 08:51:04 - verbose: [Package] crash-reporter@1.0.0 enable
+4-24-2026 08:51:05 - verbose: [Package] extension@3.1.1 enable
+4-24-2026 08:51:05 - verbose: [Package] hierarchy@1.0.0 enable
+4-24-2026 08:51:05 - verbose: [Package] inspector@1.0.0 enable
+4-24-2026 08:51:05 - verbose: [Package] light-probe@1.0.4 enable
+4-24-2026 08:51:05 - verbose: [Package] lightmap@1.0.4 enable
+4-24-2026 08:51:05 - verbose: [Package] node-library@1.0.1 enable
+4-24-2026 08:51:05 - verbose: [Package] package-asset@1.0.1 enable
+4-24-2026 08:51:05 - verbose: [Package] process@1.0.0 enable
+4-24-2026 08:51:05 - verbose: [Package] reference-image@1.0.0 enable
+4-24-2026 08:51:05 - verbose: [Package] reflection-probe@1.0.4 enable
+4-24-2026 08:51:05 - verbose: [Package] engine-extends@1.0.0 enable
+4-24-2026 08:51:05 - verbose: [Package] alipay-mini-game@1.0.1 enable
+4-24-2026 08:51:05 - verbose: [Package] android@1.0.1 enable
+4-24-2026 08:51:05 - verbose: [Package] bytedance-mini-game@1.0.2 enable
+4-24-2026 08:51:05 - verbose: [Package] certificate@1.0.0 enable
+4-24-2026 08:51:05 - verbose: [Package] channel-upload-tools@1.0.0 enable
+4-24-2026 08:51:05 - verbose: [Package] fb-instant-games@1.0.0 enable
+4-24-2026 08:51:05 - verbose: [Package] huawei-agc@1.0.0 enable
+4-24-2026 08:51:05 - verbose: [Package] huawei-quick-game@1.0.1 enable
+4-24-2026 08:51:05 - verbose: [Package] ios@1.0.0 enable
+4-24-2026 08:51:05 - verbose: [Build-plugin] register pkg alipay-mini-game: 357ms
+4-24-2026 08:51:05 - verbose: [Build-plugin] register pkg android: 336ms
+4-24-2026 08:51:05 - verbose: [Build-plugin] register pkg bytedance-mini-game: 289ms
+4-24-2026 08:51:05 - verbose: [Package] im-plugin@3.0.12 enable
+4-24-2026 08:51:06 - verbose: [Package] cocos-service@3.0.7 enable
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg cocos-service: 30ms
+4-24-2026 08:51:06 - verbose: [Package] linux@1.0.0 enable
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg fb-instant-games: 535ms
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg huawei-agc: 511ms
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg huawei-quick-game: 487ms
+4-24-2026 08:51:06 - verbose: [Package] mac@1.0.0 enable
+4-24-2026 08:51:06 - verbose: [Package] native@1.0.2 enable
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg native: 35ms
+4-24-2026 08:51:06 - verbose: [Package] ohos@1.0.0 enable
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg ios: 479ms
+4-24-2026 08:51:06 - verbose: [Package] open-harmonyos@1.0.0 enable
+4-24-2026 08:51:06 - verbose: [Package] oppo-mini-game@1.0.1 enable
+4-24-2026 08:51:06 - verbose: [Package] runtime-dev-tools@1.0.0 enable
+4-24-2026 08:51:06 - verbose: [Package] taobao-creative-app@1.0.0 enable
+4-24-2026 08:51:06 - verbose: [Package] taobao-mini-game@1.0.0 enable
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg mac: 243ms
+4-24-2026 08:51:06 - verbose: [Package] vivo-mini-game@1.0.1 enable
+4-24-2026 08:51:06 - verbose: [Package] web-desktop@1.0.1 enable
+4-24-2026 08:51:06 - verbose: [Package] web-mobile@1.0.1 enable
+4-24-2026 08:51:06 - verbose: [Package] wechatgame@1.0.2 enable
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg ohos: 245ms
+4-24-2026 08:51:06 - verbose: [Package] wechatprogram@1.0.2 enable
+4-24-2026 08:51:06 - verbose: [Package] windows@1.0.1 enable
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg oppo-mini-game: 237ms
+4-24-2026 08:51:06 - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg vivo-mini-game: 183ms
+4-24-2026 08:51:06 - verbose: [Package] placeholder@1.0.0 enable
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg wechatgame: 169ms
+4-24-2026 08:51:06 - verbose: asset-db is ready!
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg taobao-mini-game: 305ms
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg web-desktop: 251ms
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg web-mobile: 250ms
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg windows: 247ms
+4-24-2026 08:51:06 - verbose: [Build-plugin] register pkg xiaomi-quick-game: 254ms
+4-24-2026 08:51:08 - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+4-24-2026 08:51:08 - info: [Scene] [PHYSICS]: using builtin.
+4-24-2026 08:51:08 - log: [Scene] Cocos Creator v3.7.3
+4-24-2026 08:51:08 - info: [Scene] Forward render pipeline initialized.
+4-24-2026 08:51:09 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+4-24-2026 09:02:40 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+4-24-2026 09:02:40 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
 https://github.com/highlightjs/highlight.js/issues/2277
-4-23-2026 10:40:27 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:40:27 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:40:27 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:40:27 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:40:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:40:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:40:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:40:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:40:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:40:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:40:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:40:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 10:41:52 - warn: [Scene] Did you forget the extension? Please note that you can not omit extension in module specifier.Error: [Scene] Did you forget the extension? Please note that you can not omit extension in module specifier.
-    at logger (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:755:13)
-    at ExecutorSystem.resolve [as _detailResolve] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:772:17)
-    at ExecutorSystem._resolve (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:137:14)
-    at SystemJS.resolve (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
-    at Array.map (<anonymous>)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
-4-23-2026 10:41:52 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: Module "./mEmitter" not found for file:///Users/user/NewProject_1/assets/script/character/characterManager.ts
-    at rejector (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:759:15)
-    at ExecutorSystem.resolve [as _detailResolve] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:777:13)
-    at ExecutorSystem._resolve (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:137:14)
-    at SystemJS.resolve (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
-    at Array.map (<anonymous>)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
-    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/0a/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/0a/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: Module "./mEmitter" not found for file:///Users/user/NewProject_1/assets/script/character/characterManager.ts
-    at SystemJS.resolve (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
-    at Array.map (<anonymous>)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
-    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/0a/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/0a/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
-    at Logger._logHandler (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
-    at Logger.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
-    at console.error (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
-    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5259)
-    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3396)
-    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:316:22)
-    at SystemJS.onload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:77:18)
-    at triggerOnload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
-    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/0a/cce:/internal/x/prerequisite-imports:8:13
-4-23-2026 10:41:52 - warn: [Scene] Missing class: 9757cOa4JtIsJSFEyPQ5BusError: [Scene] Missing class: 9757cOa4JtIsJSFEyPQ5Bus
-    at Object.classFinder (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
-    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:157030:34)
-    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44268:30)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44209:29)
-    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44417:38)
-    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44243:40)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44215:29)
-4-23-2026 10:41:52 - error: [Scene] Script "9757cOa4JtIsJSFEyPQ5Bus" attached to "CharacterLayer" is missing or invalid. Detailed information:
-Node path: "Canvas/Root/StageLayer/CharacterLayer"
-Script UUID: "9757c39a-e09b-48b0-9485-1323d0e41bac"
-Class ID: "9757cOa4JtIsJSFEyPQ5Bus"
-Error: [Scene] Script "9757cOa4JtIsJSFEyPQ5Bus" attached to "CharacterLayer" is missing or invalid. Detailed information:
-Node path: "Canvas/Root/StageLayer/CharacterLayer"
-Script UUID: "9757c39a-e09b-48b0-9485-1323d0e41bac"
-Class ID: "9757cOa4JtIsJSFEyPQ5Bus"
-
-    at report (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
-    at reportByWalker (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
-    at ObjectWalkerBehavior.walk (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
-    at ObjectWalkerBehavior.forEach (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
-    at ObjectWalkerBehavior.parseObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
-    at doWalkProperties (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
-4-23-2026 10:41:53 - error: [Browser Preview]Error: Error: Module "./mEmitter" not found for file:///Users/user/NewProject_1/assets/script/character/characterManager.ts
-4-23-2026 10:55:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 10:55:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 10:55:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 10:55:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:18:11 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:18:11 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:18:11 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:18:11 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:18:30 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:18:30 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:18:30 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:18:30 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:18:39 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:18:39 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:18:39 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:18:39 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:18:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:18:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:18:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:18:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:18:57 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:18:57 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:18:57 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:18:57 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:19:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:19:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:19:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:19:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:20:38 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/user/NewProject_1/assets/script/character/controller.ts: Unexpected token (33:5)
-
-  31 |         this.node.onShoot = this.onShoot.bind(this);
-  32 |         this.node.onReloadDone = this.onReloadDone.bind(this);
-> 33 |     },
-     |      ^
-  34 |
-  35 |     update(dt) {
-  36 |         let currState = this.isMoving;
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/6b/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fcharacter%2Fcontroller.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fcharacter%2Fcontroller.ts%3A%20Unexpected%20token%20(33%3A5)%0A%0A%20%2031%20%7C%20%20%20%20%20%20%20%20%20this.node.onShoot%20%3D%20this.onShoot.bind(this)%3B%0A%20%2032%20%7C%20%20%20%20%20%20%20%20%20this.node.onReloadDone%20%3D%20this.onReloadDone.bind(this)%3B%0A%3E%2033%20%7C%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%7C%20%20%20%20%20%20%5E%0A%20%2034%20%7C%0A%20%2035%20%7C%20%20%20%20%20update(dt)%20%7B%0A%20%2036%20%7C%20%20%20%20%20%20%20%20%20let%20currState%20%3D%20this.isMoving%3B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
-    at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/user/NewProject_1/assets/script/character/controller.ts: Unexpected token (33:5)
-
-  31 |         this.node.onShoot = this.onShoot.bind(this);
-  32 |         this.node.onReloadDone = this.onReloadDone.bind(this);
-> 33 |     },
-  36 |         let currState = this.isMoving;
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/6b/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fcharacter%2Fcontroller.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fcharacter%2Fcontroller.ts%3A%20Unexpected%20token%20(33%3A5)%0A%0A%20%2031%20%7C%20%20%20%20%20%20%20%20%20this.node.onShoot%20%3D%20this.onShoot.bind(this)%3B%0A%20%2032%20%7C%20%20%20%20%20%20%20%20%20this.node.onReloadDone%20%3D%20this.onReloadDone.bind(this)%3B%0A%3E%2033%20%7C%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%7C%20%20%20%20%20%20%5E%0A%20%2034%20%7C%0A%20%2035%20%7C%20%20%20%20%20update(dt)%20%7B%0A%20%2036%20%7C%20%20%20%20%20%20%20%20%20let%20currState%20%3D%20this.isMoving%3B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
-    at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)
-    at Logger._logHandler (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
-    at Logger.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
-    at console.error (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
-    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5259)
-    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3396)
-    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:316:22)
-    at SystemJS.onload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:77:18)
-    at triggerOnload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
-    at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
-    at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-23-2026 11:20:38 - warn: [Scene] Missing class: 0f1aax4fmVGrao/+48zQq7uError: [Scene] Missing class: 0f1aax4fmVGrao/+48zQq7u
-    at Object.classFinder (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
-    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:157030:34)
-    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44268:30)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44209:29)
-    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44417:38)
-    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44243:40)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44215:29)
-4-23-2026 11:20:38 - error: [Scene] Script "0f1aax4fmVGrao/+48zQq7u" attached to "CharItem" is missing or invalid. Detailed information:
-Node path: "Canvas/Root/StageLayer/CharacterLayer/CharItem"
-Script UUID: "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
-Class ID: "0f1aax4fmVGrao/+48zQq7u"
-Error: [Scene] Script "0f1aax4fmVGrao/+48zQq7u" attached to "CharItem" is missing or invalid. Detailed information:
-Node path: "Canvas/Root/StageLayer/CharacterLayer/CharItem"
-Script UUID: "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
-Class ID: "0f1aax4fmVGrao/+48zQq7u"
-
-    at report (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
-    at reportByWalker (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
-    at ObjectWalkerBehavior.walk (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
-    at ObjectWalkerBehavior.forEach (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
-    at ObjectWalkerBehavior.parseObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
-    at doWalkProperties (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
-4-23-2026 11:32:23 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:32:23 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:32:23 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:32:23 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:32:36 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/user/NewProject_1/assets/script/character/controller.ts: Unexpected token (80:58)
-
-  78 |
-  79 |     limitPositionOnScene() {
-> 80 |         if (this.getNodePosition().x < -this.canvas.node. / 2 + charProps.scencePaddingLeft) {
-     |                                                           ^
-  81 |             this.getNodePosition().x = -this.canvas.width / 2 + charProps.scencePaddingLeft;
-  82 |         }
-  83 |         if (this.getNodePosition().x > this.canvas.width / 2 - charProps.scencePaddingRight) {
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/80/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fcharacter%2Fcontroller.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fcharacter%2Fcontroller.ts%3A%20Unexpected%20token%20(80%3A58)%0A%0A%20%2078%20%7C%0A%20%2079%20%7C%20%20%20%20%20limitPositionOnScene()%20%7B%0A%3E%2080%20%7C%20%20%20%20%20%20%20%20%20if%20(this.getNodePosition().x%20%3C%20-this.canvas.node.%20%2F%202%20%2B%20charProps.scencePaddingLeft)%20%7B%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5E%0A%20%2081%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20this.getNodePosition().x%20%3D%20-this.canvas.width%20%2F%202%20%2B%20charProps.scencePaddingLeft%3B%0A%20%2082%20%7C%20%20%20%20%20%20%20%20%20%7D%0A%20%2083%20%7C%20%20%20%20%20%20%20%20%20if%20(this.getNodePosition().x%20%3E%20this.canvas.width%20%2F%202%20-%20charProps.scencePaddingRight)%20%7B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
-    at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/user/NewProject_1/assets/script/character/controller.ts: Unexpected token (80:58)
-
-  78 |
-  79 |     limitPositionOnScene() {
-> 80 |         if (this.getNodePosition().x < -this.canvas.node. / 2 + charProps.scencePaddingLeft) {
-  83 |         if (this.getNodePosition().x > this.canvas.width / 2 - charProps.scencePaddingRight) {
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/80/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fcharacter%2Fcontroller.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fcharacter%2Fcontroller.ts%3A%20Unexpected%20token%20(80%3A58)%0A%0A%20%2078%20%7C%0A%20%2079%20%7C%20%20%20%20%20limitPositionOnScene()%20%7B%0A%3E%2080%20%7C%20%20%20%20%20%20%20%20%20if%20(this.getNodePosition().x%20%3C%20-this.canvas.node.%20%2F%202%20%2B%20charProps.scencePaddingLeft)%20%7B%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5E%0A%20%2081%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20this.getNodePosition().x%20%3D%20-this.canvas.width%20%2F%202%20%2B%20charProps.scencePaddingLeft%3B%0A%20%2082%20%7C%20%20%20%20%20%20%20%20%20%7D%0A%20%2083%20%7C%20%20%20%20%20%20%20%20%20if%20(this.getNodePosition().x%20%3E%20this.canvas.width%20%2F%202%20-%20charProps.scencePaddingRight)%20%7B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
-    at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)
-    at Logger._logHandler (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
-    at Logger.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
-    at console.error (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
-    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5259)
-    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3396)
-    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:316:22)
-    at SystemJS.onload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:77:18)
-    at triggerOnload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
-    at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
-    at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-23-2026 11:32:36 - warn: [Scene] Missing class: 0f1aax4fmVGrao/+48zQq7uError: [Scene] Missing class: 0f1aax4fmVGrao/+48zQq7u
-    at Object.classFinder (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
-    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:157030:34)
-    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44268:30)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44209:29)
-    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44417:38)
-    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44243:40)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44215:29)
-4-23-2026 11:32:36 - error: [Scene] Script "0f1aax4fmVGrao/+48zQq7u" attached to "CharItem" is missing or invalid. Detailed information:
-Node path: "Canvas/Root/StageLayer/CharacterLayer/CharItem"
-Script UUID: "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
-Class ID: "0f1aax4fmVGrao/+48zQq7u"
-Error: [Scene] Script "0f1aax4fmVGrao/+48zQq7u" attached to "CharItem" is missing or invalid. Detailed information:
-Node path: "Canvas/Root/StageLayer/CharacterLayer/CharItem"
-Script UUID: "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
-Class ID: "0f1aax4fmVGrao/+48zQq7u"
-
-    at report (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
-    at reportByWalker (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
-    at ObjectWalkerBehavior.walk (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
-    at ObjectWalkerBehavior.forEach (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
-    at ObjectWalkerBehavior.parseObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
-    at doWalkProperties (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
-4-23-2026 11:32:36 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:32:36 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:32:36 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:32:36 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:36:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:36:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:36:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:36:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:36:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:36:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:36:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:36:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:36:35 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:36:35 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:36:35 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:36:35 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:36:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:36:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:36:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:36:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:37:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:37:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:37:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:37:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:37:26 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:37:26 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:37:26 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:37:26 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:37:31 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:37:31 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:37:31 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:37:31 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:37:49 - log: [Window] UUID  has been copied:     0f1aac78-7e65-46ad-aa3f-fb8f3342aeee  ,  Compressed UUID:     0f1aax4fmVGrao/+48zQq7u
-4-23-2026 11:38:42 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:38:42 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:38:42 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:38:42 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:38:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:38:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:38:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:38:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:39:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:39:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:39:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:39:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:40:23 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:40:23 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:40:23 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:40:23 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:41:10 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:41:10 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:41:10 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:41:10 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 11:50:43 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 11:50:43 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 11:50:43 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 11:50:43 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 13:45:26 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 13:45:26 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 13:45:26 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 13:45:26 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 13:45:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 13:45:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 13:45:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 13:45:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 13:45:31 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 13:45:31 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 13:45:31 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 13:45:31 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 13:45:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 13:45:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 13:45:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 13:45:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 13:45:38 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 13:45:39 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 13:45:39 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 13:45:39 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 13:45:39 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:21 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:21 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:21 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:21 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:23 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:23 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:23 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:23 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:23 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:23 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:23 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:23 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:29 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:32 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:33 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:34 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:34 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:34 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:34 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:34 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:34 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:34 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:34 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:50 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:50 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:50 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:50 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:50 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:50 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:51 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:54 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:54 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:54 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:54 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:54 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:54 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:54 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:54 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:55 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:20:56 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:21:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:21:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:21:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:21:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:21:13 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:21:13 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:21:13 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:21:13 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:21:13 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:21:13 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:21:13 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:21:13 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:21:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:21:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:21:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:21:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:21:15 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:21:15 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:21:15 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:21:15 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:21:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:21:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:21:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:21:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:21:16 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:21:16 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:21:16 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:21:16 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:21:27 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:21:27 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:21:27 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:21:27 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:21:27 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:21:27 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:21:27 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:21:27 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:22:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:22:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:22:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:22:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:22:07 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:22:07 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:22:07 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:22:07 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:22:08 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:22:09 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:22:09 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:22:09 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:22:09 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:22:09 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:22:09 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:22:09 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:22:09 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:22:17 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:22:17 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:22:17 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:22:17 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:22:17 - warn: [Window] data in node dump (__comps__.3.offset x) is null!
-4-23-2026 14:22:17 - warn: [Window] data in node dump (__comps__.3.offset y) is null!
-4-23-2026 14:22:17 - warn: [Window] data in node dump (__comps__.3._offset x) is null!
-4-23-2026 14:22:17 - warn: [Window] data in node dump (__comps__.3._offset y) is null!
-4-23-2026 14:25:54 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:25:54 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:25:54 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:25:54 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:25:58 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:25:58 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:25:58 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:25:58 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:01 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:02 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:04 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:07 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:07 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:08 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:08 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:08 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:08 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:09 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:09 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:09 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:09 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:10 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:10 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:10 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:10 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:10 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:10 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:10 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:10 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:11 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:11 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:11 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:11 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:12 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:12 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:13 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:14 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:14 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:14 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:14 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:15 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:16 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:17 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:17 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:17 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:17 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:26:23 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 14:26:23 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 14:26:23 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 14:26:23 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 14:53:12 - error: [Window] Cannot convert undefined or null to objectTypeError: Cannot convert undefined or null to object
+4-24-2026 09:22:22 - error: [Browser Preview]undefined
+4-24-2026 09:22:22 - error: [Browser Preview]undefined
+4-24-2026 09:40:56 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
+4-24-2026 11:10:14 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
+4-24-2026 11:12:25 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
+4-24-2026 11:12:43 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
+4-24-2026 11:28:02 - warn: A panel(inspector.sprite-editor) is currently open. Please try again later.
+4-24-2026 11:43:45 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
+4-24-2026 11:46:19 - error: [Window] Cannot convert undefined or null to objectTypeError: Cannot convert undefined or null to object
     at Function.keys (<anonymous>)
     at Object.update (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/contributions/ui-kit/ui-prop/types/object.ccc:1:469)
     at Object.update (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/contributions/ui-kit/ui-prop/dump.ccc:1:4346)
@@ -1050,180 +121,35 @@ Class ID: "0f1aax4fmVGrao/+48zQq7u"
     at Object.update (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/components/class.js:120:29)
     at HTMLElement.update (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/creator-ui-kit/dist/renderer.ccc:2:667024)
     at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:1234:32
-4-23-2026 16:02:20 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/user/NewProject_1/assets/script/bullet/controller.ts: Unexpected token (42:12)
+4-24-2026 11:48:56 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/user/NewProject_1/assets/script/loading.ts: Unexpected token (11:8)
 
-  40 |         }
-  41 |
-> 42 |         this.move();
-     |             ^
-  43 |     }
-  44 |
-  45 |     onBeginContact(selfCollider: BoxCollider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/c3/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fbullet%2Fcontroller.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fbullet%2Fcontroller.ts%3A%20Unexpected%20token%20(42%3A12)%0A%0A%20%2040%20%7C%20%20%20%20%20%20%20%20%20%7D%0A%20%2041%20%7C%0A%3E%2042%20%7C%20%20%20%20%20%20%20%20%20this.move()%3B%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%5E%0A%20%2043%20%7C%20%20%20%20%20%7D%0A%20%2044%20%7C%0A%20%2045%20%7C%20%20%20%20%20onBeginContact(selfCollider%3A%20BoxCollider2D%2C%20otherCollider%3A%20BoxCollider2D%2C%20contact%3A%20IPhysics2DContact%20%7C%20null)%20%7B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+   9 |                 director.loadScene('lobby');
+  10 |             }, 1000);
+> 11 |         )
+     |         ^
+  12 |     }
+  13 | }
+  14 |
+    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/7e/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Floading.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Floading.ts%3A%20Unexpected%20token%20(11%3A8)%0A%0A%20%20%209%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20director.loadScene('lobby')%3B%0A%20%2010%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%2C%201000)%3B%0A%3E%2011%20%7C%20%20%20%20%20%20%20%20%20)%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%5E%0A%20%2012%20%7C%20%20%20%20%20%7D%0A%20%2013%20%7C%20%7D%0A%20%2014%20%7C%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
     at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
     at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
     at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:4:1)
+    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d1/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d1/cce:/internal/x/prerequisite-imports:4:1)
     at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
     at Executor.reload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/user/NewProject_1/assets/script/bullet/controller.ts: Unexpected token (42:12)
+    at GlobalEnv.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/user/NewProject_1/assets/script/loading.ts: Unexpected token (11:8)
 
-  40 |         }
-  41 |
-> 42 |         this.move();
-  45 |     onBeginContact(selfCollider: BoxCollider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/c3/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fbullet%2Fcontroller.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Fbullet%2Fcontroller.ts%3A%20Unexpected%20token%20(42%3A12)%0A%0A%20%2040%20%7C%20%20%20%20%20%20%20%20%20%7D%0A%20%2041%20%7C%0A%3E%2042%20%7C%20%20%20%20%20%20%20%20%20this.move()%3B%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%5E%0A%20%2043%20%7C%20%20%20%20%20%7D%0A%20%2044%20%7C%0A%20%2045%20%7C%20%20%20%20%20onBeginContact(selfCollider%3A%20BoxCollider2D%2C%20otherCollider%3A%20BoxCollider2D%2C%20contact%3A%20IPhysics2DContact%20%7C%20null)%20%7B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+   9 |                 director.loadScene('lobby');
+  10 |             }, 1000);
+> 11 |         )
+  14 |
+    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/7e/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Floading.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2Floading.ts%3A%20Unexpected%20token%20(11%3A8)%0A%0A%20%20%209%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20director.loadScene('lobby')%3B%0A%20%2010%20%7C%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%2C%201000)%3B%0A%3E%2011%20%7C%20%20%20%20%20%20%20%20%20)%0A%20%20%20%20%20%7C%20%20%20%20%20%20%20%20%20%5E%0A%20%2012%20%7C%20%20%20%20%20%7D%0A%20%2013%20%7C%20%7D%0A%20%2014%20%7C%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
     at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
     at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
     at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)
-    at Logger._logHandler (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
-    at Logger.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
-    at console.error (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
-    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5259)
-    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3396)
-    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:316:22)
-    at SystemJS.onload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:77:18)
-    at triggerOnload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
-    at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
-    at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-23-2026 16:02:20 - warn: [Scene] Missing class: 70eeanyBVxIObORcYIuA60HError: [Scene] Missing class: 70eeanyBVxIObORcYIuA60H
-    at Object.classFinder (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
-    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:157030:34)
-    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44268:30)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44209:29)
-    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44417:38)
-    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44243:40)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44215:29)
-4-23-2026 16:02:20 - error: [Scene] Script "70eeanyBVxIObORcYIuA60H" attached to "bulletItem" is missing or invalid. Detailed information:
-Node path: "should_hide_in_hierarchy/bulletItem"
-Script UUID: "70eea9f2-055c-4839-b391-71822e03ad07"
-Class ID: "70eeanyBVxIObORcYIuA60H"
-Error: [Scene] Script "70eeanyBVxIObORcYIuA60H" attached to "bulletItem" is missing or invalid. Detailed information:
-Node path: "should_hide_in_hierarchy/bulletItem"
-Script UUID: "70eea9f2-055c-4839-b391-71822e03ad07"
-Class ID: "70eeanyBVxIObORcYIuA60H"
-
-    at report (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
-    at reportByWalker (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
-    at ObjectWalkerBehavior.walk (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
-    at ObjectWalkerBehavior.forEach (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
-    at ObjectWalkerBehavior.parseObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
-    at doWalkProperties (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
-4-23-2026 16:02:20 - warn: [Scene] Missing class: 70eeanyBVxIObORcYIuA60HError: [Scene] Missing class: 70eeanyBVxIObORcYIuA60H
-    at Object.classFinder (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
-    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:157030:34)
-    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44268:30)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44209:29)
-    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44417:38)
-    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44243:40)
-    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44215:29)
-4-23-2026 16:02:20 - error: [Scene] Script "70eeanyBVxIObORcYIuA60H" attached to "bulletItem" is missing or invalid. Detailed information:
-Node path: "bulletItem"
-Script UUID: "70eea9f2-055c-4839-b391-71822e03ad07"
-Class ID: "70eeanyBVxIObORcYIuA60H"
-Error: [Scene] Script "70eeanyBVxIObORcYIuA60H" attached to "bulletItem" is missing or invalid. Detailed information:
-Node path: "bulletItem"
-Script UUID: "70eea9f2-055c-4839-b391-71822e03ad07"
-Class ID: "70eeanyBVxIObORcYIuA60H"
-
-    at report (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
-    at reportByWalker (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
-    at ObjectWalkerBehavior.walk (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
-    at ObjectWalkerBehavior.forEach (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
-    at ObjectWalkerBehavior.parseObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
-    at doWalkProperties (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
-4-23-2026 16:42:54 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:42:54 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:42:54 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:42:54 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:47:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:47:05 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:47:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:47:05 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:47:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:47:19 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:47:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:47:19 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:47:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:47:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:47:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:47:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:47:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:47:21 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:47:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:47:21 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:47:25 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:47:39 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:47:39 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:47:39 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:47:39 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:47:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:47:52 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:47:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:47:52 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:47:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:47:55 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:47:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:47:55 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:47:58 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:47:58 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:47:58 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:47:58 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 16:48:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
-4-23-2026 16:48:03 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
-4-23-2026 16:48:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
-4-23-2026 16:48:03 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
-4-23-2026 17:11:32 - info: [Scene] DragonBones: 5.6.300
-Website: http://dragonbones.com/
-Source and Demo: https://github.com/DragonBones/
-4-23-2026 17:34:47 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/user/NewProject_1/assets/script/gameManager.ts: Unexpected token (21:0)
-
-  19 |     @property(Node)
-  20 |     popupLayer: Node;
-> 21 | )
-     | ^
-  22 |
-  23 |     protected onLoad(): void {
-  24 |         new mEmitter();
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/07/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2FgameManager.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2FgameManager.ts%3A%20Unexpected%20token%20(21%3A0)%0A%0A%20%2019%20%7C%20%20%20%20%20%40property(Node)%0A%20%2020%20%7C%20%20%20%20%20popupLayer%3A%20Node%3B%0A%3E%2021%20%7C%20)%0A%20%20%20%20%20%7C%20%5E%0A%20%2022%20%7C%0A%20%2023%20%7C%20%20%20%20%20protected%20onLoad()%3A%20void%20%7B%0A%20%2024%20%7C%20%20%20%20%20%20%20%20%20new%20mEmitter()%3B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
-    at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: SyntaxError: /file:/Users/user/NewProject_1/assets/script/gameManager.ts: Unexpected token (21:0)
-
-  19 |     @property(Node)
-  20 |     popupLayer: Node;
-> 21 | )
-  24 |         new mEmitter();
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/07/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2FgameManager.ts%20at%20runtime.%0Athrow%20new%20Error(%60SyntaxError%3A%20%2Ffile%3A%2FUsers%2Fuser%2FNewProject_1%2Fassets%2Fscript%2FgameManager.ts%3A%20Unexpected%20token%20(21%3A0)%0A%0A%20%2019%20%7C%20%20%20%20%20%40property(Node)%0A%20%2020%20%7C%20%20%20%20%20popupLayer%3A%20Node%3B%0A%3E%2021%20%7C%20)%0A%20%20%20%20%20%7C%20%5E%0A%20%2022%20%7C%0A%20%2023%20%7C%20%20%20%20%20protected%20onLoad()%3A%20void%20%7B%0A%20%2024%20%7C%20%20%20%20%20%20%20%20%20new%20mEmitter()%3B%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
-    at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d2/cce:/internal/x/prerequisite-imports:4:1)
+    at file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d1/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/user/NewProject_1/temp/programming/packer-driver/targets/editor/chunks/d1/cce:/internal/x/prerequisite-imports:4:1)
     at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:267:13)
     at Executor.reload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:155:9)
     at GlobalEnv.record (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1876)
@@ -1237,7 +163,71 @@ Source and Demo: https://github.com/DragonBones/
     at triggerOnload (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
     at doExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
     at postOrderExec (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-23-2026 17:34:47 - warn: [Scene] Missing class: e8a43XvHX5N+oEmQpYZrYbSError: [Scene] Missing class: e8a43XvHX5N+oEmQpYZrYbS
+4-24-2026 11:55:11 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 11:55:11 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 11:55:11 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 11:55:11 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 12:35:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 12:35:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 12:35:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 12:35:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 12:35:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 12:35:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 12:35:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 12:35:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 13:06:34 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 13:06:34 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 13:06:34 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 13:06:34 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 13:22:48 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 13:22:48 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 13:22:48 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 13:22:48 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 13:50:36 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 13:50:36 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 13:50:36 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 13:50:36 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 13:53:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 13:53:29 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 13:53:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 13:53:29 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 14:26:28 - error: [Scene] A Class already exists with the same __cid__ : "GameManager".Error: [Scene] A Class already exists with the same __cid__ : "GameManager".
+    at error (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147052:12)
+    at eval (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:150798:11)
+    at Module.setClassName (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:150834:9)
+    at doDefine (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:125785:8)
+    at define (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:125806:17)
+    at CCClass (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:125924:17)
+    at eval (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:286036:21)
+4-24-2026 14:26:28 - warn: [Scene] Missing class: e8a43XvHX5N+oEmQpYZrYbSError: [Scene] Missing class: e8a43XvHX5N+oEmQpYZrYbS
     at Object.classFinder (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
     at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:157030:34)
     at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44268:30)
@@ -1245,12 +235,12 @@ Source and Demo: https://github.com/DragonBones/
     at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44417:38)
     at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44243:40)
     at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44215:29)
-4-23-2026 17:34:47 - error: [Scene] Script "e8a43XvHX5N+oEmQpYZrYbS" attached to "Root" is missing or invalid. Detailed information:
-Node path: "Canvas/Root"
+4-24-2026 14:26:28 - error: [Scene] Script "e8a43XvHX5N+oEmQpYZrYbS" attached to "GameManager" is missing or invalid. Detailed information:
+Node path: "Canvas/GameManager"
 Script UUID: "e8a435ef-1d7e-4dfa-8126-429619ad86d2"
 Class ID: "e8a43XvHX5N+oEmQpYZrYbS"
-Error: [Scene] Script "e8a43XvHX5N+oEmQpYZrYbS" attached to "Root" is missing or invalid. Detailed information:
-Node path: "Canvas/Root"
+Error: [Scene] Script "e8a43XvHX5N+oEmQpYZrYbS" attached to "GameManager" is missing or invalid. Detailed information:
+Node path: "Canvas/GameManager"
 Script UUID: "e8a435ef-1d7e-4dfa-8126-429619ad86d2"
 Class ID: "e8a43XvHX5N+oEmQpYZrYbS"
 
@@ -1261,4 +251,207 @@ Class ID: "e8a43XvHX5N+oEmQpYZrYbS"
     at ObjectWalkerBehavior.forEach (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
     at ObjectWalkerBehavior.parseObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
     at doWalkProperties (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
-4-23-2026 17:48:58 - warn: Metrics: no valid info
+4-24-2026 14:30:03 - error: [Scene] A Class already exists with the same __cid__ : "GameManager".Error: [Scene] A Class already exists with the same __cid__ : "GameManager".
+    at error (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147052:12)
+    at eval (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:150798:11)
+    at Module.setClassName (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:150834:9)
+    at doDefine (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:125785:8)
+    at define (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:125806:17)
+    at CCClass (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:125924:17)
+    at eval (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:286036:21)
+4-24-2026 14:30:03 - warn: [Scene] Missing class: e8a43XvHX5N+oEmQpYZrYbSError: [Scene] Missing class: e8a43XvHX5N+oEmQpYZrYbS
+    at Object.classFinder (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:157030:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44268:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44209:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44417:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44243:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:44215:29)
+4-24-2026 14:30:03 - error: [Scene] Script "e8a43XvHX5N+oEmQpYZrYbS" attached to "GameManager" is missing or invalid. Detailed information:
+Node path: "Canvas/GameManager"
+Script UUID: "e8a435ef-1d7e-4dfa-8126-429619ad86d2"
+Class ID: "e8a43XvHX5N+oEmQpYZrYbS"
+Error: [Scene] Script "e8a43XvHX5N+oEmQpYZrYbS" attached to "GameManager" is missing or invalid. Detailed information:
+Node path: "Canvas/GameManager"
+Script UUID: "e8a435ef-1d7e-4dfa-8126-429619ad86d2"
+Class ID: "e8a43XvHX5N+oEmQpYZrYbS"
+
+    at report (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2355)
+    at ObjectWalkerBehavior.forEach (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2148)
+4-24-2026 14:40:15 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 14:40:15 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 14:42:46 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 14:42:46 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 14:42:46 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 14:42:46 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 14:42:47 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 14:42:47 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 14:42:48 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 14:42:48 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 15:31:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:31:37 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:31:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:31:37 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 15:31:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:31:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:31:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:31:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 15:31:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:31:40 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:31:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:31:40 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:31:41 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 15:31:43 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:31:43 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:31:43 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:31:43 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 15:31:44 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:31:44 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:31:44 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:31:44 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 15:38:44 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 15:38:44 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 15:38:44 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 15:38:44 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 16:52:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint x) is null!
+4-24-2026 16:52:33 - warn: [Window] data in node dump (__comps__.0.anchorPoint y) is null!
+4-24-2026 16:52:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint x) is null!
+4-24-2026 16:52:33 - warn: [Window] data in node dump (__comps__.0._anchorPoint y) is null!
+4-24-2026 16:59:29 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 16:59:29 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 16:59:29 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 16:59:29 - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
+    at warn (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147034:12)
+    at warnID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147253:5)
+    at SkyboxInfo.set envmap (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:54961:13)
+    at SkyboxInfo.<anonymous> (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1215)
+    at AssetDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/asset-dump.ccc:1:1049)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5996)
+4-24-2026 17:07:12 - error: [Scene] Widget target must be one of the parent nodes of itError: [Scene] Widget target must be one of the parent nodes of it
+    at error (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147052:12)
+    at errorID (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:147257:5)
+    at Widget._validateTargetInDEV (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:88173:15)
+    at Widget.set target [as target] (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:87609:16)
+    at NodeDump.decode (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/types/node-dump.ccc:1:367)
+    at _decodeByType (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:4319)
+    at Object.decodePatch (/Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/utils/dump/decode.ccc:1:5691)

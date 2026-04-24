@@ -5,7 +5,11 @@
         "version": "Darwin Kernel Version 25.2.0: Tue Nov 18 21:09:40 PST 2025; root:xnu-12377.61.12~1/RELEASE_ARM64_T6000"
     },
     "sceneListMap": {
-        "5ccd1a92-46af-4754-818b-9b83bae1bd10": "/Users/user/NewProject_1/assets/scene/temp.scene"
+        "5ccd1a92-46af-4754-818b-9b83bae1bd10": "/Users/user/NewProject_1/assets/scene/temp.scene",
+        "8ac15535-79ab-4c89-9bb9-1b0b574062c1": "/Users/user/NewProject_1/assets/scene/loading.scene",
+        "945900de-58e4-4d32-a1de-7d3a0aa088ef": "/Users/user/NewProject_1/assets/scene/lobby.scene",
+        "48e0060e-420e-4159-8e08-31f5f91d0e51": "/Users/user/NewProject_1/assets/scene/loading.scene",
+        "5dce0409-becd-42b9-bbb7-5d98f2bc6535": "/Users/user/NewProject_1/assets/scene/root.scene"
     },
     "deviceMd5": "e8f12c9961d1c0176fa92fe904bf234d"
 }

@@ -1,6 +1,7 @@
-import { _decorator, Component, Node, input, Input, Event} from 'cc';
+import { _decorator, Component } from 'cc';
 import { mEmitter } from './mEmitter';
-import { EventListenerType, EventType, GameScreenState, GameState } from './constants';
+import { EventListenerType, EventType, GameScreenState, GameStateType } from './constants';
+import { GameState } from './gameState';
 const { ccclass, property } = _decorator;
 
 @ccclass('Control')
@@ -12,26 +13,28 @@ export class Control extends Component {
     
     setLobby(event: any) {
         mEmitter.instance.emit(EventListenerType.SET_LAYER_STATE, GameScreenState.LOBBY);
-        console.log("click enable")
     }
 
     setPlaying() {
         mEmitter.instance.emit(EventListenerType.SET_LAYER_STATE, GameScreenState.PLAYING);
-        console.log("click disable")
     }
 
     pauseGame() {
-        mEmitter.instance.emit(GameState.PAUSE, );
+        mEmitter.instance.emit(GameStateType.TOGGLEPAUSE);
     }
-
-    unPauseGame() {
-        mEmitter.instance.emit(GameState.UNPAUSE, GameScreenState.LOBBY);
-    }
-
 
     onClickHoli(){
-        // mEmitter.instance.emit("HOLI");
-        console.log("click holi")
+        new GameState();
+        let temp = GameState.instance.popupNode;
+        if (temp){
+            temp.active = !temp.active;
+        }
+
+    }
+
+    returnToLobby() {
+        mEmitter.instance.emit(EventListenerType.SET_LAYER_STATE, GameScreenState.LOBBY);
+        this.pauseGame();
     }
 
     clear(){

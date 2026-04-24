@@ -26,35 +26,40 @@ class mEmitter {
     }
 
     registerEvent(event: string, listener: Function, node: Node) {
-    if (!this.eventListeners.has(node)) {
-        this.eventListeners.set(node, []);
-    }
-    for (let listener of this.eventListeners.get(node)) {
-        if (listener.event === event) {
-            return;
+        if (!this.eventListeners.has(node)) {
+            this.eventListeners.set(node, []);
         }
-    }
-    this._emitter.on(event, listener);
-    const item: listenerType = {
-        event: event,
-        listener: listener
-    }
-    this.eventListeners.get(node).push(item)
+        for (let listener of this.eventListeners.get(node)) {
+            if (listener.event === event) {
+                return;
+            }
+        }
+        this._emitter.on(event, listener);
+        const item: listenerType = {
+            event: event,
+            listener: listener
+        }
+        this.eventListeners.get(node).push(item)
     }
     registerOnce(event: string, listener: Function) {
         this._emitter.once(event, listener);
     }
 
     removeEvent(event: string, listener: Function, node: Node) {
+        this.eventListeners.get(node).forEach((item: listenerType, index: number) => {
+            if (item.event === event && item.listener === listener) {
+                this.eventListeners.get(node).splice(index, 1);
+            }
+        });
         this._emitter.removeListener(event, listener);
-        this.eventListeners.delete(node);
+
     }
 
     removeAllEvent(node: Node) {
         this.eventListeners.get(node).forEach((item: listenerType) => {
             this._emitter.removeListener(item.event, item.listener);
         });
-        this.eventListeners.clear();
+        this.eventListeners.delete(node);
     }
 
     destroy() {

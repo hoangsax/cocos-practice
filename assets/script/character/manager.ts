@@ -1,7 +1,9 @@
 import { _decorator, Component, Node } from 'cc';
 import { mEmitter } from '../mEmitter';
-import { EventType, CharacterEventType, GameState, EventListenerType } from '../constants';
+import { EventType, CharacterEventType, GameStateType, EventListenerType } from '../constants';
 import { CharItemNode } from './controller';
+import { GameState } from '../gameState';
+import { BulletManager, BulletManagerNode } from '../bullet/manager';
 
 const { ccclass, property } = _decorator;
 
@@ -11,8 +13,16 @@ export class CharacterManager extends Component {
     @property(Node)
     charItemNode: CharItemNode;
 
+    @property(Node)
+    bulletManager: Node;
+
     protected onLoad(): void {
         new mEmitter();
+        new GameState();
+        this.startListener();
+    }
+
+    startListener() {
         mEmitter.instance.registerEvent(CharacterEventType.MOVE, this.onPressMove.bind(this), this.node);
         mEmitter.instance.registerEvent(CharacterEventType.STOP, this.onPressStop.bind(this), this.node);
         mEmitter.instance.registerEvent(CharacterEventType.SHOOT, this.onPressShoot.bind(this), this.node);
@@ -20,13 +30,8 @@ export class CharacterManager extends Component {
         mEmitter.instance.registerEvent(EventListenerType.SET_GAME_STATE, this.onSetGameState.bind(this), this.node);
     }
 
-    update(deltaTime: number) {
-
-    }
-
     onPressMove(direction: number){
         this.charItemNode.onPressMove(direction);
-        console.log("manager move")
     }
 
     onPressStop(direction: number){
@@ -34,6 +39,7 @@ export class CharacterManager extends Component {
     }
 
     onPressShoot(){
+        (this.bulletManager as BulletManagerNode).createBullet(this.charItemNode.posFire);
         this.charItemNode.onShoot();
     }
 
@@ -47,7 +53,6 @@ export class CharacterManager extends Component {
 
     protected onDestroy(): void {
         mEmitter.instance.removeAllEvent(this.node);
-        console.log(mEmitter.instance);
     }
 
 }

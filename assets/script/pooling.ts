@@ -14,7 +14,7 @@ export class Pooling extends Component {
         if(instances.length > 0){
             return instances.pop();
         }
-        return instantiate(prefab)
+        return instantiate(prefab);
     }
 
     return(prefab: Prefab, instance: Node) {

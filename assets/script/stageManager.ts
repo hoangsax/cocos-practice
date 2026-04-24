@@ -1,17 +1,31 @@
 import { _decorator, Component, Node, input, Input, EventKeyboard, KeyCode } from 'cc';
 import { mEmitter } from './mEmitter';
 import { CharacterEventType, MoveDirection } from './constants';
+import { GameState } from './gameState';
 const { ccclass, property } = _decorator;
 
 @ccclass('stageManager')
 export class stageManager extends Component {
     protected onLoad(): void {
         new mEmitter();
+        new GameState();
+        this.startListener();
+    }
+
+    startListener() {
         input.on(Input.EventType.KEY_DOWN, this.handlePress.bind(this), this);
         input.on(Input.EventType.KEY_UP, this.handlePress.bind(this), this);
     }
 
+    stopListener() {
+        input.off(Input.EventType.KEY_DOWN, this.handlePress.bind(this), this);
+        input.off(Input.EventType.KEY_UP, this.handlePress.bind(this), this);
+    }
+
     handlePress(event: EventKeyboard) {
+        if (GameState.instance.isPause){
+            return;
+        }
         const moveType = event.type === Input.EventType.KEY_DOWN? CharacterEventType.MOVE : CharacterEventType.STOP;
         const shootType = event.type === Input.EventType.KEY_DOWN ? CharacterEventType.SHOOT : CharacterEventType.RELOAD;
         switch (event.keyCode) {
@@ -34,8 +48,7 @@ export class stageManager extends Component {
     }
 
     protected onDestroy(): void {
-        input.off(Input.EventType.KEY_DOWN, this.handlePress.bind(this), this);
-        input.off(Input.EventType.KEY_UP, this.handlePress.bind(this), this);
+        this.stopListener();
     }
 
 }

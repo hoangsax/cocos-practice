@@ -1,5 +1,6 @@
 import { _decorator, Component, Node, sp, Vec3, UITransform } from 'cc';
 import { MoveDirection, animations } from '../constants';
+import { GameState } from '../gameState';
 const { ccclass, property } = _decorator;
 
 export interface CharItemNode extends Node {
@@ -7,16 +8,16 @@ export interface CharItemNode extends Node {
     onPressStop?: (direction: number) => void;
     onShoot?: () => void;
     onReloadDone?: () => void;
-    setPause?: (state: boolean) => void;
+    posFire?: Node;
 }
 
 
 const charProps = {
-    speed: 300,
+    speed: 100,
     scencePaddingLeft: 75,
-    scencePaddingRight: 1000,
+    scencePaddingRight: 75,
     scencePaddingTop: 150,
-    scencePaddingBottom: 75,
+    scencePaddingBottom: 10,
 }
 
 @ccclass('CharacterController')
@@ -30,8 +31,7 @@ export class CharacterController extends Component {
     @property(UITransform)
     canvas: UITransform;
 
-    isPause: boolean = false;
-    speed: number = 1000;
+    speed: number = 400;
     isReload: boolean = false;
     preReload: boolean = false;
     isMoving: boolean = false;
@@ -41,10 +41,11 @@ export class CharacterController extends Component {
     isMovingDown: boolean = false;
 
     protected onLoad(): void {
+
+        new GameState();
+
         this.skeleton.setMix(animations.shoot, animations.run, 0.2);
-
-        (this.node as CharItemNode).setPause = this.setPause.bind(this);
-
+        (this.node as CharItemNode).posFire = this.posFire;
         (this.node as CharItemNode).onPressMove = this.onPressMove.bind(this);
         (this.node as CharItemNode).onPressStop = this.onPressStop.bind(this);
         (this.node as CharItemNode).onShoot = this.onShoot.bind(this);
@@ -52,12 +53,27 @@ export class CharacterController extends Component {
     }
 
     protected update(dt: number): void {
-        if (!this.isPause) {
-            let currState = this.isMoving;
-            this.onMove(dt);
-            this.handleAnimation(currState);
-            this.preReload = this.isReload;
+        if (GameState.instance.isPause) {
+            this.skeleton.clearAnimation();
+            return;
         }
+        let currState = this.isMoving;
+        this.onMove(dt);
+        this.handleAnimation(currState);
+        this.preReload = this.isReload;
+
+    }
+
+    resetState() {
+        this.isReload = false;
+        this.preReload = false;
+        this.isMoving = false;
+        this.isMovingRight = false;
+        this.isMovingLeft = false;
+        this.isMovingUp = false;
+        this.isMovingDown = false;
+
+        this.playAnimation(0, animations.idle)
     }
 
     getNodePosition(): Vec3 {
@@ -95,7 +111,6 @@ export class CharacterController extends Component {
 
     onPressMove(direction: number) {
         this.setMoving(direction, true);
-        console.log("charItem move", direction);
     }
 
     onPressStop(direction: number) {
@@ -129,7 +144,14 @@ export class CharacterController extends Component {
         if (this.isMovingUp) moveY += 1;
         if (this.isMovingDown) moveY -= 1;
 
-        if (moveX !== 0 || moveY !== 0) {
+        if (moveX !== 0 && moveY !== 0){
+            let distance = Math.sqrt((this.speed * dt) ** 2 / 2);
+            let posX = this.getNodePosition().x + moveX * distance;
+            let posY = this.getNodePosition().y + moveY * distance;
+            this.node.setPosition(new Vec3(posX, posY, 0))
+            this.isMoving = true;
+        }
+        else if (moveX !== 0 || moveY !== 0) {
             let posX = this.getNodePosition().x + moveX * this.speed * dt;
             let posY = this.getNodePosition().y + moveY * this.speed * dt;
             this.node.setPosition(new Vec3(posX, posY, 0))
@@ -180,12 +202,6 @@ export class CharacterController extends Component {
 
     playAnimation(track = 0, animationName: string, loop = true) {
         this.skeleton.setAnimation(track, animationName, loop);
-    }
-
-    setPause(state: boolean) {
-        if (state !== this.isPause){
-            this.isPause = !this.isPause;
-        }
     }
 }
 
