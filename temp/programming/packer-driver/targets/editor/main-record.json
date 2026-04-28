@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4532.151415999993,
+      "mTimestamp": 4124.335082999896,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,7 +619,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 31117699.789708,
+      "mTimestamp": 27846263.816541,
       "chunkId": "9b3897730c12b372132a3c203f2f22c69208f515",
       "imports": [
         {
@@ -707,7 +707,7 @@
           }
         },
         {
-          "value": "file:///Users/user/NewProject_1/assets/script/control.ts",
+          "value": "file:///Users/user/NewProject_1/assets/script/gameManager.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -716,161 +716,161 @@
             },
             "end": {
               "line": 5,
-              "column": 669
-            }
-          }
-        },
-        {
-          "value": "file:///Users/user/NewProject_1/assets/script/gameManager.ts",
-          "resolved": "__unresolved_7",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 685
-            },
-            "end": {
-              "line": 5,
-              "column": 747
+              "column": 673
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/gameState.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 689
+            },
+            "end": {
+              "line": 5,
+              "column": 749
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/globalPopup.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 763
+              "column": 765
             },
             "end": {
               "line": 5,
-              "column": 823
-            }
-          }
-        },
-        {
-          "value": "file:///Users/user/NewProject_1/assets/script/loading.ts",
-          "resolved": "__unresolved_9",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 839
-            },
-            "end": {
-              "line": 5,
-              "column": 897
-            }
-          }
-        },
-        {
-          "value": "file:///Users/user/NewProject_1/assets/script/lobbyMananger.ts",
-          "resolved": "__unresolved_10",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 913
-            },
-            "end": {
-              "line": 5,
-              "column": 977
+              "column": 827
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts",
-          "resolved": "__unresolved_11",
+          "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 993
+              "column": 843
             },
             "end": {
               "line": 5,
-              "column": 1052
+              "column": 902
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/monster/controller.ts",
-          "resolved": "__unresolved_12",
+          "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1068
+              "column": 918
             },
             "end": {
               "line": 5,
-              "column": 1137
+              "column": 987
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/monster/manager.ts",
-          "resolved": "__unresolved_13",
+          "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1153
+              "column": 1003
             },
             "end": {
               "line": 5,
-              "column": 1219
+              "column": 1069
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/pooling.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1085
+            },
+            "end": {
+              "line": 5,
+              "column": 1143
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/scene/loading.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1159
+            },
+            "end": {
+              "line": 5,
+              "column": 1223
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/scene/lobby.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1235
+              "column": 1239
             },
             "end": {
               "line": 5,
-              "column": 1293
+              "column": 1301
             }
           }
         },
         {
-          "value": "file:///Users/user/NewProject_1/assets/script/root.ts",
+          "value": "file:///Users/user/NewProject_1/assets/script/scene/mainGame.ts",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1309
+              "column": 1317
             },
             "end": {
               "line": 5,
-              "column": 1364
+              "column": 1382
             }
           }
         },
         {
-          "value": "file:///Users/user/NewProject_1/assets/script/stageManager.ts",
+          "value": "file:///Users/user/NewProject_1/assets/script/scene/root.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1380
+              "column": 1398
             },
             "end": {
               "line": 5,
-              "column": 1443
+              "column": 1459
             }
           }
         },
         {
-          "value": "file:///Users/user/NewProject_1/assets/script/titleScreen.ts",
+          "value": "file:///Users/user/NewProject_1/assets/script/scene/titleScreen.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1459
+              "column": 1475
             },
             "end": {
               "line": 5,
-              "column": 1521
+              "column": 1543
             }
           }
         }
@@ -922,13 +922,6 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/user/NewProject_1/assets/script/control.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "file:///Users/user/NewProject_1/assets/script/gameManager.ts"
           },
           "messages": []
@@ -943,14 +936,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/user/NewProject_1/assets/script/loading.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/user/NewProject_1/assets/script/lobbyMananger.ts"
+            "url": "file:///Users/user/NewProject_1/assets/script/globalPopup.ts"
           },
           "messages": []
         },
@@ -985,21 +971,35 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/user/NewProject_1/assets/script/root.ts"
+            "url": "file:///Users/user/NewProject_1/assets/script/scene/loading.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/user/NewProject_1/assets/script/stageManager.ts"
+            "url": "file:///Users/user/NewProject_1/assets/script/scene/lobby.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/user/NewProject_1/assets/script/titleScreen.ts"
+            "url": "file:///Users/user/NewProject_1/assets/script/scene/mainGame.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/scene/root.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/scene/titleScreen.ts"
           },
           "messages": []
         }
@@ -1507,7 +1507,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1776995459949,
+      "mTimestamp": 1777343427228,
       "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
       "imports": [],
       "type": "esm",
@@ -1637,7 +1637,7 @@
       ]
     },
     "cce:/internal/ml/cjs-loader.mjs": {
-      "mTimestamp": 1776995459949,
+      "mTimestamp": 1777343427228,
       "chunkId": "e22b6f02adf5d686a7ebd142d6b23614b189f373",
       "imports": [],
       "type": "esm",
@@ -1945,10 +1945,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/constants.ts": {
       "mTimestamp": {
-        "mtime": 1777003912573.1423,
+        "mtime": 1777368989689.8096,
         "uuid": "4b8576f4-b23b-4047-a40b-591de6f1a6ac"
       },
-      "chunkId": "3b13b2f7cd8275e240e4642b4314751361b52873",
+      "chunkId": "8a7ba74eb9aaeab4ac1b7906361cec5a0d466d4a",
       "imports": [
         {
           "value": "cc"
@@ -1967,10 +1967,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/control.ts": {
       "mTimestamp": {
-        "mtime": 1777026491615.633,
-        "uuid": "4a66158b-74a5-45b7-bd31-26a31e5822b4"
+        "mtime": 1777363038468.0273,
+        "uuid": "c3dc61d5-0210-4dcd-a70b-306b8b69a624"
       },
-      "chunkId": "06383ce555b09b695d2bf59cfdb91912b8cd7173",
+      "chunkId": "924dda9064754fdefd6f44f0672b26f2c4799162",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2093,7 +2093,7 @@
     },
     "file:///Users/user/NewProject_1/assets/script/gameManager.ts": {
       "mTimestamp": {
-        "mtime": 1777021031729.0864,
+        "mtime": 1777351973978.6526,
         "uuid": "e8a435ef-1d7e-4dfa-8126-429619ad86d2"
       },
       "chunkId": "80c95da4915245427ba6e5a4307298f469428ec1",
@@ -2490,10 +2490,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/character/manager.ts": {
       "mTimestamp": {
-        "mtime": 1777024496369.7922,
+        "mtime": 1777371214840.88,
         "uuid": "9757c39a-e09b-48b0-9485-1323d0e41bac"
       },
-      "chunkId": "8303659c59fd1126389010aa4b4c95caec9363ff",
+      "chunkId": "1df395e348058699dae56c1e2eabad1b9873ba18",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2510,11 +2510,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 44
+              "column": 57
             },
             "end": {
               "line": 1,
-              "column": 48
+              "column": 61
             }
           }
         },
@@ -2616,10 +2616,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/character/controller.ts": {
       "mTimestamp": {
-        "mtime": 1777022075414.481,
+        "mtime": 1777371111141.1104,
         "uuid": "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
       },
-      "chunkId": "3e540487a1fb0c39faa42b3ad7d34edf0dc7e007",
+      "chunkId": "82d05010943c5607b24612e415260b9dbbdd10ea",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2773,10 +2773,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/stageManager.ts": {
       "mTimestamp": {
-        "mtime": 1777002757810.5925,
+        "mtime": 1777363182200.5789,
         "uuid": "0b1f5a82-932a-4b4a-89a8-c6f4652bea7b"
       },
-      "chunkId": "f4225b443bbd158ffc8d3ac7430b4525b47f82ac",
+      "chunkId": "bb7cd71cc4d84766248505e388a6511736b88610",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2899,10 +2899,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/bullet/manager.ts": {
       "mTimestamp": {
-        "mtime": 1777024523832.5994,
+        "mtime": 1777363182197.899,
         "uuid": "9cb668da-28d7-4a12-aa77-69cd618dfa96"
       },
-      "chunkId": "f1a1ba166f012f43fc319a8282ebabec1c13bcc2",
+      "chunkId": "c0128fa1dddedabd56d9e597d7b09909d7ecf9e5",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2919,11 +2919,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 71
+              "column": 86
             },
             "end": {
               "line": 1,
-              "column": 75
+              "column": 90
             }
           }
         },
@@ -2938,6 +2938,20 @@
             "end": {
               "line": 2,
               "column": 36
+            }
+          }
+        },
+        {
+          "value": "../mEmitter",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 38
             }
           }
         }
@@ -2978,15 +2992,22 @@
             "url": "file:///Users/user/NewProject_1/assets/script/pooling.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///Users/user/NewProject_1/assets/script/bullet/controller.ts": {
       "mTimestamp": {
-        "mtime": 1777024582843.1846,
+        "mtime": 1777367832048.0557,
         "uuid": "70eea9f2-055c-4839-b391-71822e03ad07"
       },
-      "chunkId": "e3e2ac60862a47bf0ad93031906047b92acd80f2",
+      "chunkId": "4dcd64334e87b8c0dc5b36c0ec28951efe35adc1",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3003,11 +3024,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 44
+              "column": 87
             },
             "end": {
               "line": 1,
-              "column": 48
+              "column": 91
             }
           }
         },
@@ -3067,10 +3088,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/pooling.ts": {
       "mTimestamp": {
-        "mtime": 1777022889227.9902,
+        "mtime": 1777371141769.9863,
         "uuid": "9795bd08-54bd-4090-bbce-6513c6519cfe"
       },
-      "chunkId": "070f5bdd46a7d3a27839f2bea281af49e3f44e15",
+      "chunkId": "df31824772c953ca54b9f7134e5b02e00ac57e58",
       "imports": [
         {
           "value": "cc"
@@ -3119,11 +3140,15 @@
     },
     "file:///Users/user/NewProject_1/assets/script/monster/manager.ts": {
       "mTimestamp": {
-        "mtime": 1776927799936.579,
+        "mtime": 1777370811499.1836,
         "uuid": "b81eae5f-8252-4dc1-a814-f21be933f7f6"
       },
-      "chunkId": "924b71efdf5db7c5ec51df2e24cb7e97f83ab03f",
+      "chunkId": "4092361551e62582f4694c9f3b1be708643401f1",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -3135,11 +3160,25 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 44
+              "column": 86
             },
             "end": {
               "line": 1,
-              "column": 48
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "../pooling",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 24
+            },
+            "end": {
+              "line": 2,
+              "column": 36
             }
           }
         }
@@ -3149,7 +3188,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -3164,6 +3203,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/pooling.ts"
           },
           "messages": []
         }
@@ -3171,11 +3224,15 @@
     },
     "file:///Users/user/NewProject_1/assets/script/monster/controller.ts": {
       "mTimestamp": {
-        "mtime": 1777022635129.818,
+        "mtime": 1777367249447.2717,
         "uuid": "bd4c8cd3-623e-4e0c-a446-f65f1c21815e"
       },
-      "chunkId": "d06f8ece1828fdd807cc7ecdfb279c139cf8af01",
+      "chunkId": "8f1fc6b614829076161870d717b52f5cafd7d545",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -3187,17 +3244,24 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 122
+              "column": 135
             },
             "end": {
               "line": 1,
-              "column": 126
+              "column": 139
             }
           }
         }
       ],
       "type": "esm",
       "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
         {
           "resolved": {
             "type": "module",
@@ -3275,10 +3339,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/gameState.ts": {
       "mTimestamp": {
-        "mtime": 1777026383424.039,
+        "mtime": 1777371083310.7222,
         "uuid": "f1a19daa-fd45-43b0-a58e-cd1052b8ccc9"
       },
-      "chunkId": "75829d698f671fc2c1f5514c693e13cba090139e",
+      "chunkId": "e269d820497f8da26d3143690f558fafc7f03b86",
       "imports": [
         {
           "value": "cc"
@@ -3327,62 +3391,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/loading.ts": {
       "mTimestamp": {
-        "mtime": 1777014243996.8118,
+        "mtime": 1777363182199.1558,
         "uuid": "0a313293-d75b-4778-b9c7-94f6e1a4b3d7"
       },
-      "chunkId": "a10e158e89f49aed46007c9a5f55403b23da12bd",
-      "imports": [
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 64
-            },
-            "end": {
-              "line": 1,
-              "column": 68
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/user/NewProject_1/assets/script/titleScreen.ts": {
-      "mTimestamp": {
-        "mtime": 1777026008629.3096,
-        "uuid": "e678e987-f7dd-40f2-b817-aa539a7898f2"
-      },
-      "chunkId": "d1b0a22a78111617870b6022adcc61e39aceadf0",
+      "chunkId": "d00ec11dcf3058d4ab159d3c7169c1cabcf593f8",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3399,11 +3411,95 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 44
+              "column": 84
             },
             "end": {
               "line": 1,
+              "column": 88
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 27
+            },
+            "end": {
+              "line": 2,
+              "column": 40
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/titleScreen.ts": {
+      "mTimestamp": {
+        "mtime": 1777363182200.7734,
+        "uuid": "e678e987-f7dd-40f2-b817-aa539a7898f2"
+      },
+      "chunkId": "98f1db170b567dbdc989e9fa12150aea436600bb",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
               "column": 48
+            },
+            "end": {
+              "line": 1,
+              "column": 52
             }
           }
         },
@@ -3418,6 +3514,20 @@
             "end": {
               "line": 2,
               "column": 39
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 40
             }
           }
         }
@@ -3458,15 +3568,22 @@
             "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///Users/user/NewProject_1/assets/script/root.ts": {
       "mTimestamp": {
-        "mtime": 1777026571865.4382,
+        "mtime": 1777363182200.3645,
         "uuid": "c283f072-9867-4cb9-8331-49dc15025daf"
       },
-      "chunkId": "dd56e84bb5620a4585bfbd6d5af148b516bf9219",
+      "chunkId": "0d9802e4b3bf0b08faf0f1a32edd4016bc59a9b0",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3504,6 +3621,20 @@
               "column": 39
             }
           }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 27
+            },
+            "end": {
+              "line": 6,
+              "column": 40
+            }
+          }
         }
       ],
       "type": "esm",
@@ -3540,6 +3671,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
           },
           "messages": []
         }
@@ -3663,6 +3801,1034 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/popupControl.ts": {
+      "mTimestamp": {
+        "mtime": 1777026491615.633,
+        "uuid": "4a66158b-74a5-45b7-bd31-26a31e5822b4"
+      },
+      "chunkId": "fa3936d1007b407cc729cd750e6c4e3817f1fafe",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 77
+            },
+            "end": {
+              "line": 3,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "./gameState",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/popupController.ts": {
+      "mTimestamp": {
+        "mtime": 1777363360497.2368,
+        "uuid": "4a66158b-74a5-45b7-bd31-26a31e5822b4"
+      },
+      "chunkId": "54e138993e2e5b7b3d5dacd9a69fecd75be61aef",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 77
+            },
+            "end": {
+              "line": 3,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "./gameState",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/scene/loading.ts": {
+      "mTimestamp": {
+        "mtime": 1777363456484.807,
+        "uuid": "0a313293-d75b-4778-b9c7-94f6e1a4b3d7"
+      },
+      "chunkId": "7c35d7540173f92fa51791e196a6c92972eec510",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 84
+            },
+            "end": {
+              "line": 1,
+              "column": 88
+            }
+          }
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 27
+            },
+            "end": {
+              "line": 2,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/scene/lobbyMananger.ts": {
+      "mTimestamp": {
+        "mtime": 1776832859834.5193,
+        "uuid": "679f9353-ecc0-4cad-8bd5-09e54e38a840"
+      },
+      "chunkId": "086b4617ee3469a30f140c7ab8b7a41e96abc974",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/scene/root.ts": {
+      "mTimestamp": {
+        "mtime": 1777371137986.155,
+        "uuid": "c283f072-9867-4cb9-8331-49dc15025daf"
+      },
+      "chunkId": "e0bf987334f4be3fb8527543010b47d8d1cb3246",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "../gameState",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 26
+            },
+            "end": {
+              "line": 5,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 27
+            },
+            "end": {
+              "line": 6,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/scene/stageManager.ts": {
+      "mTimestamp": {
+        "mtime": 1777363469392.7153,
+        "uuid": "0b1f5a82-932a-4b4a-89a8-c6f4652bea7b"
+      },
+      "chunkId": "42153f3093d447bf2ecfc421c986e7f5417f5a68",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 82
+            },
+            "end": {
+              "line": 1,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "../mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 50
+            },
+            "end": {
+              "line": 3,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "../gameState",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 40
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/scene/titleScreen.ts": {
+      "mTimestamp": {
+        "mtime": 1777371133683.8757,
+        "uuid": "e678e987-f7dd-40f2-b817-aa539a7898f2"
+      },
+      "chunkId": "ee4bf0cbf72df413a0e71f6a6ae9eba67d5b4f22",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "../gameState",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 27
+            },
+            "end": {
+              "line": 3,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/scene/lobby.ts": {
+      "mTimestamp": {
+        "mtime": 1776832859834.5193,
+        "uuid": "679f9353-ecc0-4cad-8bd5-09e54e38a840"
+      },
+      "chunkId": "73e04946994e36483cbe372785e6f812e3fb4eca",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/scene/mainGame.ts": {
+      "mTimestamp": {
+        "mtime": 1777371125006.5964,
+        "uuid": "0b1f5a82-932a-4b4a-89a8-c6f4652bea7b"
+      },
+      "chunkId": "eafe83c33153f5b77a9300c9082395d2c4625af9",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 92
+            },
+            "end": {
+              "line": 1,
+              "column": 96
+            }
+          }
+        },
+        {
+          "value": "../mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 50
+            },
+            "end": {
+              "line": 3,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "../gameState",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 40
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/globalPopup.ts": {
+      "mTimestamp": {
+        "mtime": 1777365972198.807,
+        "uuid": "4a66158b-74a5-45b7-bd31-26a31e5822b4"
+      },
+      "chunkId": "4af7825083f068d4c61d9fa680c1a16e40a21ab4",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 77
+            },
+            "end": {
+              "line": 3,
+              "column": 90
+            }
+          }
+        },
+        {
+          "value": "./gameState",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
           },
           "messages": []
         }

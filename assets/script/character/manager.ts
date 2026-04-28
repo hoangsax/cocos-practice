@@ -1,4 +1,4 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, UITransform } from 'cc';
 import { mEmitter } from '../mEmitter';
 import { EventType, CharacterEventType, GameStateType, EventListenerType } from '../constants';
 import { CharItemNode } from './controller';
@@ -11,15 +11,22 @@ const { ccclass, property } = _decorator;
 export class CharacterManager extends Component {
 
     @property(Node)
-    charItemNode: CharItemNode;
+    charItem: CharItemNode;
 
     @property(Node)
     bulletManager: Node;
+
+    @property(UITransform)
+    uiTransform: UITransform;
 
     protected onLoad(): void {
         new mEmitter();
         new GameState();
         this.startListener();
+    }
+
+    protected start(): void {
+        (this.charItem as CharItemNode).setMaxResolution(this.uiTransform.height, this.uiTransform.width);
     }
 
     startListener() {
@@ -31,24 +38,20 @@ export class CharacterManager extends Component {
     }
 
     onPressMove(direction: number){
-        this.charItemNode.onPressMove(direction);
+        this.charItem.onPressMove(direction);
     }
 
     onPressStop(direction: number){
-        this.charItemNode.onPressStop(direction);
+        this.charItem.onPressStop(direction);
     }
 
     onPressShoot(){
-        (this.bulletManager as BulletManagerNode).createBullet(this.charItemNode.posFire);
-        this.charItemNode.onShoot();
+        (this.bulletManager as BulletManagerNode).createBullet(this.charItem.posFire);
+        this.charItem.onShoot();
     }
 
     onReloadDone(){
-        this.charItemNode.onReloadDone();
-    }
-
-    onSetGameState() {
-        
+        this.charItem.onReloadDone();
     }
 
     protected onDestroy(): void {

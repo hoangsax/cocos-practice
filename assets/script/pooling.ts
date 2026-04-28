@@ -6,20 +6,24 @@ export class Pooling extends Component {
 
     instancePool = new Map<Prefab, Node[]>();
 
-    get(prefab: Prefab){
-        if(!this.instancePool.has(prefab)){
+    get(prefab: Prefab, parent: Node) {
+        if (!this.instancePool.has(prefab)) {
             this.instancePool.set(prefab, []);
         }
         let instances = this.instancePool.get(prefab);
-        if(instances.length > 0){
+        if (instances.length > 0) {
             return instances.pop();
         }
-        return instantiate(prefab);
+        let object = instantiate(prefab);
+        parent.addChild(object);
+        return object;
     }
 
     return(prefab: Prefab, instance: Node) {
         let instances = this.instancePool.get(prefab);
-        instances.push(instance);
+        if (instances) {
+            instances.push(instance);
+        }
     }
 }
 

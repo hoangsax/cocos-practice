@@ -9,6 +9,7 @@ export interface CharItemNode extends Node {
     onShoot?: () => void;
     onReloadDone?: () => void;
     posFire?: Node;
+    setMaxResolution?: (h: number, w: number) => void;
 }
 
 
@@ -28,9 +29,11 @@ export class CharacterController extends Component {
     @property(sp.Skeleton)
     skeleton: sp.Skeleton;
 
-    @property(UITransform)
-    canvas: UITransform;
-
+    _maxResolution: {
+        height: number,
+        width: number
+    }
+    readyTimer: number = 0;
     speed: number = 400;
     isReload: boolean = false;
     preReload: boolean = false;
@@ -43,25 +46,40 @@ export class CharacterController extends Component {
     protected onLoad(): void {
 
         new GameState();
-
+        this.readyState();
         this.skeleton.setMix(animations.shoot, animations.run, 0.2);
         (this.node as CharItemNode).posFire = this.posFire;
         (this.node as CharItemNode).onPressMove = this.onPressMove.bind(this);
         (this.node as CharItemNode).onPressStop = this.onPressStop.bind(this);
         (this.node as CharItemNode).onShoot = this.onShoot.bind(this);
         (this.node as CharItemNode).onReloadDone = this.onReloadDone.bind(this);
+        (this.node as CharItemNode).setMaxResolution = this.setMaxResolution.bind(this);
     }
 
     protected update(dt: number): void {
-        if (GameState.instance.isPause) {
-            this.skeleton.clearAnimation();
-            return;
+        if (!this.readyTimer) {
+            if (GameState.instance._isPause) {
+                this.skeleton.clearAnimation();
+                return;
+            }
+            let currState = this.isMoving;
+            this.onMove(dt);
+            this.handleAnimation(currState);
+            this.preReload = this.isReload;
         }
-        let currState = this.isMoving;
-        this.onMove(dt);
-        this.handleAnimation(currState);
-        this.preReload = this.isReload;
+        else{
+            this.readyTimer -= dt;
+            if (this.readyTimer <= 0) {
+                this.readyTimer = 0;
+                this.playAnimation(0, animations.idle);
+            }
+        }
 
+    }
+
+    readyState() {
+        this.readyTimer = 3;
+        this.playAnimation(0, animations.portal, false);
     }
 
     resetState() {
@@ -74,6 +92,13 @@ export class CharacterController extends Component {
         this.isMovingDown = false;
 
         this.playAnimation(0, animations.idle)
+    }
+
+    setMaxResolution(height: number, width: number) {
+        this._maxResolution = {
+            height: height,
+            width: width
+        }
     }
 
     getNodePosition(): Vec3 {
@@ -118,18 +143,18 @@ export class CharacterController extends Component {
     }
 
     limitPositionOnScene() {
-        if (this.getNodePosition().x < -this.canvas.width / 2 + charProps.scencePaddingLeft) {
-            this.getNodePosition().x = -this.canvas.width / 2 + charProps.scencePaddingLeft;
-        }
-        if (this.getNodePosition().x > this.canvas.width / 2 - charProps.scencePaddingRight) {
-            this.getNodePosition().x = this.canvas.width / 2 - charProps.scencePaddingRight;
-        }
-        if (this.getNodePosition().y < -this.canvas.height / 2 + charProps.scencePaddingBottom) {
-            this.getNodePosition().y = -this.canvas.height / 2 + charProps.scencePaddingBottom;
-        }
-        if (this.getNodePosition().y > this.canvas.height / 2 - charProps.scencePaddingTop) {
-            this.getNodePosition().y = this.canvas.height / 2 - charProps.scencePaddingTop;
-        }
+        // if (this.getNodePosition().x < -this._maxResolution.width / 2 + charProps.scencePaddingLeft) {
+        //     this.getNodePosition().x = -this._maxResolution.width / 2 + charProps.scencePaddingLeft;
+        // }
+        // if (this.getNodePosition().x > this._maxResolution.width / 2 - charProps.scencePaddingRight) {
+        //     this.getNodePosition().x = this._maxResolution.width / 2 - charProps.scencePaddingRight;
+        // }
+        // if (this.getNodePosition().y < -this._maxResolution.height / 2 + charProps.scencePaddingBottom) {
+        //     this.getNodePosition().y = -this._maxResolution.height / 2 + charProps.scencePaddingBottom;
+        // }
+        // if (this.getNodePosition().y > this._maxResolution.height / 2 - charProps.scencePaddingTop) {
+        //     this.getNodePosition().y = this._maxResolution.height / 2 - charProps.scencePaddingTop;
+        // }
     }
 
     onMove(dt: number) {
@@ -144,7 +169,7 @@ export class CharacterController extends Component {
         if (this.isMovingUp) moveY += 1;
         if (this.isMovingDown) moveY -= 1;
 
-        if (moveX !== 0 && moveY !== 0){
+        if (moveX !== 0 && moveY !== 0) {
             let distance = Math.sqrt((this.speed * dt) ** 2 / 2);
             let posX = this.getNodePosition().x + moveX * distance;
             let posY = this.getNodePosition().y + moveY * distance;

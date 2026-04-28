@@ -40,10 +40,19 @@ export const animations = {
     walk: "walk",
     idle: "idle",
     run: "run",
-    shoot: "shoot"
+    shoot: "shoot",
+    portal: "portal",
 }
 
 export const GameStateType = {
     TOGGLEPAUSE: "TOGGLEPAUSE",
     UNPAUSE: "UNPAUSE"
+}
+
+export const ScreenName = {
+    ROOT: 'ROOT',
+    LOADING: 'loading',
+    LOBBY: 'lobby',
+    MAIN: 'mainGame',
+    TITLE: 'titleScreen'
 }
