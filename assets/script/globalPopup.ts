@@ -1,6 +1,6 @@
-import { _decorator, Button, Component, director, Node } from 'cc';
+import { _decorator, AudioSource, Button, Component, director, Node } from 'cc';
 import { mEmitter } from './mEmitter';
-import { EventListenerType, EventType, GameScreenState, GameStateType } from './constants';
+import { GameStateType } from './constants';
 import { GameState } from './gameState';
 const { ccclass, property } = _decorator;
 
@@ -8,7 +8,10 @@ const { ccclass, property } = _decorator;
 export class PopupController extends Component {
 
     @property(Node)
-    music: Node;
+    musicButton: Node;
+
+    @property(AudioSource)
+    musicSource: AudioSource;
 
     protected onLoad(): void {
         new mEmitter();
@@ -20,9 +23,9 @@ export class PopupController extends Component {
     }
 
     initMusicButton() {
-        if (this.music){
-            this.music.children[0].active = GameState.instance.music;
-            this.music.children[1].active = !GameState.instance.music;
+        if (this.musicButton){
+            this.musicButton.children[0].active = GameState.instance.music;
+            this.musicButton.children[1].active = !GameState.instance.music;
         }
     }
 
@@ -58,6 +61,11 @@ export class PopupController extends Component {
 
     togglePopup() {
         GameState.instance.togglePopup();
+    }
+
+    playSound() {
+        console.log(GameState.instance)
+        GameState.instance.playClickSound();
     }
 
     // returnToLobby() {

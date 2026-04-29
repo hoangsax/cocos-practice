@@ -28597,3 +28597,20 @@
 4-28-2026 17:14:33-debug: // ---- build task Generate md5AssetsMap from suffixMap to settings ----
 4-28-2026 17:14:33-debug: run build task Organize assets groups，generate packedAssets and rawAssets data success in 0 ms √14%
 4-28-2026 17:14:33-debug: run build task Generate md5AssetsMap from suffixMap to settings success in 0 ms √15%
+4-28-2026 17:26:20-debug: refresh db internal success
+4-28-2026 17:26:20-debug: asset-db:worker-effect-data-processing (139ms)
+4-28-2026 17:26:20-debug: %cImport%c: /Users/user/NewProject_1/assets/script/character/manager.tsbackground: #aaff85; color: #000;color: #000;
+4-28-2026 17:26:20-debug: %cImport%c: /Users/user/NewProject_1/assets/script/monster/manager.tsbackground: #aaff85; color: #000;color: #000;
+4-28-2026 17:26:20-debug: refresh db assets success
+4-28-2026 17:26:20-debug: asset-db:refresh-all-database (193ms)
+4-28-2026 17:26:23-debug: refresh db internal success
+4-28-2026 17:26:24-debug: asset-db:worker-effect-data-processing (91ms)
+4-28-2026 17:26:24-debug: refresh db assets success
+4-28-2026 17:26:24-debug: asset-db:refresh-all-database (129ms)
+4-28-2026 17:49:41-debug: refresh db internal success
+4-28-2026 17:49:41-debug: asset-db:worker-effect-data-processing (100ms)
+4-28-2026 17:49:41-debug: refresh db assets success
+4-28-2026 17:49:41-debug: asset-db:refresh-all-database (137ms)
+4-28-2026 17:49:46-debug: start refresh asset from /Users/user/NewProject_1/assets/scene/root.scene...
+4-28-2026 17:49:46-debug: %cImport%c: /Users/user/NewProject_1/assets/scene/root.scenebackground: #aaff85; color: #000;color: #000;
+4-28-2026 17:49:46-debug: refresh asset /Users/user/NewProject_1/assets/scene success

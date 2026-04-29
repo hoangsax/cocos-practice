@@ -1,5 +1,9 @@
-import { _decorator, Component, Node, instantiate, Prefab, Canvas, UITransform } from 'cc';
+import { _decorator, Component, Prefab, UITransform, Node } from 'cc';
 import { Pooling } from '../pooling';
+import { mEmitter } from '../mEmitter';
+import { GameCommand } from '../constants';
+import { GameState } from '../gameState';
+import { MonsterItemNode } from './controller';
 const { ccclass, property } = _decorator;
 
 @ccclass('manager')
@@ -10,42 +14,61 @@ export class manager extends Component {
     @property(UITransform)
     nodeUI: UITransform;
 
-    spawnInterval: number = 3; 
+    spawnInterval: number = 10;
 
     _monsterPool = new Pooling();
-    readyTimer: number = 0;
+    _canPlay: boolean = false;
 
     private _timer: number = 0;
 
     protected onLoad(): void {
-
+        mEmitter.instance.registerEvent(GameCommand.START, this.onGameStart.bind(this), this.node);
+        mEmitter.instance.registerEvent(GameCommand.END, this.onGameEnd.bind(this), this.node);
+        mEmitter.instance.registerEvent(GameCommand.RESTART, this.onGameRestart.bind(this), this.node);
     }
 
     protected update(dt: number): void {
-        if (this.readyTimer > 0) {
-            this.readyTimer -= dt;
+        if (!this._canPlay || GameState.instance.isPause) {
             return;
         }
-        this._timer += dt;
-        if (this._timer >= this.spawnInterval) {
+        this._timer -= dt;
+        if (this._timer <= 0) {
             this.spawnMonster();
-            this._timer = 0;
+            this._timer = this.spawnInterval;
         }
     }
 
-    readyState() {
-        this.readyTimer = 3;
-        setTimeout(() => {
-            this.spawnMonster();
-        }, 3000)
+    onGameStart(data: number) {
+        this._timer = data;
+        this._canPlay = true;
+    }
+
+    onGameEnd() {
+
+    }
+
+    onGameRestart(data: number) {
+        this.node.children.forEach((child) => {
+            child.active = false;
+        })
     }
 
     spawnMonster() {
         if (!this.monsterPrefab) return;
-        // const monster = this._monsterPool.get(this.monsterPrefab, this.node);
-        const monster = instantiate(this.monsterPrefab);
-        this.node.addChild(monster);
+        const monster = this._monsterPool.get(this.monsterPrefab, this.node);
+        // const monster = instantiate(this.monsterPrefab);
+        // this.node.addChild(monster);
+        (monster as MonsterItemNode).setReturnToPoolMethod(this.returnToPool.bind(this));
         monster.setPosition(0, Math.random() * this.nodeUI.height - this.nodeUI.height / 2, 0);
+        monster.active = true;
+    }
+
+    returnToPool(instance: Node) {
+        this._monsterPool.return(this.monsterPrefab, instance);
+    }
+
+    protected onDestroy(): void {
+        mEmitter.instance.removeAllEvent(this.node);
     }
 
 }

@@ -1,27 +1,3 @@
-export const GameScene = {
-    LOADING: 'LOADING',
-    LOBBY: 'LOBBY',
-    STAGE: 'STAGE'
-}
-
-export const EventType = {
-    DISABLE: 'DISABLE',
-    ENABLE: 'ENABLE',
-}
-
-export const GameScreenState = {
-    LOBBY: 'LOBBY',
-    PLAYING: 'PLAYING',
-    POPUP: 'POPUP',
-    GLOBALBUTTON: 'GLOBALBUTTON'
-}
-
-export const EventListenerType = {
-    SET_LAYER_STATE: 'SET_LAYER_STATE',
-    SET_GAME_STATE: 'SET_GAME_STATE'
-
-}
-
 export const MoveDirection = {
     UP: 0,
     DOWN: 1,
@@ -55,4 +31,10 @@ export const ScreenName = {
     LOBBY: 'lobby',
     MAIN: 'mainGame',
     TITLE: 'titleScreen'
+}
+
+export const GameCommand = {
+    START: 'START',
+    END: 'END',
+    RESTART: 'RESTART',
 }

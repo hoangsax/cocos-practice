@@ -1,4 +1,4 @@
-import { _decorator, Component, director, game, Node } from 'cc';
+import { _decorator, AudioSource, Component, director, game, Node } from 'cc';
 import { StateMachine } from 'javascript-state-machine'
 const { ccclass, property } = _decorator;
 
@@ -11,16 +11,40 @@ export class GameState {
     _isShowPopup: boolean;
     _popupNode: Node;
     _root: Node;
+    _musicSource: AudioSource;
+    _score: number;
+
 
     constructor() {
+        this._isPause = false;
         this._music = true;
         this._isShowPopup = false;
+        this._score = 0;
         if (GameState.instance) {
             GameState.instance.setPopupParent();
             return GameState.instance;
         }
-        this._isPause = false;
         GameState.instance = this;
+    }
+
+    get score(): number {
+        return this._score;
+    }
+
+    set score(value: number) {
+        this._score = value;
+    }
+
+    resetScore() {
+        this._score = 0;
+    }
+
+    get isPause(): boolean {
+        return this._isPause;
+    }
+
+    set isPause(value: boolean) {
+        this._isPause = value;
     }
 
     get music(): boolean {
@@ -48,9 +72,24 @@ export class GameState {
         this._root = value;
     }
 
+    get musicSource(): AudioSource {
+        return this._musicSource;
+    }
+
+    set musicSource(value: AudioSource) {
+        this._musicSource = value;
+    }
+
     setPopupParent(value?: Node) {
         if (this._popupNode) {
             this._popupNode.parent = value? value : director.getScene().getChildByName('Canvas');
+        }
+    }
+
+    playClickSound() {
+        if (this._music && this._musicSource){
+            console.log('playsound');
+            this._musicSource.play();
         }
     }
 

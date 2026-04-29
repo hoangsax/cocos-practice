@@ -16,5 +16,13 @@ export class TitleScreen extends Component {
 
     clickSetting() {
     }
+
+    togglePopup() {
+        GameState.instance.togglePopup();
+    }
+
+    playClickSound() {
+        GameState.instance.playClickSound();
+    }
 }
 

@@ -4,14 +4,10 @@ import { GameState } from '../gameState';
 const { ccclass, property } = _decorator;
 
 export interface BulletNode extends Node {
-    addMethodReturnToPool?: typeof callback;
+    addMethodReturnToPool?: (callback: (instance: Node) => void) => void;
     getDamage?: () => number;
     onHit?: () => void;
     getScript?: () => BulletController;
-}
-
-function callback(instance: Node) {
-
 }
 
 @ccclass('BulletController')
@@ -40,9 +36,9 @@ export class BulletController extends Component {
 
     protected onEnable(): void {
         this.initState();
-        if (this.rigidBody) {
-            this.rigidBody.wakeUp();
-        }
+        // if (this.rigidBody) {
+        //     this.rigidBody.wakeUp();
+        // }
     }
 
     protected start(): void {
@@ -50,7 +46,7 @@ export class BulletController extends Component {
     }
 
     update(deltaTime: number) {
-        if (!GameState.instance._isPause) {
+        if (!GameState.instance.isPause) {
             this.move(deltaTime);
         }
     }
@@ -62,17 +58,6 @@ export class BulletController extends Component {
         (this.node as BulletNode).onHit = this.onHit.bind(this);
         this._initPositionX = this.node.position.x;
     }
-
-    // startListener() {
-    //     if (this.boxCollider) {
-    //         this.boxCollider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
-    //         // this.boxCollider.on(Contact2DType.END_CONTACT, this.onBeginContact, this);
-    //     }
-    // }
-
-    // onBeginContact() {
-    //     this.onHit();
-    // }
 
     onHit() {
         this.scheduleOnce(() => {
@@ -90,11 +75,11 @@ export class BulletController extends Component {
         let pos = this.node.position;
         this.node.setPosition(pos.x + this.speed * deltaTime, pos.y);
         if (this.node.position.x - this._initPositionX > this._maxDistance) {
-            this.scheduleOnce(() => {
-                if (this.node) {
+            // this.scheduleOnce(() => {
+            //     if (this.node) {
                     this.node.active = false;
-                }
-            });
+            //     }
+            // });
         }
     }
 
