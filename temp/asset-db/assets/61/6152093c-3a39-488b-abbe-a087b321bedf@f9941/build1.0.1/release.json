@@ -1,0 +1,113 @@
+[
+    1,
+    [
+        "61Ugk8OjlIi6u+oIezIb7f@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "function_icon_player_play",
+            "rect": {
+                "x": 9,
+                "y": 7,
+                "width": 14,
+                "height": 17
+            },
+            "offset": {
+                "x": 0,
+                "y": 0.5
+            },
+            "originalSize": {
+                "width": 32,
+                "height": 32
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "vertices": {
+                "rawPosition": [
+                    -7,
+                    -8.5,
+                    0,
+                    7,
+                    -8.5,
+                    0,
+                    -7,
+                    8.5,
+                    0,
+                    7,
+                    8.5,
+                    0
+                ],
+                "indexes": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    1,
+                    3
+                ],
+                "uv": [
+                    9,
+                    25,
+                    23,
+                    25,
+                    9,
+                    8,
+                    23,
+                    8
+                ],
+                "nuv": [
+                    0.28125,
+                    0.25,
+                    0.71875,
+                    0.25,
+                    0.28125,
+                    0.78125,
+                    0.71875,
+                    0.78125
+                ],
+                "minPos": {
+                    "x": -7,
+                    "y": -8.5,
+                    "z": 0
+                },
+                "maxPos": {
+                    "x": 7,
+                    "y": 8.5,
+                    "z": 0
+                }
+            },
+            "packable": true,
+            "pixelsToUnit": 100,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "meshType": 0
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

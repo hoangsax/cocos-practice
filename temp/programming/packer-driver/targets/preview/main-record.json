@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 563675.9797920007,
+      "mTimestamp": 791221.0557920001,
       "chunkId": "b0011e66783811138f06fba2e1a95c4d9aeec2b7",
       "imports": [
         {
@@ -2301,10 +2301,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/character/manager.ts": {
       "mTimestamp": {
-        "mtime": 1777456027388.0505,
+        "mtime": 1777874705336.2317,
         "uuid": "9757c39a-e09b-48b0-9485-1323d0e41bac"
       },
-      "chunkId": "34dd4223dc47db40bb9b798f8dc666adbf4d507f",
+      "chunkId": "92464ca45e94bc2d140bb85067f19e7c53789741",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2427,10 +2427,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/character/controller.ts": {
       "mTimestamp": {
-        "mtime": 1777866561008.4197,
+        "mtime": 1777874690054.446,
         "uuid": "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
       },
-      "chunkId": "ea290b8223d055c0bc1b8fe6363f910d07d21abb",
+      "chunkId": "9749d37c010342f9799762ab7a01f0902e9d0a4a",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2710,10 +2710,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/bullet/manager.ts": {
       "mTimestamp": {
-        "mtime": 1777455284293.882,
+        "mtime": 1777874671945.08,
         "uuid": "9cb668da-28d7-4a12-aa77-69cd618dfa96"
       },
-      "chunkId": "f02f7492a5f93a19d0dae69cf04b7cafa9d5004d",
+      "chunkId": "00194719a2b8b9b7a028bffa0a0bc2c09366b678",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2920,10 +2920,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/pooling.ts": {
       "mTimestamp": {
-        "mtime": 1777455364104.2593,
+        "mtime": 1777874767786.5415,
         "uuid": "9795bd08-54bd-4090-bbce-6513c6519cfe"
       },
-      "chunkId": "5f4b0a2b402b3bf0ba0230f0bc0c6d27fb17e5a3",
+      "chunkId": "4dc4de6dc7f4bcf0099ff7e9ed5721cae523ce53",
       "imports": [
         {
           "value": "cc"
@@ -2972,10 +2972,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/monster/manager.ts": {
       "mTimestamp": {
-        "mtime": 1777456192726.6934,
+        "mtime": 1777874717684.7979,
         "uuid": "b81eae5f-8252-4dc1-a814-f21be933f7f6"
       },
-      "chunkId": "b323d2c44e080c9e1a425216c2018e94427acc1c",
+      "chunkId": "9ec5025ad784784efb79de4e6e8b7c08d4a789ee",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3119,10 +3119,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/monster/controller.ts": {
       "mTimestamp": {
-        "mtime": 1777456692503.7632,
+        "mtime": 1777874710057.2432,
         "uuid": "bd4c8cd3-623e-4e0c-a446-f65f1c21815e"
       },
-      "chunkId": "63ae189d25d74da1d4d3518b1077a5811e767594",
+      "chunkId": "a0a0d9ff87417105ed1f81b2361847ea1d41f774",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3255,10 +3255,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/gameState.ts": {
       "mTimestamp": {
-        "mtime": 1777456553113.0876,
+        "mtime": 1777874746678.5793,
         "uuid": "f1a19daa-fd45-43b0-a58e-cd1052b8ccc9"
       },
-      "chunkId": "941e3952e0acd0900214c56da365a1da268a0cec",
+      "chunkId": "db21785afd48107fbb3dd5372511b4e290778d35",
       "imports": [
         {
           "value": "cc"

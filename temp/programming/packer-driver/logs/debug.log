@@ -811,3 +811,159 @@ debug: Resolve ../gameState from file:///Users/user/NewProject_1/assets/script/s
 debug: Resolve ../constants from file:///Users/user/NewProject_1/assets/script/scene/root.ts as file:///Users/user/NewProject_1/assets/script/constants.ts.
 debug: Resolve file:///Users/user/NewProject_1/assets/script/scene/titleScreen.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/scene/titleScreen.ts.
 debug: Target(preview) ends with cost 45.24516599997878ms.
+debug: Dispatch build request for time accumulated 7 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 7
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:23 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:13:11 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/bullet/controller.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/bullet/controller.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/gameState.ts. Last mtime: Wed Apr 29 2026 16:55:53 GMT+0700 (Indochina Time)@f1a19daa-fd45-43b0-a58e-cd1052b8ccc9, Current mtime: Mon May 04 2026 13:05:46 GMT+0700 (Indochina Time)@f1a19daa-fd45-43b0-a58e-cd1052b8ccc9
+debug: Inspect file:///Users/user/NewProject_1/assets/script/gameState.ts
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/gameState.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/gameState.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/gameState.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/bullet/manager.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/bullet/manager.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/bullet/manager.ts. Last mtime: Wed Apr 29 2026 16:34:44 GMT+0700 (Indochina Time)@9cb668da-28d7-4a12-aa77-69cd618dfa96, Current mtime: Mon May 04 2026 13:04:31 GMT+0700 (Indochina Time)@9cb668da-28d7-4a12-aa77-69cd618dfa96
+debug: Inspect file:///Users/user/NewProject_1/assets/script/bullet/manager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as cce:/internal/x/cc.
+debug: Resolve ../pooling from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as file:///Users/user/NewProject_1/assets/script/pooling.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/pooling.ts. Last mtime: Wed Apr 29 2026 16:36:04 GMT+0700 (Indochina Time)@9795bd08-54bd-4090-bbce-6513c6519cfe, Current mtime: Mon May 04 2026 13:06:07 GMT+0700 (Indochina Time)@9795bd08-54bd-4090-bbce-6513c6519cfe
+debug: Inspect file:///Users/user/NewProject_1/assets/script/pooling.ts
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/pooling.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/pooling.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/pooling.ts as cce:/internal/x/cc.
+debug: Resolve ../mEmitter from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as file:///Users/user/NewProject_1/assets/script/mEmitter.ts.
+debug: Resolve ../constants from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as file:///Users/user/NewProject_1/assets/script/constants.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/character/controller.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/character/controller.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/character/controller.ts. Last mtime: Mon May 04 2026 10:49:21 GMT+0700 (Indochina Time)@0f1aac78-7e65-46ad-aa3f-fb8f3342aeee, Current mtime: Mon May 04 2026 13:04:50 GMT+0700 (Indochina Time)@0f1aac78-7e65-46ad-aa3f-fb8f3342aeee
+debug: Inspect file:///Users/user/NewProject_1/assets/script/character/controller.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/user/NewProject_1/assets/script/character/controller.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/controller.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/controller.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/controller.ts as cce:/internal/x/cc.
+debug: Resolve ../constants from file:///Users/user/NewProject_1/assets/script/character/controller.ts as file:///Users/user/NewProject_1/assets/script/constants.ts.
+debug: Resolve ../gameState from file:///Users/user/NewProject_1/assets/script/character/controller.ts as file:///Users/user/NewProject_1/assets/script/gameState.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/character/manager.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/character/manager.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/character/manager.ts. Last mtime: Wed Apr 29 2026 16:47:07 GMT+0700 (Indochina Time)@9757c39a-e09b-48b0-9485-1323d0e41bac, Current mtime: Mon May 04 2026 13:05:05 GMT+0700 (Indochina Time)@9757c39a-e09b-48b0-9485-1323d0e41bac
+debug: Inspect file:///Users/user/NewProject_1/assets/script/character/manager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/user/NewProject_1/assets/script/character/manager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/manager.ts as cce:/internal/x/cc.
+debug: Resolve ../mEmitter from file:///Users/user/NewProject_1/assets/script/character/manager.ts as file:///Users/user/NewProject_1/assets/script/mEmitter.ts.
+debug: Resolve ../constants from file:///Users/user/NewProject_1/assets/script/character/manager.ts as file:///Users/user/NewProject_1/assets/script/constants.ts.
+debug: Resolve ../gameState from file:///Users/user/NewProject_1/assets/script/character/manager.ts as file:///Users/user/NewProject_1/assets/script/gameState.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/constants.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/gameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/gameManager.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/gameState.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/gameState.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/globalPopup.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/globalPopup.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/mEmitter.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/mEmitter.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/monster/controller.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/monster/controller.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/monster/controller.ts. Last mtime: Wed Apr 29 2026 16:58:12 GMT+0700 (Indochina Time)@bd4c8cd3-623e-4e0c-a446-f65f1c21815e, Current mtime: Mon May 04 2026 13:05:10 GMT+0700 (Indochina Time)@bd4c8cd3-623e-4e0c-a446-f65f1c21815e
+debug: Inspect file:///Users/user/NewProject_1/assets/script/monster/controller.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/user/NewProject_1/assets/script/monster/controller.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/controller.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/controller.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/controller.ts as cce:/internal/x/cc.
+debug: Resolve ../gameState from file:///Users/user/NewProject_1/assets/script/monster/controller.ts as file:///Users/user/NewProject_1/assets/script/gameState.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/monster/manager.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/monster/manager.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/monster/manager.ts. Last mtime: Wed Apr 29 2026 16:49:52 GMT+0700 (Indochina Time)@b81eae5f-8252-4dc1-a814-f21be933f7f6, Current mtime: Mon May 04 2026 13:05:17 GMT+0700 (Indochina Time)@b81eae5f-8252-4dc1-a814-f21be933f7f6
+debug: Inspect file:///Users/user/NewProject_1/assets/script/monster/manager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as cce:/internal/x/cc.
+debug: Resolve ../pooling from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as file:///Users/user/NewProject_1/assets/script/pooling.ts.
+debug: Resolve ../mEmitter from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as file:///Users/user/NewProject_1/assets/script/mEmitter.ts.
+debug: Resolve ../constants from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as file:///Users/user/NewProject_1/assets/script/constants.ts.
+debug: Resolve ../gameState from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as file:///Users/user/NewProject_1/assets/script/gameState.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/pooling.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/pooling.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/popup/result.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/popup/result.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/scene/loading.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/scene/loading.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/scene/lobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/scene/lobby.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/scene/mainGame.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/scene/mainGame.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/scene/root.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/scene/root.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/scene/titleScreen.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/scene/titleScreen.ts.
+debug: Target(editor) ends with cost 200.8985419999808ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:09:23 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:13:11 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/bullet/controller.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/bullet/controller.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/gameState.ts. Last mtime: Wed Apr 29 2026 16:55:53 GMT+0700 (Indochina Time)@f1a19daa-fd45-43b0-a58e-cd1052b8ccc9, Current mtime: Mon May 04 2026 13:05:46 GMT+0700 (Indochina Time)@f1a19daa-fd45-43b0-a58e-cd1052b8ccc9
+debug: Inspect file:///Users/user/NewProject_1/assets/script/gameState.ts
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/gameState.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/gameState.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/gameState.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/bullet/manager.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/bullet/manager.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/bullet/manager.ts. Last mtime: Wed Apr 29 2026 16:34:44 GMT+0700 (Indochina Time)@9cb668da-28d7-4a12-aa77-69cd618dfa96, Current mtime: Mon May 04 2026 13:04:31 GMT+0700 (Indochina Time)@9cb668da-28d7-4a12-aa77-69cd618dfa96
+debug: Inspect file:///Users/user/NewProject_1/assets/script/bullet/manager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as cce:/internal/x/cc.
+debug: Resolve ../pooling from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as file:///Users/user/NewProject_1/assets/script/pooling.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/pooling.ts. Last mtime: Wed Apr 29 2026 16:36:04 GMT+0700 (Indochina Time)@9795bd08-54bd-4090-bbce-6513c6519cfe, Current mtime: Mon May 04 2026 13:06:07 GMT+0700 (Indochina Time)@9795bd08-54bd-4090-bbce-6513c6519cfe
+debug: Inspect file:///Users/user/NewProject_1/assets/script/pooling.ts
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/pooling.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/pooling.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/pooling.ts as cce:/internal/x/cc.
+debug: Resolve ../mEmitter from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as file:///Users/user/NewProject_1/assets/script/mEmitter.ts.
+debug: Resolve ../constants from file:///Users/user/NewProject_1/assets/script/bullet/manager.ts as file:///Users/user/NewProject_1/assets/script/constants.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/character/controller.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/character/controller.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/character/controller.ts. Last mtime: Mon May 04 2026 10:49:21 GMT+0700 (Indochina Time)@0f1aac78-7e65-46ad-aa3f-fb8f3342aeee, Current mtime: Mon May 04 2026 13:04:50 GMT+0700 (Indochina Time)@0f1aac78-7e65-46ad-aa3f-fb8f3342aeee
+debug: Inspect file:///Users/user/NewProject_1/assets/script/character/controller.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/user/NewProject_1/assets/script/character/controller.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/controller.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/controller.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/controller.ts as cce:/internal/x/cc.
+debug: Resolve ../constants from file:///Users/user/NewProject_1/assets/script/character/controller.ts as file:///Users/user/NewProject_1/assets/script/constants.ts.
+debug: Resolve ../gameState from file:///Users/user/NewProject_1/assets/script/character/controller.ts as file:///Users/user/NewProject_1/assets/script/gameState.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/character/manager.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/character/manager.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/character/manager.ts. Last mtime: Wed Apr 29 2026 16:47:07 GMT+0700 (Indochina Time)@9757c39a-e09b-48b0-9485-1323d0e41bac, Current mtime: Mon May 04 2026 13:05:05 GMT+0700 (Indochina Time)@9757c39a-e09b-48b0-9485-1323d0e41bac
+debug: Inspect file:///Users/user/NewProject_1/assets/script/character/manager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/user/NewProject_1/assets/script/character/manager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/character/manager.ts as cce:/internal/x/cc.
+debug: Resolve ../mEmitter from file:///Users/user/NewProject_1/assets/script/character/manager.ts as file:///Users/user/NewProject_1/assets/script/mEmitter.ts.
+debug: Resolve ../constants from file:///Users/user/NewProject_1/assets/script/character/manager.ts as file:///Users/user/NewProject_1/assets/script/constants.ts.
+debug: Resolve ../gameState from file:///Users/user/NewProject_1/assets/script/character/manager.ts as file:///Users/user/NewProject_1/assets/script/gameState.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/constants.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/gameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/gameManager.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/gameState.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/gameState.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/globalPopup.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/globalPopup.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/mEmitter.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/mEmitter.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/monster/controller.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/monster/controller.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/monster/controller.ts. Last mtime: Wed Apr 29 2026 16:58:12 GMT+0700 (Indochina Time)@bd4c8cd3-623e-4e0c-a446-f65f1c21815e, Current mtime: Mon May 04 2026 13:05:10 GMT+0700 (Indochina Time)@bd4c8cd3-623e-4e0c-a446-f65f1c21815e
+debug: Inspect file:///Users/user/NewProject_1/assets/script/monster/controller.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/user/NewProject_1/assets/script/monster/controller.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/controller.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/controller.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/controller.ts as cce:/internal/x/cc.
+debug: Resolve ../gameState from file:///Users/user/NewProject_1/assets/script/monster/controller.ts as file:///Users/user/NewProject_1/assets/script/gameState.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/monster/manager.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/monster/manager.ts.
+debug: Detected change: file:///Users/user/NewProject_1/assets/script/monster/manager.ts. Last mtime: Wed Apr 29 2026 16:49:52 GMT+0700 (Indochina Time)@b81eae5f-8252-4dc1-a814-f21be933f7f6, Current mtime: Mon May 04 2026 13:05:17 GMT+0700 (Indochina Time)@b81eae5f-8252-4dc1-a814-f21be933f7f6
+debug: Inspect file:///Users/user/NewProject_1/assets/script/monster/manager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as cce:/internal/x/cc.
+debug: Resolve ../pooling from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as file:///Users/user/NewProject_1/assets/script/pooling.ts.
+debug: Resolve ../mEmitter from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as file:///Users/user/NewProject_1/assets/script/mEmitter.ts.
+debug: Resolve ../constants from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as file:///Users/user/NewProject_1/assets/script/constants.ts.
+debug: Resolve ../gameState from file:///Users/user/NewProject_1/assets/script/monster/manager.ts as file:///Users/user/NewProject_1/assets/script/gameState.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/pooling.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/pooling.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/popup/result.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/popup/result.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/scene/loading.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/scene/loading.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/scene/lobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/scene/lobby.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/scene/mainGame.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/scene/mainGame.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/scene/root.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/scene/root.ts.
+debug: Resolve file:///Users/user/NewProject_1/assets/script/scene/titleScreen.ts from cce:/internal/x/prerequisite-imports as file:///Users/user/NewProject_1/assets/script/scene/titleScreen.ts.
+debug: Target(preview) ends with cost 203.1220000013709ms.

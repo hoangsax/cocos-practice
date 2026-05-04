@@ -12,7 +12,7 @@ export class GameManager extends Component {
 
     protected onLoad(): void {
         new GameState();
-        this.showHitBox();
+        // this.showHitBox();
     }
 
     showHitBox(){
