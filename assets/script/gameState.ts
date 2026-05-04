@@ -88,7 +88,6 @@ export class GameState {
 
     playClickSound() {
         if (this._music && this._musicSource){
-            console.log('playsound');
             this._musicSource.play();
         }
     }

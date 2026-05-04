@@ -79,7 +79,7 @@ export class CharacterManager extends Component {
         this.charItem.setCanPlay(true);
     }
     onGameEnd() {
-        // this.node.destroy();
+        this.node.destroy();
     }
     onGameRestart() {
         this.charItem.resetState();

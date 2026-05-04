@@ -1,0 +1,123 @@
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
+  "use strict";
+
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, director, AudioSource, GameState, ScreenName, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, RootManager;
+
+  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
+
+  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
+
+  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
+
+  function _reportPossibleCrUseOfGameState(extras) {
+    _reporterNs.report("GameState", "../gameState", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfScreenName(extras) {
+    _reporterNs.report("ScreenName", "../constants", _context.meta, extras);
+  }
+
+  return {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      _decorator = _cc._decorator;
+      Component = _cc.Component;
+      Node = _cc.Node;
+      director = _cc.director;
+      AudioSource = _cc.AudioSource;
+    }, function (_unresolved_2) {
+      GameState = _unresolved_2.GameState;
+    }, function (_unresolved_3) {
+      ScreenName = _unresolved_3.ScreenName;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "c283fBymGdMuYMxSdwVAl2v", "root", undefined);
+
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'director', 'AudioSource', 'Game']);
+
+      ({
+        ccclass,
+        property
+      } = _decorator);
+
+      _export("RootManager", RootManager = (_dec = ccclass('RootManager'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(AudioSource), _dec5 = property(AudioSource), _dec(_class = (_class2 = class RootManager extends Component {
+        constructor(...args) {
+          super(...args);
+
+          _initializerDefineProperty(this, "popup", _descriptor, this);
+
+          _initializerDefineProperty(this, "gameManager", _descriptor2, this);
+
+          _initializerDefineProperty(this, "musicSource", _descriptor3, this);
+
+          _initializerDefineProperty(this, "bgmSource", _descriptor4, this);
+        }
+
+        onLoad() {
+          new (_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
+            error: Error()
+          }), GameState) : GameState)();
+          (_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
+            error: Error()
+          }), GameState) : GameState).instance.popupNode = this.popup;
+          (_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
+            error: Error()
+          }), GameState) : GameState).instance.root = this.node;
+          (_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
+            error: Error()
+          }), GameState) : GameState).instance.musicSource = this.musicSource;
+          this.popup.active = false;
+          (_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
+            error: Error()
+          }), GameState) : GameState).instance.popupNode.parent = this.node;
+          director.addPersistRootNode(this.node);
+          director.loadScene((_crd && ScreenName === void 0 ? (_reportPossibleCrUseOfScreenName({
+            error: Error()
+          }), ScreenName) : ScreenName).LOADING);
+        }
+
+        update(dt) {
+          if ((_crd && GameState === void 0 ? (_reportPossibleCrUseOfGameState({
+            error: Error()
+          }), GameState) : GameState).instance.music) {
+            this.bgmSource.volume = 1;
+          } else {
+            this.bgmSource.volume = 0;
+          }
+        }
+
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "popup", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "gameManager", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "musicSource", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "bgmSource", [_dec5], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      })), _class2)) || _class));
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=d1a397e6a9f0f070321d2e623f89588d3da6a917.js.map

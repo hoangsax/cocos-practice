@@ -13,7 +13,6 @@ export class Pooling extends Component {
         let instances = this.instancePool.get(prefab);
         if (instances.length > 0) {
             let object = instances.pop();
-            // parent.addChild(object);
             return object;
         }
         let object = instantiate(prefab);
@@ -24,7 +23,6 @@ export class Pooling extends Component {
     return(prefab: Prefab, instance: Node) {
         let instances = this.instancePool.get(prefab);
         if (instances) {
-            // instance.parent = null;
             instances.push(instance);
         }
     }

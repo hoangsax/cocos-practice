@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4325.533249999862,
+      "mTimestamp": 4339.414000000805,
       "chunkId": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 26188161.931375,
+      "mTimestamp": 563675.9797920007,
       "chunkId": "b0011e66783811138f06fba2e1a95c4d9aeec2b7",
       "imports": [
         {
@@ -1318,7 +1318,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1777430668222,
+      "mTimestamp": 1777874068535,
       "chunkId": "3a1fd7b13056478820ebedd306d3446d1aa408cc",
       "imports": [],
       "type": "esm",
@@ -1448,7 +1448,7 @@
       ]
     },
     "cce:/internal/ml/cjs-loader.mjs": {
-      "mTimestamp": 1777430668222,
+      "mTimestamp": 1777874068535,
       "chunkId": "bfe72779096c71ed4dc3545a580f7065d44c03f9",
       "imports": [],
       "type": "esm",
@@ -2427,10 +2427,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/character/controller.ts": {
       "mTimestamp": {
-        "mtime": 1777455884783.9033,
+        "mtime": 1777866561008.4197,
         "uuid": "0f1aac78-7e65-46ad-aa3f-fb8f3342aeee"
       },
-      "chunkId": "a9fc6b160c889e10dcae521be7b179104bf04d2b",
+      "chunkId": "ea290b8223d055c0bc1b8fe6363f910d07d21abb",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4112,10 +4112,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/scene/root.ts": {
       "mTimestamp": {
-        "mtime": 1777431796952.032,
+        "mtime": 1777874630904.5886,
         "uuid": "c283f072-9867-4cb9-8331-49dc15025daf"
       },
-      "chunkId": "f9f9c54ce13a09f9f44e190a605916904ee862f3",
+      "chunkId": "636aec7480272aa56cefd1b94cb8ebd0a4f4b029",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4131,11 +4131,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 5,
+              "line": 6,
               "column": 7
             },
             "end": {
-              "line": 5,
+              "line": 6,
               "column": 11
             }
           }
@@ -4145,11 +4145,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 6,
+              "line": 7,
               "column": 26
             },
             "end": {
-              "line": 6,
+              "line": 7,
               "column": 40
             }
           }
@@ -4159,11 +4159,11 @@
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 7,
+              "line": 8,
               "column": 27
             },
             "end": {
-              "line": 7,
+              "line": 8,
               "column": 41
             }
           }
@@ -4626,10 +4626,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/globalPopup.ts": {
       "mTimestamp": {
-        "mtime": 1777433169691.9783,
+        "mtime": 1777874447604.6528,
         "uuid": "4a66158b-74a5-45b7-bd31-26a31e5822b4"
       },
-      "chunkId": "87e12d97dbb094940cd67eef534d7137272303ac",
+      "chunkId": "0f43eb96a3ae5968cad08145bec8ee3295c228c4",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",

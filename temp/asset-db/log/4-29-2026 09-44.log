@@ -21134,3 +21134,19 @@
 4-29-2026 17:02:22-debug: asset-db:worker-effect-data-processing (98ms)
 4-29-2026 17:02:22-debug: refresh db assets success
 4-29-2026 17:02:22-debug: asset-db:refresh-all-database (137ms)
+4-29-2026 17:09:40-debug: refresh db internal success
+4-29-2026 17:09:41-debug: asset-db:worker-effect-data-processing (164ms)
+4-29-2026 17:09:41-debug: refresh db assets success
+4-29-2026 17:09:41-debug: asset-db:refresh-all-database (216ms)
+4-29-2026 17:23:32-debug: refresh db internal success
+4-29-2026 17:23:32-debug: asset-db:worker-effect-data-processing (160ms)
+4-29-2026 17:23:32-debug: refresh db assets success
+4-29-2026 17:23:32-debug: asset-db:refresh-all-database (207ms)
+4-29-2026 17:29:19-debug: refresh db internal success
+4-29-2026 17:29:20-debug: asset-db:worker-effect-data-processing (150ms)
+4-29-2026 17:29:20-debug: refresh db assets success
+4-29-2026 17:29:20-debug: asset-db:refresh-all-database (190ms)
+4-29-2026 17:31:07-debug: refresh db internal success
+4-29-2026 17:31:07-debug: asset-db:worker-effect-data-processing (147ms)
+4-29-2026 17:31:07-debug: refresh db assets success
+4-29-2026 17:31:07-debug: asset-db:refresh-all-database (189ms)

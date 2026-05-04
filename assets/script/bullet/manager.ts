@@ -40,7 +40,6 @@ export class BulletManager extends Component {
 
     returnToPool(instance: Node) {
         this.bulletPool.return(this.bulletPrefab, instance);
-        // this.node.removeChild(instance);
     }
 
     resetState() {

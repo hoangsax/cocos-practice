@@ -70,7 +70,6 @@ export class MonsterController extends Component {
             this.scheduleOnce(() => {
                 if (this.node) {
                 GameState.instance.score += 100;
-                console.log(GameState.instance.score)
                 this.node.active = false;
                 }
             });

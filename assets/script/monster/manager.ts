@@ -56,8 +56,6 @@ export class manager extends Component {
     spawnMonster() {
         if (!this.monsterPrefab) return;
         const monster = this._monsterPool.get(this.monsterPrefab, this.node);
-        // const monster = instantiate(this.monsterPrefab);
-        // this.node.addChild(monster);
         (monster as MonsterItemNode).setReturnToPoolMethod(this.returnToPool.bind(this));
         monster.setPosition(0, Math.random() * this.nodeUI.height - this.nodeUI.height / 2, 0);
         monster.active = true;

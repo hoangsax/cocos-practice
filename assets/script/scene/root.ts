@@ -1,7 +1,8 @@
 import {
     _decorator, Component, Node,
     director,
-    AudioSource, 
+    AudioSource,
+    Game, 
 } from 'cc';
 import { GameState } from '../gameState';
 import { ScreenName } from '../constants';
@@ -19,6 +20,9 @@ export class RootManager extends Component {
     @property(AudioSource)
     musicSource: AudioSource;
 
+    @property(AudioSource)
+    bgmSource: AudioSource;
+
     protected onLoad(): void {
         new GameState();
         GameState.instance.popupNode = this.popup;
@@ -30,9 +34,14 @@ export class RootManager extends Component {
         director.loadScene(ScreenName.LOADING);
     }
 
-        // togglePopup() {
-        //     this.popup.active = !this.popup.active;
-        // }
+    protected update(dt: number): void {
+        if (GameState.instance.music){
+            this.bgmSource.volume = 1;
+        }
+        else {
+            this.bgmSource.volume = 0;
+        }
+    }
 
 }
 

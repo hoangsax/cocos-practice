@@ -78,9 +78,6 @@ export class CharacterController extends Component {
             this.handleAnimation(currState);
             this._preReload = this._isReload;
         }
-        else {
-            // this.playAnimation(0, animations.idle);
-        }
 
     }
 
@@ -116,10 +113,6 @@ export class CharacterController extends Component {
     getNodePosition(): Vec3 {
         return this.node.position;
     }
-
-    // getWorldPosition(): Vec3 {
-    //     return this.node.worldPosition;
-    // }
 
     toNodePosition(node: Node): Vec3 {
         const uiTransform = this.node.getComponent(UITransform);
@@ -211,8 +204,8 @@ export class CharacterController extends Component {
     onShoot() {
         if (!this._isReload) {
             this._isReload = true;
-            this.playAnimation(0, animations.walk, false);
-            this.playAnimation(0, animations.shoot, true);
+            this.playAnimation(0, animations.idle, true);
+            this.playAnimation(1, animations.shoot, false);
         }
     }
 

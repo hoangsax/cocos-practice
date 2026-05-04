@@ -29,14 +29,6 @@ export class PopupController extends Component {
         }
     }
 
-    // setLobby(event: any) {
-    //     mEmitter.instance.emit(EventListenerType.SET_LAYER_STATE, GameScreenState.LOBBY);
-    // }
-
-    // setPlaying() {
-    //     mEmitter.instance.emit(EventListenerType.SET_LAYER_STATE, GameScreenState.PLAYING);
-    // }
-
     showPopup() {
 
     }
@@ -67,11 +59,6 @@ export class PopupController extends Component {
         console.log(GameState.instance)
         GameState.instance.playClickSound();
     }
-
-    // returnToLobby() {
-    //     mEmitter.instance.emit(EventListenerType.SET_LAYER_STATE, GameScreenState.LOBBY);
-    //     this.pauseGame();
-    // }
 
     clear() {
         this.node.destroy();
