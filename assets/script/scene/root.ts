@@ -2,20 +2,16 @@ import {
     _decorator, Component, Node,
     director,
     AudioSource,
-    Game, 
 } from 'cc';
 import { GameState } from '../gameState';
-import { ScreenName } from '../constants';
+import { SceneName } from '../constants';
+import { AudioManager } from '../audioManager';
+import { mEmitter } from '../mEmitter';
+import { PopupManager } from '../popup/popupManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('RootManager')
 export class RootManager extends Component {
-
-    @property(Node)
-    popup: Node;
-
-    @property(Node)
-    gameManager: Node;
 
     @property(AudioSource)
     musicSource: AudioSource;
@@ -23,25 +19,59 @@ export class RootManager extends Component {
     @property(AudioSource)
     bgmSource: AudioSource;
 
+    @property(Node)
+    popupBackground: Node;
+
+    @property(Node)
+    settingPopup: Node;
+
+    @property(Node)
+    resultPopup: Node;
+
+    @property(Node)
+    pausePopup: Node;
+
+
     protected onLoad(): void {
-        new GameState();
-        GameState.instance.popupNode = this.popup;
-        GameState.instance.root = this.node;
-        GameState.instance.musicSource = this.musicSource;
-        this.popup.active = false;
-        GameState.instance.popupNode.parent = this.node
+        this.mEmitterInit();
+        this.gameStateInit();
+        this.audioManagerInit();
+        this.popupManagerInit();
+    }
+
+    protected start(): void {
         director.addPersistRootNode(this.node);
-        director.loadScene(ScreenName.LOADING);
+        director.loadScene(SceneName.LOADING);
     }
 
     protected update(dt: number): void {
-        if (GameState.instance.music){
-            this.bgmSource.volume = 1;
-        }
-        else {
-            this.bgmSource.volume = 0;
-        }
+
     }
 
+    mEmitterInit() {
+        new mEmitter();
+    }
+
+    gameStateInit() {
+        new GameState();
+    }
+
+    audioManagerInit() {
+        new AudioManager();
+        const audio = AudioManager.instance;
+        audio.bgmSource = this.bgmSource;
+        audio.sfxSource = this.musicSource;
+
+    }
+
+    popupManagerInit() {
+        new PopupManager();
+        const popup = PopupManager.instance;
+        popup.background = this.popupBackground;
+        popup.settingPopup = this.settingPopup;
+        popup.resultPopup = this.resultPopup;
+        popup.pausePopup = this.pausePopup;
+        popup.initState();
+    }
 }
 

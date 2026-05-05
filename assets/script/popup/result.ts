@@ -2,14 +2,17 @@ import { _decorator, Component, Label, Node } from 'cc';
 import { GameState } from '../gameState';
 const { ccclass, property } = _decorator;
 
-@ccclass('result')
-export class result extends Component {
+@ccclass('ResultPopup')
+export class ResultPopup extends Component {
 
     @property(Label)
     scoreValue: Label;
 
+    protected onLoad(): void {
+        console.log('load result popup');
+    }
+
     protected onEnable(): void {
-        new GameState();
         this.scoreValue.string = GameState.instance.score.toString();
     }
 }

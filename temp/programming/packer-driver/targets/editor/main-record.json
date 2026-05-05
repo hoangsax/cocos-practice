@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4330.808667000383,
+      "mTimestamp": 4234.825625000056,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 791019.819875,
-      "chunkId": "44e597489e0c8e398a14d72224e90747fde3585a",
+      "mTimestamp": 20676521.952167,
+      "chunkId": "86c3e69ab73fb474eb95ccfbe3beb8dccab88e35",
       "imports": [
         {
           "value": "file:///Applications/Cocos/Creator/3.7.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
@@ -637,7 +637,7 @@
           }
         },
         {
-          "value": "file:///Users/user/NewProject_1/assets/script/bullet/controller.ts",
+          "value": "file:///Users/user/NewProject_1/assets/script/audioManager.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -646,59 +646,59 @@
             },
             "end": {
               "line": 5,
-              "column": 267
+              "column": 262
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/bullet/controller.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 278
+            },
+            "end": {
+              "line": 5,
+              "column": 346
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/bullet/manager.ts",
-          "resolved": "__unresolved_2",
+          "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 5,
-              "column": 283
+              "column": 362
             },
             "end": {
               "line": 5,
-              "column": 348
+              "column": 427
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/button/handler.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 443
+            },
+            "end": {
+              "line": 5,
+              "column": 508
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/character/controller.ts",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 364
-            },
-            "end": {
-              "line": 5,
-              "column": 435
-            }
-          }
-        },
-        {
-          "value": "file:///Users/user/NewProject_1/assets/script/character/manager.ts",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 451
-            },
-            "end": {
-              "line": 5,
-              "column": 519
-            }
-          }
-        },
-        {
-          "value": "file:///Users/user/NewProject_1/assets/script/constants.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
               "line": 5,
-              "column": 535
+              "column": 524
             },
             "end": {
               "line": 5,
@@ -707,7 +707,7 @@
           }
         },
         {
-          "value": "file:///Users/user/NewProject_1/assets/script/gameManager.ts",
+          "value": "file:///Users/user/NewProject_1/assets/script/character/manager.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -716,73 +716,73 @@
             },
             "end": {
               "line": 5,
-              "column": 673
+              "column": 679
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/constants.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 695
+            },
+            "end": {
+              "line": 5,
+              "column": 755
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/gameManager.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 771
+            },
+            "end": {
+              "line": 5,
+              "column": 833
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/gameState.ts",
-          "resolved": "__unresolved_7",
+          "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 689
+              "column": 849
             },
             "end": {
               "line": 5,
-              "column": 749
-            }
-          }
-        },
-        {
-          "value": "file:///Users/user/NewProject_1/assets/script/globalPopup.ts",
-          "resolved": "__unresolved_8",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 765
-            },
-            "end": {
-              "line": 5,
-              "column": 827
+              "column": 909
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts",
-          "resolved": "__unresolved_9",
+          "resolved": "__unresolved_10",
           "loc": {
             "start": {
               "line": 5,
-              "column": 843
+              "column": 925
             },
             "end": {
               "line": 5,
-              "column": 902
+              "column": 984
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/monster/controller.ts",
-          "resolved": "__unresolved_10",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 918
-            },
-            "end": {
-              "line": 5,
-              "column": 987
-            }
-          }
-        },
-        {
-          "value": "file:///Users/user/NewProject_1/assets/script/monster/manager.ts",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1003
+              "column": 1000
             },
             "end": {
               "line": 5,
@@ -791,7 +791,7 @@
           }
         },
         {
-          "value": "file:///Users/user/NewProject_1/assets/script/pooling.ts",
+          "value": "file:///Users/user/NewProject_1/assets/script/monster/manager.ts",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
@@ -800,91 +800,147 @@
             },
             "end": {
               "line": 5,
-              "column": 1143
+              "column": 1151
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/pooling.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1167
+            },
+            "end": {
+              "line": 5,
+              "column": 1225
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/popup/pause.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1241
+            },
+            "end": {
+              "line": 5,
+              "column": 1303
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/popup/popupManager.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1319
+            },
+            "end": {
+              "line": 5,
+              "column": 1388
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/popup/result.ts",
-          "resolved": "__unresolved_13",
+          "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1159
+              "column": 1404
             },
             "end": {
               "line": 5,
-              "column": 1222
+              "column": 1467
+            }
+          }
+        },
+        {
+          "value": "file:///Users/user/NewProject_1/assets/script/popup/setting.ts",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1483
+            },
+            "end": {
+              "line": 5,
+              "column": 1547
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/scene/loading.ts",
-          "resolved": "__unresolved_14",
+          "resolved": "__unresolved_18",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1238
+              "column": 1563
             },
             "end": {
               "line": 5,
-              "column": 1302
+              "column": 1627
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/scene/lobby.ts",
-          "resolved": "__unresolved_15",
+          "resolved": "__unresolved_19",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1318
+              "column": 1643
             },
             "end": {
               "line": 5,
-              "column": 1380
+              "column": 1705
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/scene/mainGame.ts",
-          "resolved": "__unresolved_16",
+          "resolved": "__unresolved_20",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1396
+              "column": 1721
             },
             "end": {
               "line": 5,
-              "column": 1461
+              "column": 1786
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/scene/root.ts",
-          "resolved": "__unresolved_17",
+          "resolved": "__unresolved_21",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1477
+              "column": 1802
             },
             "end": {
               "line": 5,
-              "column": 1538
+              "column": 1863
             }
           }
         },
         {
           "value": "file:///Users/user/NewProject_1/assets/script/scene/titleScreen.ts",
-          "resolved": "__unresolved_18",
+          "resolved": "__unresolved_22",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1554
+              "column": 1879
             },
             "end": {
               "line": 5,
-              "column": 1622
+              "column": 1947
             }
           }
         }
@@ -901,6 +957,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/audioManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///Users/user/NewProject_1/assets/script/bullet/controller.ts"
           },
           "messages": []
@@ -909,6 +972,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/user/NewProject_1/assets/script/bullet/manager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/button/handler.ts"
           },
           "messages": []
         },
@@ -950,13 +1020,6 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/user/NewProject_1/assets/script/globalPopup.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
           },
           "messages": []
@@ -985,7 +1048,28 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/popup/pause.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/popup/popupManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///Users/user/NewProject_1/assets/script/popup/result.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/popup/setting.ts"
           },
           "messages": []
         },
@@ -1528,7 +1612,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1777874068535,
+      "mTimestamp": 1777948479083,
       "chunkId": "84741ad843cea9a440c5d8c2d379669b6551400d",
       "imports": [],
       "type": "esm",
@@ -1658,7 +1742,7 @@
       ]
     },
     "cce:/internal/ml/cjs-loader.mjs": {
-      "mTimestamp": 1777874068535,
+      "mTimestamp": 1777948479083,
       "chunkId": "e22b6f02adf5d686a7ebd142d6b23614b189f373",
       "imports": [],
       "type": "esm",
@@ -1966,10 +2050,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/constants.ts": {
       "mTimestamp": {
-        "mtime": 1777436212660.1135,
+        "mtime": 1777954141627.351,
         "uuid": "4b8576f4-b23b-4047-a40b-591de6f1a6ac"
       },
-      "chunkId": "e302b7424dc93d248f256f6cf5bdf9c5a703104a",
+      "chunkId": "86d1f30a269ccc56eef8f6fe387729a2eaaaadf3",
       "imports": [
         {
           "value": "cc"
@@ -2114,10 +2198,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/gameManager.ts": {
       "mTimestamp": {
-        "mtime": 1777351973978.6526,
+        "mtime": 1777952111244.22,
         "uuid": "e8a435ef-1d7e-4dfa-8126-429619ad86d2"
       },
-      "chunkId": "80c95da4915245427ba6e5a4307298f469428ec1",
+      "chunkId": "578948af8f4fba64d69d64ce44f5e135c8b019a7",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2153,6 +2237,20 @@
             "end": {
               "line": 7,
               "column": 39
+            }
+          }
+        },
+        {
+          "value": "./audioManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 29
+            },
+            "end": {
+              "line": 8,
+              "column": 45
             }
           }
         }
@@ -2191,6 +2289,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/audioManager.ts"
           },
           "messages": []
         }
@@ -2511,10 +2616,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/character/manager.ts": {
       "mTimestamp": {
-        "mtime": 1777874705336.2317,
+        "mtime": 1777882920428.3154,
         "uuid": "9757c39a-e09b-48b0-9485-1323d0e41bac"
       },
-      "chunkId": "406ab3d6e22cc4534e7793f1bc90c5acea8b540a",
+      "chunkId": "98880bcc2420a8bb25a8d9ec7f0410c403d4c954",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3465,10 +3570,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/gameState.ts": {
       "mTimestamp": {
-        "mtime": 1777874746678.5793,
+        "mtime": 1777968476507.2104,
         "uuid": "f1a19daa-fd45-43b0-a58e-cd1052b8ccc9"
       },
-      "chunkId": "db21785afd48107fbb3dd5372511b4e290778d35",
+      "chunkId": "ecaea3c622d1bf7021d543511bf609c8b644b01c",
       "imports": [
         {
           "value": "cc"
@@ -4186,10 +4291,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/scene/loading.ts": {
       "mTimestamp": {
-        "mtime": 1777363456484.807,
+        "mtime": 1777968555648.6428,
         "uuid": "0a313293-d75b-4778-b9c7-94f6e1a4b3d7"
       },
-      "chunkId": "7c35d7540173f92fa51791e196a6c92972eec510",
+      "chunkId": "b451d168bcba4a81659039a30f2f016f3e275f09",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4220,11 +4325,11 @@
           "loc": {
             "start": {
               "line": 2,
-              "column": 27
+              "column": 26
             },
             "end": {
               "line": 2,
-              "column": 41
+              "column": 40
             }
           }
         }
@@ -4322,10 +4427,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/scene/root.ts": {
       "mTimestamp": {
-        "mtime": 1777874630904.5886,
+        "mtime": 1777968754550.4985,
         "uuid": "c283f072-9867-4cb9-8331-49dc15025daf"
       },
-      "chunkId": "d1a397e6a9f0f070321d2e623f89588d3da6a917",
+      "chunkId": "9968276da08e58c02281dd5101fa36edc8fd9fc7",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4341,11 +4446,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 6,
+              "line": 5,
               "column": 7
             },
             "end": {
-              "line": 6,
+              "line": 5,
               "column": 11
             }
           }
@@ -4353,6 +4458,20 @@
         {
           "value": "../gameState",
           "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 26
+            },
+            "end": {
+              "line": 6,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 7,
@@ -4365,16 +4484,44 @@
           }
         },
         {
-          "value": "../constants",
-          "resolved": "__unresolved_2",
+          "value": "../audioManager",
+          "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 8,
-              "column": 27
+              "column": 29
             },
             "end": {
               "line": 8,
-              "column": 41
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "../mEmitter",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 25
+            },
+            "end": {
+              "line": 9,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "../popup/popupManager",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 29
+            },
+            "end": {
+              "line": 10,
+              "column": 52
             }
           }
         }
@@ -4420,6 +4567,27 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/audioManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/popup/popupManager.ts"
           },
           "messages": []
         }
@@ -4553,10 +4721,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/scene/titleScreen.ts": {
       "mTimestamp": {
-        "mtime": 1777432584606.0393,
+        "mtime": 1777968432527.079,
         "uuid": "e678e987-f7dd-40f2-b817-aa539a7898f2"
       },
-      "chunkId": "dd54e2524f2b761aacf4848c8d2a2bd332867999",
+      "chunkId": "a659aad8541bd89f6e948089d064f0cc6ffa8d1e",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4582,30 +4750,44 @@
           }
         },
         {
-          "value": "../gameState",
+          "value": "../constants",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 2,
+              "line": 3,
               "column": 26
             },
             "end": {
-              "line": 2,
+              "line": 3,
               "column": 40
             }
           }
         },
         {
-          "value": "../constants",
+          "value": "../audioManager",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 3,
-              "column": 27
+              "line": 4,
+              "column": 29
             },
             "end": {
-              "line": 3,
-              "column": 41
+              "line": 4,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "../popup/popupManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 29
+            },
+            "end": {
+              "line": 5,
+              "column": 52
             }
           }
         }
@@ -4643,14 +4825,21 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+            "url": "file:///Users/user/NewProject_1/assets/script/audioManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/popup/popupManager.ts"
           },
           "messages": []
         }
@@ -4710,10 +4899,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/scene/mainGame.ts": {
       "mTimestamp": {
-        "mtime": 1777456505718.32,
+        "mtime": 1777968866438.241,
         "uuid": "0b1f5a82-932a-4b4a-89a8-c6f4652bea7b"
       },
-      "chunkId": "08fabb8464cae893de208e3331e264e67e91dfd5",
+      "chunkId": "00afd19b51963b849b1a91be94e13201e789ec25",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4758,11 +4947,11 @@
           "loc": {
             "start": {
               "line": 3,
-              "column": 75
+              "column": 74
             },
             "end": {
               "line": 3,
-              "column": 89
+              "column": 88
             }
           }
         },
@@ -4777,6 +4966,34 @@
             "end": {
               "line": 4,
               "column": 40
+            }
+          }
+        },
+        {
+          "value": "../popup/popupManager",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 29
+            },
+            "end": {
+              "line": 5,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "../audioManager",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 29
+            },
+            "end": {
+              "line": 6,
+              "column": 46
             }
           }
         }
@@ -4831,15 +5048,29 @@
             "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/popup/popupManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/audioManager.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///Users/user/NewProject_1/assets/script/globalPopup.ts": {
       "mTimestamp": {
-        "mtime": 1777874447604.6528,
+        "mtime": 1777951315686.0806,
         "uuid": "4a66158b-74a5-45b7-bd31-26a31e5822b4"
       },
-      "chunkId": "b0de4c78af25df7678995ad5b0c3fc0f83d04bb5",
+      "chunkId": "719a6d0f122caac67dbf27ac8e4f4bc03e7b9215",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4905,6 +5136,20 @@
               "column": 39
             }
           }
+        },
+        {
+          "value": "./button/handler",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 30
+            },
+            "end": {
+              "line": 5,
+              "column": 48
+            }
+          }
         }
       ],
       "type": "esm",
@@ -4955,6 +5200,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/button/handler.ts"
           },
           "messages": []
         }
@@ -5014,10 +5266,10 @@
     },
     "file:///Users/user/NewProject_1/assets/script/popup/result.ts": {
       "mTimestamp": {
-        "mtime": 1777456855015.393,
+        "mtime": 1777968345939.5166,
         "uuid": "4b5cf3f5-ba0e-4203-acb1-c8dd414b854a"
       },
-      "chunkId": "9e9b9885db1f343b1862c73d4278451b514defbe",
+      "chunkId": "7ef2b33c9a1a83634b092a2d14d3a96fdb6a3637",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -5091,6 +5343,731 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/button/handler.ts": {
+      "mTimestamp": {
+        "mtime": 1777950837390.7188,
+        "uuid": "e8fe95d6-c9b5-4c01-ac8d-06ef7d1fa71b"
+      },
+      "chunkId": "ed4e43ea7dd1d3dcaf29c10579f5141d8ebfe705",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/popup.ts": {
+      "mTimestamp": {
+        "mtime": 1777952785969.1646,
+        "uuid": "4a66158b-74a5-45b7-bd31-26a31e5822b4"
+      },
+      "chunkId": "aa17c3be2a8440cfc6c15182157b2ee41f5135a4",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 75
+            },
+            "end": {
+              "line": 1,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 30
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./gameState",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./button/handler",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 30
+            },
+            "end": {
+              "line": 5,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./audioManager",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 29
+            },
+            "end": {
+              "line": 6,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/button/handler.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/audioManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/audioManager.ts": {
+      "mTimestamp": {
+        "mtime": 1777969142808.7454,
+        "uuid": "005b3e3c-1394-40aa-96ba-8122030ef987"
+      },
+      "chunkId": "6137daba0a916515dbdf2cf642518d8408c09fb0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/setting.ts": {
+      "mTimestamp": {
+        "mtime": 1777952785969.1646,
+        "uuid": "4a66158b-74a5-45b7-bd31-26a31e5822b4"
+      },
+      "chunkId": "bffb192947202ff3aea6b5e131cb8150a55037a3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 75
+            },
+            "end": {
+              "line": 1,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "./mEmitter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./constants",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 30
+            },
+            "end": {
+              "line": 3,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "./gameState",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./button/handler",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 30
+            },
+            "end": {
+              "line": 5,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./audioManager",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 29
+            },
+            "end": {
+              "line": 6,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/button/handler.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/audioManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/popup/setting.ts": {
+      "mTimestamp": {
+        "mtime": 1777969153911.4268,
+        "uuid": "4a66158b-74a5-45b7-bd31-26a31e5822b4"
+      },
+      "chunkId": "364c407a8838d1bd7d2f5466d3a756d5572af5d3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 83
+            },
+            "end": {
+              "line": 1,
+              "column": 87
+            }
+          }
+        },
+        {
+          "value": "../button/handler",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 30
+            },
+            "end": {
+              "line": 5,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../audioManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 29
+            },
+            "end": {
+              "line": 6,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "./popupManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 29
+            },
+            "end": {
+              "line": 7,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/button/handler.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/audioManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/popup/popupManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/popup/popupManager.ts": {
+      "mTimestamp": {
+        "mtime": 1777967534909.8472,
+        "uuid": "8854b360-f21d-4973-87ba-a8fa0a091c64"
+      },
+      "chunkId": "45bad7dcd5537cd9949658c8a954daf9ad443d24",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/user/NewProject_1/assets/script/popup/pause.ts": {
+      "mTimestamp": {
+        "mtime": 1777969116408.3943,
+        "uuid": "5298d5da-eec0-40eb-9776-93bcb48f9de6"
+      },
+      "chunkId": "44bec293f6b51c707c1ad87fc5279313992ec144",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "../gameState",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "./popupManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 29
+            },
+            "end": {
+              "line": 3,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../mEmitter",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 25
+            },
+            "end": {
+              "line": 4,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "../constants",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 39
+            },
+            "end": {
+              "line": 5,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/gameState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/popup/popupManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/mEmitter.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/user/NewProject_1/assets/script/constants.ts"
           },
           "messages": []
         }

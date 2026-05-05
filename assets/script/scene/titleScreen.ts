@@ -1,28 +1,24 @@
 import { _decorator, Component, director, Game } from 'cc';
 import { GameState } from '../gameState';
-import { ScreenName } from '../constants';
+import { SceneName } from '../constants';
+import { AudioManager } from '../audioManager';
+import { PopupManager } from '../popup/popupManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('TitleScreen')
 export class TitleScreen extends Component {
-    start() {
-        new GameState();
-    }
-
     clickPlay() {
-        GameState.instance.setPopupParent(GameState.instance.root);
-        director.loadScene(ScreenName.MAIN);
+        this.playSFX();
+        director.loadScene(SceneName.MAIN);
     }
 
     clickSetting() {
+        this.playSFX();
+        PopupManager.instance.showSettingPopup();
     }
 
-    togglePopup() {
-        GameState.instance.togglePopup();
-    }
-
-    playClickSound() {
-        GameState.instance.playClickSound();
+    playSFX() {
+        AudioManager.instance.playSFX();
     }
 }
 

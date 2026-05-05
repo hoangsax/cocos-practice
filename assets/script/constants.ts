@@ -25,7 +25,7 @@ export const GameStateType = {
     UNPAUSE: "UNPAUSE"
 }
 
-export const ScreenName = {
+export const SceneName = {
     ROOT: 'ROOT',
     LOADING: 'loading',
     LOBBY: 'lobby',
@@ -37,4 +37,11 @@ export const GameCommand = {
     START: 'START',
     END: 'END',
     RESTART: 'RESTART',
+}
+
+export const EmitterEventType = {
+    POPUP: {
+        SETTING: 'SETTING',
+        RESULT: 'RESULT',
+    }
 }

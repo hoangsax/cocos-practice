@@ -1,5 +1,5 @@
 import { _decorator, Component, Node, director, Director, ProgressBar, Label } from 'cc';
-import { ScreenName } from '../constants';
+import { SceneName } from '../constants';
 const { ccclass, property } = _decorator;
 
 @ccclass('loading')
@@ -12,14 +12,14 @@ export class loading extends Component {
 
     protected start(): void {
         director.preloadScene(
-            ScreenName.TITLE,
+            SceneName.TITLE,
             (completedCount: number, totalCount: number, item: any) => {
                 this.loadingBar.progress = completedCount / totalCount;
                 this.loadingPercent.string = `${completedCount / totalCount * 100}%`;
                 if (completedCount === totalCount) {
-                    setTimeout(() => {
-                        director.loadScene(ScreenName.TITLE);
-                    }, 1000)
+                    this.scheduleOnce(() => {
+                        director.loadScene(SceneName.TITLE);
+                    }, 1)
                 }
             }, () => {
 

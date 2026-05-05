@@ -5,6 +5,7 @@ import {
 } from 'cc';
 
 import { GameState } from './gameState';
+import { AudioManager } from './audioManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameManager')
@@ -12,7 +13,7 @@ export class GameManager extends Component {
 
     protected onLoad(): void {
         new GameState();
-        // this.showHitBox();
+        new AudioManager();
     }
 
     showHitBox(){

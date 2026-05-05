@@ -1,30 +1,24 @@
 import { _decorator, Component, Node, input, Input, EventKeyboard, KeyCode, director, Label, Prefab } from 'cc';
 import { mEmitter } from '../mEmitter';
-import { CharacterEventType, GameCommand, MoveDirection, ScreenName } from '../constants';
+import { CharacterEventType, GameCommand, MoveDirection, SceneName } from '../constants';
 import { GameState } from '../gameState';
+import { PopupManager } from '../popup/popupManager';
+import { AudioManager } from '../audioManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('mainGame')
 export class mainGame extends Component {
 
-    @property(Node)
-    stagePopup: Node;
-
     @property(Label)
     timer: Label;
 
-    @property(Node)
-    resultScreen: Node;
-
     _startCountdown: number = 3;
-    _stageLimitTime: number = 60;
+    _stageLimitTime: number = 5;
     _currentTimer: number = 0;
     _isStart: boolean = false;
 
 
     protected onLoad(): void {
-        new mEmitter();
-        new GameState();
         this.initState();
         this._startListener();
     }
@@ -49,7 +43,7 @@ export class mainGame extends Component {
             if (this._currentTimer <= 0) {
                 this.timer.string = '0';
                 this.showResult();
-                mEmitter.instance.emit(GameCommand.END);
+                // mEmitter.instance.emit(GameCommand.END);
             }
         }
     }
@@ -58,8 +52,6 @@ export class mainGame extends Component {
         GameState.instance.isPause = false;
         GameState.instance.resetScore();
         this._startCountdown = 3;
-        this.stagePopup.active = false;
-        this.resultScreen.active = false;
         this._isStart = false;
         this._currentTimer = this._stageLimitTime;
         this.timer.string = Math.floor(this._stageLimitTime).toString();
@@ -102,30 +94,33 @@ export class mainGame extends Component {
 
     showResult() {
         GameState.instance.isPause = true;
-        this.resultScreen.active = true;
+        PopupManager.instance.showResultPopup();
     }
 
     togglePause() {
-        this.stagePopup.active = !this.stagePopup.active;
+        this.playSFX();
+        PopupManager.instance.showPausePopup();
         GameState.instance.togglePause();
     }
 
     toggleSetting() {
-        GameState.instance.togglePopup();
-    }
-
-    playClickSound() {
-        GameState.instance.playClickSound();
+        this.playSFX();
+        PopupManager.instance.showSettingPopup();
     }
 
     resetStage() {
+        this.playSFX();
         mEmitter.instance.emit(GameCommand.RESTART);
         this.initState();
     }
 
+    playSFX() {
+        AudioManager.instance.playSFX();
+    }
+
     exitGame() {
-        GameState.instance.setPopupParent(GameState.instance.root);
-        director.loadScene(ScreenName.LOADING);
+        this.playSFX();
+        director.loadScene(SceneName.LOADING);
     }
 
     protected onDestroy(): void {
